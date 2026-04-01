@@ -1,0 +1,125 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Only required theme tokens */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-lg: var(--radius);
+}
+
+/* Light Mode */
+:root {
+  --radius: 1rem;
+
+  --background: #e9ebf4;
+  --foreground: oklch(0.15 0.01 280);
+
+  --card: #e9ebf4;
+  --card-foreground: oklch(0.15 0.01 280);
+
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.15 0.01 280);
+
+  --primary: oklch(0.22 0.01 280);
+  --primary-foreground: oklch(0.98 0 0);
+
+  --secondary: oklch(0.94 0.01 280);
+  --secondary-foreground: oklch(0.22 0.01 280);
+
+  --muted: oklch(0.94 0.01 280);
+  --muted-foreground: oklch(0.55 0.02 280);
+
+  --accent: oklch(0.94 0.01 280);
+  --accent-foreground: oklch(0.22 0.01 280);
+
+  --border: oklch(0.90 0.01 280);
+  --input: oklch(0.90 0.01 280);
+  --ring: oklch(0.60 0.02 280);
+
+  /* Light mMode Shadows */
+  /* ===== Outer Shadow ===== */
+  --shadow-outer-dark: rgba(0, 0, 0, 0.15);
+  --shadow-outer-light: rgba(255, 255, 255, 1);
+
+  /* ===== Inner Shadow ===== */
+  --shadow-inner-dark: rgba(0, 0, 0, 0.15);
+  --shadow-inner-light: rgba(255, 255, 255, 0.9);
+
+  /* ===== Text Shadow ===== */
+  --shadow-text-dark: rgba(0, 0, 0, 0.2);
+  --shadow-text-light: rgba(255, 255, 255, 0.9);
+}
+
+/* Dark Mode – inspired by your screenshot */
+.dark {
+  --background: #1e1e1d;
+  --foreground: oklch(0.95 0 0);
+
+  --card: #201e20;
+  --card-foreground: oklch(0.95 0 0);
+
+  --popover: oklch(0.22 0.01 280);
+  --popover-foreground: oklch(0.95 0 0);
+
+  --primary: oklch(0.92 0 0);
+  --primary-foreground: oklch(0.22 0.01 280);
+
+  --secondary: oklch(0.28 0.01 280);
+  --secondary-foreground: oklch(0.95 0 0);
+
+  --muted: oklch(0.28 0.01 280);
+  --muted-foreground: oklch(0.70 0.02 280);
+
+  --accent: oklch(0.28 0.01 280);
+  --accent-foreground: oklch(0.95 0 0);
+
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.55 0.02 280);
+
+  /* Dark Mode Shadows */
+  /* ===== Outer Shadow ===== */
+  --shadow-outer-dark: rgba(0, 0, 0, 0.6);
+  --shadow-outer-light: rgba(255, 255, 255, 0.08);
+
+  /* ===== Inner Shadow ===== */
+  --shadow-inner-dark: rgba(0, 0, 0, 0.6);
+  --shadow-inner-light: rgba(255, 255, 255, 0.05);
+
+  /* ===== Text Shadow ===== */
+  --shadow-text-dark: rgba(0, 0, 0, 0.6);
+  --shadow-text-light: rgba(255, 255, 255, 0.28);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
