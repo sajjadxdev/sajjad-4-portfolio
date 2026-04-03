@@ -1,13 +1,13 @@
 import WhyTrustSection from "./components/WhyChooseMe";
 import Header from "./components/Header";
 import HeroSection from "./components/Hero";
-import ProjectsSection from "./components/AchievementsSections";
 import BenefitsSection from "./components/BenefitsSection";
 import ExperienceSection from "./components/HowIWork";
 import FAQSection from "./components/FAQ";
 import ContactCTASection from "./components/ContactInfo";
 import ContactFormSection from "./components/ContactForm";
 import TechStackSection from "./components/TechStack";
+import Projects from "./components/ProjectSection/Projects";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <Header />
       <HeroSection />
       <WhyTrustSection />
-      <ProjectsSection />
+      <Projects />
       <BenefitsSection />
       <ExperienceSection />
       <TechStackSection />
