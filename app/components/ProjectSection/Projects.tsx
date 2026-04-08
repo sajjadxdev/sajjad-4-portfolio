@@ -29,7 +29,7 @@ const projectsLarge: Project[] = [
             "Containerized for scalable deployment"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/project.webp",
+        image: "/voice-assistant.jpeg",
         accent: "rgba(139,92,246,0.5)",
     },
     {
@@ -44,7 +44,7 @@ const projectsLarge: Project[] = [
             "Optimized inference speed"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/project.webp",
+        image: "/trafic.jpeg",
         accent: "rgba(34,211,238,0.5)",
     },
     {
@@ -74,7 +74,7 @@ const projectsLarge: Project[] = [
             "Interactive Streamlit frontend"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/project.webp",
+        image: "/pdf-reader.jpeg",
         accent: "rgba(251,191,36,0.5)",
     },
     {
