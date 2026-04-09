@@ -112,7 +112,7 @@ function Projects() {
 
     return (
         <>
-            <section id="portfolio" className="relative py-16 sm:py-20 lg:py-28 px-4 sm:px-6">
+            <section id="projects" className="relative py-16 sm:py-20 lg:py-28 px-4 sm:px-6">
                 <div className="max-w-7xl mx-auto relative z-10">
 
                     {/* Header */}
