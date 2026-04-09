@@ -59,7 +59,7 @@ const projectsLarge: Project[] = [
             "Real-time processing capability"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/project.webp",
+        image: "/tech5.png",
         accent: "rgba(52,211,153,0.5)",
     },
     {
@@ -89,7 +89,7 @@ const projectsLarge: Project[] = [
             "Cross-validation techniques"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/project.webp",
+        image: "/tech6.png",
         accent: "rgba(251,113,133,0.5)",
     },
 ];
