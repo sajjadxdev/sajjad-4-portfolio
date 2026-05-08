@@ -29,7 +29,7 @@ const projectsLarge: Project[] = [
             "Containerized for scalable deployment"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/voice-assistant.jpeg",
+        image: "/project1.png",
         accent: "rgba(139,92,246,0.5)",
     },
     {
@@ -44,7 +44,7 @@ const projectsLarge: Project[] = [
             "Optimized inference speed"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/trafic.jpeg",
+        image: "/project2.png",
         accent: "rgba(34,211,238,0.5)",
     },
     {
@@ -59,7 +59,7 @@ const projectsLarge: Project[] = [
             "Real-time processing capability"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/tech5.png",
+        image: "/project3.png",
         accent: "rgba(52,211,153,0.5)",
     },
     {
@@ -74,7 +74,7 @@ const projectsLarge: Project[] = [
             "Interactive Streamlit frontend"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/pdf-reader.jpeg",
+        image: "/project4.png",
         accent: "rgba(251,191,36,0.5)",
     },
     {
@@ -89,7 +89,7 @@ const projectsLarge: Project[] = [
             "Cross-validation techniques"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/tech6.png",
+        image: "/project5.png",
         accent: "rgba(251,113,133,0.5)",
     },
 ];
