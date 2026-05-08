@@ -123,10 +123,10 @@ export default function ExperienceSection() {
 
                                     <ul className="text-sm text-muted-foreground space-y-1.5 ml-0 sm:ml-[52px]">
                                         {exp.highlights.map((h, i) => (
-                                            <li key={i} className="flex items-start gap-2">
-                                                <span className="text-foreground mt-1.5 w-1 h-1 rounded-full bg-foreground shrink-0" />
-                                                {h}
-                                            </li>
+                                                <li key={i} className="flex items-start gap-2">
+                                                    <span className="text-foreground mt-1.5 w-1 h-1 rounded-full bg-foreground shrink-0" />
+                                                    {h}
+                                                </li>
                                         ))}
                                     </ul>
                                 </ShadowCard>

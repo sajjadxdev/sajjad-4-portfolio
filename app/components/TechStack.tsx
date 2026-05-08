@@ -113,7 +113,7 @@ function SkillCategory({ title, skills }: { title: string; skills: string[] }) {
                 {skills.map((skill) => (
                     <span
                         key={skill}
-                        className="text-xs px-3 py-1.5 rounded-full bg-muted text-muted-foreground"
+                        className="text-xs px-3 py-1.5 rounded-full border text-muted-foreground"
                     >
                         {skill}
                     </span>

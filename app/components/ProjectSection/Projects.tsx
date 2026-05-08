@@ -29,7 +29,7 @@ const projectsLarge: Project[] = [
             "Containerized for scalable deployment"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/voice-assistant.jpeg",
+        image: "/project1.png",
         accent: "rgba(139,92,246,0.5)",
     },
     {
@@ -44,7 +44,7 @@ const projectsLarge: Project[] = [
             "Optimized inference speed"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/trafic.jpeg",
+        image: "/project2.png",
         accent: "rgba(34,211,238,0.5)",
     },
     {
@@ -59,7 +59,7 @@ const projectsLarge: Project[] = [
             "Real-time processing capability"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/project.webp",
+        image: "/project3.png",
         accent: "rgba(52,211,153,0.5)",
     },
     {
@@ -74,7 +74,7 @@ const projectsLarge: Project[] = [
             "Interactive Streamlit frontend"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/pdf-reader.jpeg",
+        image: "/project4.png",
         accent: "rgba(251,191,36,0.5)",
     },
     {
@@ -89,7 +89,7 @@ const projectsLarge: Project[] = [
             "Cross-validation techniques"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/project.webp",
+        image: "/project5.png",
         accent: "rgba(251,113,133,0.5)",
     },
 ];
@@ -112,7 +112,7 @@ function Projects() {
 
     return (
         <>
-            <section id="portfolio" className="relative py-16 sm:py-20 lg:py-28 px-4 sm:px-6">
+            <section id="projects" className="relative py-16 sm:py-20 lg:py-28 px-4 sm:px-6">
                 <div className="max-w-7xl mx-auto relative z-10">
 
                     {/* Header */}
