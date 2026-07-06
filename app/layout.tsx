@@ -56,14 +56,14 @@ export const metadata: Metadata = {
   authors: [{ name: "Sajjad Ahmad", url: "https://github.com/sajjadxdev" }],
   creator: "Sajjad Ahmad",
   publisher: "Sajjad Ahmad",
-  metadataBase: new URL("https://sajjadxdev.vercel.app"),
+  metadataBase: new URL("https://sajjadahmadai.vercel.app"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Sajjad Ahmad | Top AI & ML Developer in Peshawar — Machine Learning Engineer",
     description: "Looking for an AI and ML developer in Peshawar? Sajjad Ahmad is a top Machine Learning Engineer specializing in LLMs, RAG pipelines, NLP, Computer Vision, and scalable AI systems. View CV & projects.",
-    url: "https://sajjadxdev.vercel.app",
+    url: "https://sajjadahmadai.vercel.app",
     siteName: "Sajjad Ahmad - AI & ML Developer Portfolio",
     images: [
       {
@@ -100,14 +100,14 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://sajjadxdev.vercel.app/#person",
+      "@id": "https://sajjadahmadai.vercel.app/#person",
       name: "Sajjad Ahmad",
       givenName: "Sajjad",
       familyName: "Ahmad",
       jobTitle: "AI and ML Developer",
       description: "Top Machine Learning Engineer and AI Developer based in Peshawar, specializing in LLM-powered applications, RAG pipelines, NLP, Computer Vision, and scalable AI systems.",
-      url: "https://sajjadxdev.vercel.app",
-      image: "https://sajjadxdev.vercel.app/sajjad.png",
+      url: "https://sajjadahmadai.vercel.app",
+      image: "https://sajjadahmadai.vercel.app/sajjad.png",
       email: "sajjadxdev@gmail.com",
       telephone: "+923166400174",
       address: {
@@ -146,17 +146,17 @@ const jsonLd = {
     },
     {
       "@type": "ProfilePage",
-      "@id": "https://sajjadxdev.vercel.app/#profilepage",
-      url: "https://sajjadxdev.vercel.app",
+      "@id": "https://sajjadahmadai.vercel.app/#profilepage",
+      url: "https://sajjadahmadai.vercel.app",
       name: "Sajjad Ahmad | AI and ML Developer in Peshawar - CV & Portfolio",
       isPartOf: {
         "@type": "WebSite",
-        "@id": "https://sajjadxdev.vercel.app/#website",
+        "@id": "https://sajjadahmadai.vercel.app/#website",
         name: "Sajjad Ahmad Portfolio",
-        url: "https://sajjadxdev.vercel.app",
+        url: "https://sajjadahmadai.vercel.app",
       },
       about: {
-        "@id": "https://sajjadxdev.vercel.app/#person",
+        "@id": "https://sajjadahmadai.vercel.app/#person",
       },
       description: "Portfolio and CV of Sajjad Ahmad, Top AI and ML Developer in Peshawar, Pakistan.",
     },

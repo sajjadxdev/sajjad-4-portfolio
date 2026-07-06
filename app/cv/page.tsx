@@ -100,12 +100,12 @@ export default function CVPage() {
               <div className="flex items-center gap-2">
                 <Globe size={16} className="text-primary" />
                 <a
-                  href="https://sajjadxdev.vercel.app"
+                  href="https://sajjadahmadai.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline text-foreground"
                 >
-                  sajjadxdev.vercel.app
+                  sajjadahmadai.vercel.app
                 </a>
               </div>
             </div>
