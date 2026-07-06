@@ -21,8 +21,8 @@ export default function HeroSection() {
                 {/* LEFT CONTENT */}
                 <div className="space-y-4 2xl:space-y-8">
 
-                    <p className="text-muted-foreground text-sm 2xl:text-lg m-0">
-                        ML Engineer • AI Specialist
+                    <p className="text-primary font-semibold text-sm 2xl:text-lg m-0 tracking-wide uppercase">
+                        AI & ML Developer in Peshawar • ML Engineer
                     </p>
 
                     <ShadowText className="text-[#aaa] font-extrabold text-[13vw] sm:text-6xl 2xl:text-8xl leading-[50px] sm:leading-[80px] 2xl:leading-tight tracking-tight">
@@ -32,15 +32,15 @@ export default function HeroSection() {
                     </ShadowText>
 
                     <p className="text-muted-foreground max-w-lg text-lg leading-relaxed">
-                        <span className="font-semibold text-foreground">Machine Learning Engineer </span>
+                        <span className="font-semibold text-foreground">Top AI & ML Developer in Peshawar </span>
                         with hands-on experience designing, training, and deploying
                         <span className="font-semibold text-foreground"> production-grade AI systems</span>.
                         Specializing in NLP, LLMs, RAG pipelines, and computer vision solutions.
                     </p>
 
-                    <div className="flex items-center gap-3 text-sm text-muted-foreground">
-                        <Globe size={16} />
-                        Based in Pakistan (Peshawar) • Available for Remote Work
+                    <div className="flex items-center gap-3 text-sm text-muted-foreground font-medium">
+                        <Globe size={16} className="text-primary" />
+                        Based in Peshawar, Pakistan • Available for Remote & Local Projects
                     </div>
 
                 </div>
@@ -105,7 +105,7 @@ export default function HeroSection() {
 
                     </ShadowCard>
 
-                    <div className="mt-10 gap-5 flex flex-col sm:flex-row justify-between items-center">
+                    <div className="mt-10 flex justify-center sm:justify-start items-center">
                         <div className="flex gap-5">
                             {[
                                 { Icon: Github, href: "https://github.com/sajjadxdev", label: "GitHub" },
@@ -121,16 +121,6 @@ export default function HeroSection() {
                                     </ShadowCard>
                                 </a>
                             ))}
-                        </div>
-
-                        {/* CTA BUTTON */}
-                        <div className="mx-auto sm:mx-0 sm:ms-auto">
-                            <a href="#contact">
-                                <ShadowCard variant="button" className="px-6 py-3 rounded-full cursor-pointer flex items-center gap-2 hover:scale-105 transition-transform">
-                                    Hire me now
-                                    <ArrowRight size={16} />
-                                </ShadowCard>
-                            </a>
                         </div>
                     </div>
 

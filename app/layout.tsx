@@ -14,8 +14,126 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sajjad Ahmad | Machine Learning Engineer — AI, NLP & LLM Systems",
-  description: "ML Engineer specializing in LLM-powered applications, RAG pipelines, computer vision, and scalable AI systems. Built with PyTorch, TensorFlow, LangChain, FastAPI & Docker.",
+  title: "Sajjad Ahmad | Top AI & ML Developer in Peshawar — Machine Learning Engineer & LLM Specialist",
+  description: "Looking for an AI and ML developer in Peshawar? Sajjad Ahmad is a top Machine Learning Engineer specializing in LLM applications, RAG pipelines, NLP, Computer Vision, and scalable AI systems. View CV, projects & hire the best AI developer in Peshawar, Pakistan.",
+  keywords: [
+    "AI and ML developer in pesh",
+    "AI and ML developer in Peshawar",
+    "AI developer in Peshawar",
+    "ML developer in Peshawar",
+    "Machine Learning Engineer Peshawar",
+    "Sajjad Ahmad",
+    "Sajjad Ahmad CV",
+    "Sajjad Ahmad Resume",
+    "Sajjad Ahmad AI developer",
+    "Sajjad Ahmad ML Engineer",
+    "AI engineer Peshawar Pakistan",
+    "NLP engineer Peshawar",
+    "LLM developer Peshawar",
+    "RAG pipeline developer Peshawar",
+    "Python AI developer Peshawar",
+    "Best AI developer in Peshawar",
+    "Top ML engineer Peshawar",
+    "Artificial Intelligence developer Pakistan",
+    "Deep Learning Engineer Peshawar",
+    "Generative AI developer Peshawar",
+    "FastAPI developer Peshawar",
+    "PyTorch developer Pakistan"
+  ],
+  authors: [{ name: "Sajjad Ahmad", url: "https://github.com/sajjadxdev" }],
+  creator: "Sajjad Ahmad",
+  publisher: "Sajjad Ahmad",
+  metadataBase: new URL("https://sajjadxdev.vercel.app"),
+  openGraph: {
+    title: "Sajjad Ahmad | Top AI & ML Developer in Peshawar — Machine Learning Engineer",
+    description: "Looking for an AI and ML developer in Peshawar? Sajjad Ahmad is a top Machine Learning Engineer specializing in LLMs, RAG pipelines, NLP, Computer Vision, and scalable AI systems. View CV & projects.",
+    url: "https://sajjadxdev.vercel.app",
+    siteName: "Sajjad Ahmad - AI & ML Developer Portfolio",
+    images: [
+      {
+        url: "/sajjad.png",
+        width: 1200,
+        height: 630,
+        alt: "Sajjad Ahmad - AI & ML Developer in Peshawar",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sajjad Ahmad | Top AI & ML Developer in Peshawar",
+    description: "Top Machine Learning Engineer & AI Developer in Peshawar specializing in LLMs, RAG, NLP, and Computer Vision.",
+    images: ["/sajjad.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://sajjadxdev.vercel.app/#person",
+      name: "Sajjad Ahmad",
+      givenName: "Sajjad",
+      familyName: "Ahmad",
+      jobTitle: "AI and ML Developer",
+      description: "Top Machine Learning Engineer and AI Developer based in Peshawar, specializing in LLM-powered applications, RAG pipelines, NLP, Computer Vision, and scalable AI systems.",
+      url: "https://sajjadxdev.vercel.app",
+      image: "https://sajjadxdev.vercel.app/sajjad.png",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Peshawar",
+        addressRegion: "Khyber Pakhtunkhwa",
+        addressCountry: "PK",
+      },
+      sameAs: [
+        "https://github.com/sajjadxdev",
+        "https://linkedin.com/in/sajjadxdev",
+      ],
+      knowsAbout: [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Natural Language Processing",
+        "Large Language Models (LLMs)",
+        "RAG Pipelines",
+        "Computer Vision",
+        "PyTorch",
+        "TensorFlow",
+        "Python",
+        "FastAPI",
+        "Docker",
+        "AWS",
+      ],
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://sajjadxdev.vercel.app/#profilepage",
+      url: "https://sajjadxdev.vercel.app",
+      name: "Sajjad Ahmad | AI and ML Developer in Peshawar - CV & Portfolio",
+      isPartOf: {
+        "@type": "WebSite",
+        "@id": "https://sajjadxdev.vercel.app/#website",
+        name: "Sajjad Ahmad Portfolio",
+        url: "https://sajjadxdev.vercel.app",
+      },
+      about: {
+        "@id": "https://sajjadxdev.vercel.app/#person",
+      },
+      description: "Portfolio and CV of Sajjad Ahmad, Top AI and ML Developer in Peshawar, Pakistan.",
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -25,6 +143,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}
       >
