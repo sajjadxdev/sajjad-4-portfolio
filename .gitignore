@@ -9,6 +9,11 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+/backend/myenv/
+/backend/myenv/*
+/backend/.env
+/backend/.env.*
+/backend/.env/*
 
 # testing
 /coverage
