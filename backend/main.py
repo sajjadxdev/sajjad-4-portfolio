@@ -64,7 +64,6 @@ class ChatRequest(BaseModel):
 
 class ChatResponse(BaseModel):
     reply: str
-    answer: Optional[str] = None
     retrieved_context: Optional[List[str]] = None
     distance_score: Optional[float] = None
     status: str
@@ -74,12 +73,14 @@ class SearchRequest(BaseModel):
     top_k: int = 1
 
 class SearchResult(BaseModel):
+    question: str
     answer: str
+    document: str
+    distance: float
 
 class SearchResponse(BaseModel):
     success: bool
     query: str
-    answer: Optional[str] = None
     total_found: int
     results: List[SearchResult]
 
@@ -96,87 +97,6 @@ def root():
         "documents": collection.count()
     }
 
-def extract_clean_answer(doc_str: str, meta: dict) -> str:
-    # 1. Try getting answer directly from metadata if present
-    if meta and meta.get("answer"):
-        return meta.get("answer").strip()
-    # 2. If document string has "\nAnswer:\n" or "Answer:", split and take the answer part
-    if "Answer:" in doc_str:
-        return doc_str.split("Answer:")[-1].strip()
-    # 3. Otherwise return the document itself
-    return doc_str.strip()
-
-def extract_clean_question(doc_str: str, meta: dict) -> str:
-    if meta and meta.get("question"):
-        return meta.get("question").strip()
-    if "Question:" in doc_str:
-        return doc_str.split("Question:")[-1].split("Answer:")[0].strip()
-    if meta and meta.get("category"):
-        return meta.get("category")
-    return "Portfolio Question"
-
-def smart_intent_and_keyword_filter(query: str, documents: list, metadatas: list, distances: list):
-    lower_q = query.lower().strip()
-    
-    # 1. Off-Topic / Out-of-Scope Guardrail
-    off_topic_words = [
-        "kfc", "order", "food", "hungry", "pizza", "burger", "weather", 
-        "joke", "movie", "song", "game", "play", "2+2", "math", "calculate", 
-        "president", "politics", "recipe", "restaurant", "buy", "sell"
-    ]
-    if any(w in lower_q.split() or w in lower_q for w in off_topic_words) and not any(k in lower_q for k in ["sajjad", "ai", "ml", "work", "job", "skill", "cv", "project"]):
-        return {
-            "is_off_topic": True,
-            "reply": "I'm sorry, I am Sajjad's AI Portfolio Assistant and can only answer questions about his AI/ML skills, projects, work experience, education, and how to hire or contact him!"
-        }
-
-    # 2. Identity / Bio / Summary Intents
-    if any(phrase in lower_q for phrase in ["who are you", "who is sajjad", "what is your name", "tell me about yourself", "about you", "introduce", "your background", "who r u"]):
-        bio_reply = "My full name is Sajjad Ahmad. I am an AI/ML Engineer and Backend Developer based in Lahore, Pakistan, specializing in scalable AI applications, LLMs, RAG pipelines, Computer Vision (YOLO), and FastAPI backend development."
-        return {"is_off_topic": False, "override_answer": bio_reply, "best_index": 0}
-
-    if any(phrase in lower_q for phrase in ["summarize his cv", "cv summary", "summary of cv", "summarize cv", "resume summary"]):
-        cv_summary = "Here is a summary of Sajjad Ahmad's CV:\n\n• Role: AI/ML Engineer & Backend Developer\n• Education: BS in Computer Science (Graduated 2024, FATA University)\n• Current Company: Apptex Software Solution (Lahore, Pakistan)\n• Experience: Backend API developer at INNOVATION.TECH and AI/ML Intern at Bave Technologies.\n• Top Skills: Python, PyTorch, TensorFlow, LangChain, LlamaIndex, RAG Pipelines, YOLO Computer Vision, FastAPI, Docker, and AWS.\n• Availability: Open for freelance projects, contracts, and full-time remote/local roles!"
-        return {"is_off_topic": False, "override_answer": cv_summary, "best_index": 0}
-
-    # 3. Keyword Overlap Scoring & Re-Ranking among retrieved chunks
-    best_idx = 0
-    best_score = -999.0
-    
-    stopwords = {"what", "when", "where", "who", "why", "how", "is", "are", "the", "you", "your", "his", "her", "can", "any", "there", "for", "and", "with", "from", "have", "has", "did", "do", "does", "in", "on", "at", "to", "of", "me", "am", "i"}
-    q_words = [w for w in lower_q.replace("?", "").replace(".", "").split() if w not in stopwords and len(w) >= 2]
-    
-    for i in range(len(documents)):
-        doc_str = documents[i].lower()
-        meta = metadatas[i] if i < len(metadatas) and metadatas[i] else {}
-        q_str = meta.get("question", "").lower()
-        cat_str = meta.get("category", "").lower()
-        
-        dist = distances[i] if i < len(distances) else 1.5
-        score = 2.0 - dist
-        
-        for qw in q_words:
-            if qw in q_str or qw in cat_str:
-                score += 0.8
-            elif qw in doc_str:
-                score += 0.4
-                
-        if any(w in q_words for w in ["work", "working", "company", "recent", "current", "role", "job", "employer", "experience"]):
-            if any(cw in doc_str or cw in q_str for cw in ["apptex", "innovation", "bave", "company", "role", "work", "experience", "current"]):
-                score += 0.9
-        elif any(w in q_words for w in ["education", "study", "degree", "university", "college", "school", "graduate", "graduation", "year"]):
-            if any(cw in doc_str or cw in q_str for cw in ["fata", "graduated", "bs", "computer science", "coursework", "education", "2024"]):
-                score += 0.9
-        elif any(w in q_words for w in ["skill", "tech", "stack", "technologies", "tools"]):
-            if any(cw in doc_str or cw in q_str for cw in ["python", "pytorch", "fastapi", "skills", "docker", "pipeline"]):
-                score += 0.9
-                
-        if score > best_score:
-            best_score = score
-            best_idx = i
-            
-    return {"is_off_topic": False, "best_index": best_idx}
-
 @app.post("/api/search", response_model=SearchResponse)
 def search(req: SearchRequest):
     if collection.count() == 0:
@@ -185,34 +105,31 @@ def search(req: SearchRequest):
             detail="Portfolio database is empty. Please run `python seed_db.py`."
         )
 
-    top_k = min(max(5, req.top_k), collection.count())
+    top_k = min(req.top_k, collection.count())
     results = collection.query(
         query_texts=[req.query],
         n_results=top_k
     )
 
     documents = results.get("documents", [[]])[0]
-    metadatas = results.get("metadatas", [[]])[0] if "metadatas" in results else []
+    metadatas = results.get("metadatas", [[]])[0]
     distances = results.get("distances", [[]])[0] if "distances" in results else [0.0] * len(documents)
 
-    smart_res = smart_intent_and_keyword_filter(req.query, documents, metadatas, distances)
-    if smart_res.get("is_off_topic"):
-        reply = smart_res["reply"]
-        return SearchResponse(success=True, query=req.query, answer=reply, total_found=1, results=[SearchResult(answer=reply)])
+    output = []
+    for i in range(len(documents)):
+        meta = metadatas[i] if i < len(metadatas) and metadatas[i] else {}
+        output.append(
+            SearchResult(
+                question=meta.get("question", meta.get("category", "General")),
+                answer=documents[i],
+                document=documents[i],
+                distance=distances[i] if i < len(distances) else 0.0
+            )
+        )
 
-    if smart_res.get("override_answer"):
-        reply = smart_res["override_answer"]
-        return SearchResponse(success=True, query=req.query, answer=reply, total_found=1, results=[SearchResult(answer=reply)])
-
-    best_idx = smart_res.get("best_index", 0)
-    meta = metadatas[best_idx] if best_idx < len(metadatas) and metadatas[best_idx] else {}
-    top_answer = extract_clean_answer(documents[best_idx], meta)
-
-    output = [SearchResult(answer=top_answer)]
     return SearchResponse(
         success=True,
         query=req.query,
-        answer=top_answer,
         total_found=len(output),
         results=output
     )
@@ -229,46 +146,27 @@ async def chat_endpoint(req: ChatRequest):
 
     # 1. Check if ChromaDB collection has data
     if collection.count() == 0:
-        msg = "My ChromaDB database is currently empty! Please run `python seed_db.py` in the backend directory to populate Sajjad's CV and project data."
         return ChatResponse(
-            reply=msg,
-            answer=msg,
+            reply="My ChromaDB database is currently empty! Please run `python seed_db.py` in the backend directory to populate Sajjad's CV and project data.",
             status="empty_db"
         )
 
-    # 2. Retrieve top 5 similar semantic chunks from ChromaDB
-    n_results = min(5, collection.count())
+    # 2. Retrieve top 3 similar semantic chunks from ChromaDB
+    n_results = min(3, collection.count())
     results = collection.query(
         query_texts=[user_query],
         n_results=n_results
     )
 
     documents = results.get("documents", [[]])[0]
-    metadatas = results.get("metadatas", [[]])[0] if "metadatas" in results else []
     distances = results.get("distances", [[]])[0] if "distances" in results else [0.0]
     top_distance = distances[0] if distances else 999.0
 
-    # 3. Smart Intent & Keyword Routing
-    smart_res = smart_intent_and_keyword_filter(user_query, documents, metadatas, distances)
-    if smart_res.get("is_off_topic"):
-        msg = smart_res["reply"]
-        return ChatResponse(reply=msg, answer=msg, status="off_topic_blocked")
-
-    if smart_res.get("override_answer"):
-        msg = smart_res["override_answer"]
-        return ChatResponse(reply=msg, answer=msg, status="success_intent")
-
-    best_idx = smart_res.get("best_index", 0)
-    best_doc = documents[best_idx] if best_idx < len(documents) else documents[0]
-    best_meta = metadatas[best_idx] if best_idx < len(metadatas) and metadatas[best_idx] else {}
-
-    # Guardrail: Check relevance distance
-    DISTANCE_THRESHOLD = 1.65
+    # 3. Guardrail: Check relevance distance
+    DISTANCE_THRESHOLD = 1.35
     if not documents or top_distance > DISTANCE_THRESHOLD:
-        msg = "I'm sorry, I don't have information about that in Sajjad's portfolio! Feel free to ask about his AI skills, LLM & RAG projects, education, or contact details, or email him directly at sajjadxdev@gmail.com."
         return ChatResponse(
-            reply=msg,
-            answer=msg,
+            reply="I'm sorry, I don't have information about that in Sajjad's portfolio! Feel free to ask about his AI skills, LLM & RAG projects, education, or contact details, or email him directly at sajjadxdev@gmail.com.",
             distance_score=top_distance,
             status="not_found_fallback"
         )
@@ -279,6 +177,7 @@ async def chat_endpoint(req: ChatRequest):
     groq_api_key = os.getenv("GROQ_API_KEY")
 
     if groq_api_key and groq_api_key.strip():
+        # Call Groq API to refine the answer!
         try:
             system_prompt = f"""You are Sajjad Ahmad's official AI Portfolio Assistant.
 Your task is to answer the user's question concisely and naturally in a human-like tone, using ONLY the facts provided in the Retrieved Context below.
@@ -291,6 +190,7 @@ CRITICAL GUARDRAILS:
 Retrieved Context from Sajjad's Portfolio:
 {context_text}
 """
+            # Call Groq REST API using httpx (no extra SDK required!)
             async with httpx.AsyncClient(timeout=10.0) as http_client:
                 response = await http_client.post(
                     "https://api.groq.com/openai/v1/chat/completions",
@@ -314,7 +214,6 @@ Retrieved Context from Sajjad's Portfolio:
                     refined_reply = data["choices"][0]["message"]["content"].strip()
                     return ChatResponse(
                         reply=refined_reply,
-                        answer=refined_reply,
                         retrieved_context=documents,
                         distance_score=top_distance,
                         status="success_llm"
@@ -325,11 +224,13 @@ Retrieved Context from Sajjad's Portfolio:
             print(f"⚠️ Groq API exception: {e}")
 
     # 5. Fallback if no GROQ_API_KEY is present (or if API call failed):
-    reply_text = extract_clean_answer(best_doc, best_meta)
+    # Return the most similar retrieved answer directly from ChromaDB!
+    reply_text = f"{documents[0]}"
+    if len(documents) > 1 and distances[1] < 1.1:
+        reply_text += f"\n\nAdditionally: {documents[1]}"
 
     return ChatResponse(
         reply=reply_text,
-        answer=reply_text,
         retrieved_context=documents,
         distance_score=top_distance,
         status="success_db"

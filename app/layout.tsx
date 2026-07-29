@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./components/ThemeProvider";
-import Chatbot from "./components/Chatbot";
+import ChatTooltip from "./components/ChatTooltip";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -182,7 +182,8 @@ export default function RootLayout({
       >
         <ThemeProvider>
           {children}
-          <Chatbot />
+          <ChatTooltip />
+          <script src="https://qualzo.app/widget.js" data-user="cms5rcyqj03vsjqym74a0z8bt"></script>
         </ThemeProvider>
       </body>
     </html>
