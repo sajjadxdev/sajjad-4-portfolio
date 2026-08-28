@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "./components/ThemeProvider";
 import ChatTooltip from "./components/ChatTooltip";
@@ -15,44 +16,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sajjad Ahmad | Top AI & ML Developer in Peshawar — Machine Learning Engineer & LLM Specialist",
-  description: "Looking for an AI and ML developer in Peshawar? Sajjad Ahmad is a top Machine Learning Engineer specializing in LLM applications, RAG pipelines, NLP, Computer Vision, and scalable AI systems. View CV, projects & hire the best AI developer in Peshawar, Pakistan.",
+  title: "Sajjad Ahmad | AI Engineer — Generative AI, Agentic AI & RAG",
+  description: "Portfolio of Sajjad Ahmad, AI Engineer based in Peshawar, Pakistan. Specializing in Generative AI, Agentic AI, custom RAG pipelines, LLM applications, and production AI systems.",
   keywords: [
-    "AI and ML developer in pesh",
-    "AI and ML developer in Peshawar",
-    "AI developer in Peshawar",
-    "ML developer in Peshawar",
-    "Machine Learning Engineer Peshawar",
     "Sajjad Ahmad",
-    "Sajjad Ahmad CV",
-    "Sajjad Ahmad Resume",
-    "Sajjad Ahmad AI developer",
-    "Sajjad Ahmad ML Engineer",
-    "AI engineer Peshawar Pakistan",
-    "NLP engineer Peshawar",
-    "LLM developer Peshawar",
-    "RAG pipeline developer Peshawar",
-    "Python AI developer Peshawar",
-    "Best AI developer in Peshawar",
-    "Top ML engineer Peshawar",
-    "Artificial Intelligence developer Pakistan",
-    "Deep Learning Engineer Peshawar",
-    "Generative AI developer Peshawar",
-    "FastAPI developer Peshawar",
-    "PyTorch developer Pakistan",
-    "Agentic AI developer Peshawar",
-    "LangChain developer Peshawar",
-    "LlamaIndex developer Pakistan",
-    "HuggingFace developer Pakistan",
-    "AI consultant Peshawar",
-    "Machine learning consultant Pakistan",
-    "Freelance AI developer Pakistan",
-    "Freelance ML engineer Peshawar",
-    "AI Web App Developer Pakistan",
-    "Computer Vision Engineer Peshawar",
-    "Full Stack AI developer Peshawar",
-    "Scikit-learn developer Peshawar",
-    "SpaCy NLP developer Pakistan"
+    "AI Engineer",
+    "AI Developer",
+    "Generative AI Engineer",
+    "Agentic AI Developer",
+    "RAG Developer",
+    "LLM Developer",
+    "Machine Learning Engineer",
+    "AI Engineer Peshawar",
+    "AI Engineer Pakistan",
+    "Remote AI Engineer",
+    "Model Context Protocol",
+    "MCP Developer",
+    "Computer Vision Engineer"
   ],
   authors: [{ name: "Sajjad Ahmad", url: "https://github.com/sajjadxdev" }],
   creator: "Sajjad Ahmad",
@@ -62,16 +42,16 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Sajjad Ahmad | Top AI & ML Developer in Peshawar — Machine Learning Engineer",
-    description: "Looking for an AI and ML developer in Peshawar? Sajjad Ahmad is a top Machine Learning Engineer specializing in LLMs, RAG pipelines, NLP, Computer Vision, and scalable AI systems. View CV & projects.",
+    title: "Sajjad Ahmad | AI Engineer — Generative AI, Agentic AI & RAG",
+    description: "Sajjad Ahmad is an AI Engineer specializing in Generative AI, Agentic AI, custom RAG pipelines, LLM integration, and production ML systems.",
     url: "https://sajjadahmadai.vercel.app",
-    siteName: "Sajjad Ahmad - AI & ML Developer Portfolio",
+    siteName: "Sajjad Ahmad - AI Engineer Portfolio",
     images: [
       {
         url: "/sajjad.png",
         width: 1200,
         height: 630,
-        alt: "Sajjad Ahmad - AI & ML Developer in Peshawar",
+        alt: "Sajjad Ahmad - AI Engineer",
       },
     ],
     locale: "en_US",
@@ -79,8 +59,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sajjad Ahmad | Top AI & ML Developer in Peshawar",
-    description: "Top Machine Learning Engineer & AI Developer in Peshawar specializing in LLMs, RAG, NLP, and Computer Vision.",
+    title: "Sajjad Ahmad | AI Engineer — Generative AI, Agentic AI & RAG",
+    description: "AI Engineer specializing in Generative AI, Agentic AI, RAG pipelines, and LLM applications.",
     images: ["/sajjad.png"],
   },
   robots: {
@@ -105,8 +85,8 @@ const jsonLd = {
       name: "Sajjad Ahmad",
       givenName: "Sajjad",
       familyName: "Ahmad",
-      jobTitle: "AI and ML Developer",
-      description: "Top Machine Learning Engineer and AI Developer based in Peshawar, specializing in LLM-powered applications, RAG pipelines, NLP, Computer Vision, and scalable AI systems.",
+      jobTitle: "AI Engineer",
+      description: "AI Engineer specializing in Generative AI, Agentic AI systems, custom RAG pipelines, LLM application architecture, and production Machine Learning systems based in Peshawar, Pakistan.",
       url: "https://sajjadahmadai.vercel.app",
       image: "https://sajjadahmadai.vercel.app/sajjad.png",
       email: "sajjadxdev@gmail.com",
@@ -123,43 +103,44 @@ const jsonLd = {
       ],
       knowsAbout: [
         "Artificial Intelligence",
+        "Generative AI",
+        "Agentic AI",
+        "Retrieval-Augmented Generation (RAG)",
+        "Model Context Protocol (MCP)",
+        "Large Language Models (LLMs)",
+        "Computer Vision",
         "Machine Learning",
         "Natural Language Processing",
-        "Large Language Models (LLMs)",
-        "RAG Pipelines",
-        "Computer Vision",
         "PyTorch",
-        "TensorFlow",
-        "Python",
         "FastAPI",
         "Docker",
-        "AWS",
-        "LangChain",
-        "LlamaIndex",
-        "Scikit-learn",
-        "HuggingFace",
-        "SpaCy",
-        "REST APIs",
-        "Agentic AI",
-        "Generative AI",
-        "Deep Learning"
+        "Python"
       ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://sajjadahmadai.vercel.app/#website",
+      url: "https://sajjadahmadai.vercel.app",
+      name: "Sajjad Ahmad — AI Engineer Portfolio",
+      description: "Official website of Sajjad Ahmad, AI Engineer specializing in Generative AI, Agentic AI, RAG pipelines, and production AI systems.",
+      publisher: {
+        "@id": "https://sajjadahmadai.vercel.app/#person",
+      },
     },
     {
       "@type": "ProfilePage",
       "@id": "https://sajjadahmadai.vercel.app/#profilepage",
       url: "https://sajjadahmadai.vercel.app",
-      name: "Sajjad Ahmad | AI and ML Developer in Peshawar - CV & Portfolio",
+      name: "Sajjad Ahmad | AI Engineer — Generative AI, Agentic AI & RAG",
+      datePublished: "2024-01-01",
+      dateModified: "2026-08-28",
       isPartOf: {
-        "@type": "WebSite",
         "@id": "https://sajjadahmadai.vercel.app/#website",
-        name: "Sajjad Ahmad Portfolio",
-        url: "https://sajjadahmadai.vercel.app",
       },
       about: {
         "@id": "https://sajjadahmadai.vercel.app/#person",
       },
-      description: "Portfolio and CV of Sajjad Ahmad, Top AI and ML Developer in Peshawar, Pakistan.",
+      description: "Portfolio of Sajjad Ahmad, AI Engineer specializing in Generative AI, Agentic AI, RAG, and scalable AI solutions.",
     },
   ],
 };
@@ -183,7 +164,12 @@ export default function RootLayout({
         <ThemeProvider>
           {children}
           <ChatTooltip />
-          <script src="https://qualzo.app/widget.js" data-user="cms5rcyqj03vsjqym74a0z8bt"></script>
+          <Script
+            id="qualzo-widget"
+            src="https://qualzo.app/widget.js"
+            data-user="cms5rcyqj03vsjqym74a0z8bt"
+            strategy="lazyOnload"
+          />
         </ThemeProvider>
       </body>
     </html>

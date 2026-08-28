@@ -11,13 +11,14 @@ export default function Header() {
     const [mobileOpen, setMobileOpen] = useState(false)
 
     const navItems = [
-        { label: "Hello", id: "hello" },
-        { label: "About", id: "about" },
-        { label: "Projects", id: "projects" },
-        { label: "Experience", id: "experience" },
-        { label: "Skills", id: "skills" },
-        { label: "FAQ", id: "faq" },
-        { label: "Contact", id: "contact" },
+        { label: "Home", href: "/#hello" },
+        { label: "About", href: "/about" },
+        { label: "Services", href: "/services" },
+        { label: "Projects", href: "/#projects" },
+        { label: "Blog", href: "/blog" },
+        { label: "Locations", href: "/locations" },
+        { label: "FAQ", href: "/#faq" },
+        { label: "Contact", href: "/#contact" },
     ];
 
     return (
@@ -25,7 +26,7 @@ export default function Header() {
             <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
 
                 {/* Left - Logo */}
-                <a href="#hello" className="flex items-center gap-2 font-semibold text-lg">
+                <a href="/#hello" className="flex items-center gap-2 font-semibold text-lg">
                     <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-gray-200 to-gray-300 dark:from-gray-700 dark:to-gray-600 shadow-inner overflow-hidden" >
                         <img className="relative top-2 scale-150" src="/sajjad.png" alt="Sajjad Ahmad" />
                     </div>
@@ -40,7 +41,7 @@ export default function Header() {
                     {navItems.map((item, i) => (
                         <a
                             key={i}
-                            href={`#${item.id}`}
+                            href={item.href}
                             className="py-2 text-muted-foreground hover:text-foreground transition-colors"
                         >
                             {item.label}
@@ -55,7 +56,7 @@ export default function Header() {
                     <div className="hidden md:flex items-center gap-4">
 
                         {/* CTA Button */}
-                        <a href="#contact">
+                        <a href="/#contact">
                             <ShadowCard variant="button" className="px-5 py-2 rounded-full cursor-pointer">
                                 <div className="flex items-center gap-2 text-sm font-medium">
                                     <Rocket size={16} />
@@ -107,7 +108,7 @@ export default function Header() {
                         (item, i) => (
                             <a
                                 key={i}
-                                href={`#${item.id}`}
+                                href={item.href}
                                 onClick={() => setMobileOpen(false)}
                                 className="py-2 text-muted-foreground hover:text-foreground transition-colors"
                             >
@@ -116,7 +117,7 @@ export default function Header() {
                         )
                     )}
 
-                    <a href="#contact" onClick={() => setMobileOpen(false)}>
+                    <a href="/#contact" onClick={() => setMobileOpen(false)}>
                         <ShadowCard variant="button" className="px-5 py-3 rounded-full cursor-pointer w-fit">
                             <div className="flex items-center gap-2 text-sm font-medium">
                                 <Rocket size={16} />

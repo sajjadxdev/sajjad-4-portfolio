@@ -8,6 +8,7 @@ import ContactCTASection from "./components/ContactInfo";
 import ContactFormSection from "./components/ContactForm";
 import TechStackSection from "./components/TechStack";
 import Projects from "./components/ProjectSection/Projects";
+import BlogSection from "./components/BlogSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <BenefitsSection />
       <ExperienceSection />
       <TechStackSection />
+      <BlogSection />
       <FAQSection />
       <ContactCTASection />
       <ContactFormSection />

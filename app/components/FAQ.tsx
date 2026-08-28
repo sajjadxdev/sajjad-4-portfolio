@@ -10,9 +10,53 @@ import {
     DollarSign
 } from "lucide-react"
 
+const faqs = [
+    {
+        question: "What kind of AI/ML projects do you work on?",
+        answer: "I specialize in LLM-powered applications (chatbots, RAG pipelines, agentic AI), computer vision systems (object detection, OCR), and end-to-end ML pipelines. From data preprocessing to production deployment."
+    },
+    {
+        question: "Do you work remotely?",
+        answer: "Yes, I work fully remote. Based in Pakistan, but available for clients worldwide. I maintain clear communication across timezones with regular check-ins and structured milestones."
+    },
+    {
+        question: "What's your typical project timeline?",
+        answer: "It depends on scope: small ML models or chatbot integrations take 1-2 weeks. Full AI systems with custom training and deployment typically take 1-3 months. I provide a clear timeline upfront."
+    },
+    {
+        question: "What's your tech stack?",
+        answer: "Python is my primary language. For ML: PyTorch, TensorFlow, Scikit-learn. For NLP/LLMs: HuggingFace, LangChain, LlamaIndex, SpaCy. For deployment: FastAPI, Docker, AWS. I adapt based on project needs."
+    },
+    {
+        question: "How do you handle pricing?",
+        answer: "I offer both fixed-price and hourly options. For well-defined projects, I provide a fixed quote upfront. For ongoing or evolving work, I bill hourly with weekly progress reports. All pricing is discussed before starting."
+    },
+    {
+        question: "How do we communicate during the project?",
+        answer: "I use Slack, Discord, or WhatsApp for daily chat. Weekly video calls for progress reviews. You get access to a shared project board (Notion or GitHub Projects) so you always know exactly where things stand."
+    }
+]
+
 export default function FAQSection() {
+    const faqJsonLd = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map((item) => ({
+            "@type": "Question",
+            "name": item.question,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": item.answer
+            }
+        }))
+    }
+
     return (
         <section id="faq" className="w-full py-32 px-6">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+            />
             <div className="max-w-4xl mx-auto">
 
                 {/* Header */}
@@ -36,48 +80,48 @@ export default function FAQSection() {
 
                     <FAQItem
                         icon={<Wrench size={20} />}
-                        question="What kind of AI/ML projects do you work on?"
-                        answer="I specialize in LLM-powered applications (chatbots, RAG pipelines, agentic AI), computer vision systems (object detection, OCR), and end-to-end ML pipelines. From data preprocessing to production deployment."
+                        question={faqs[0].question}
+                        answer={faqs[0].answer}
                     />
 
                     <Divider />
 
                     <FAQItem
                         icon={<Globe size={20} />}
-                        question="Do you work remotely?"
-                        answer="Yes, I work fully remote. Based in Pakistan, but available for clients worldwide. I maintain clear communication across timezones with regular check-ins and structured milestones."
+                        question={faqs[1].question}
+                        answer={faqs[1].answer}
                     />
 
                     <Divider />
 
                     <FAQItem
                         icon={<Clock size={20} />}
-                        question="What's your typical project timeline?"
-                        answer="It depends on scope: small ML models or chatbot integrations take 1-2 weeks. Full AI systems with custom training and deployment typically take 1-3 months. I provide a clear timeline upfront."
+                        question={faqs[2].question}
+                        answer={faqs[2].answer}
                     />
 
                     <Divider />
 
                     <FAQItem
                         icon={<Code2 size={20} />}
-                        question="What's your tech stack?"
-                        answer="Python is my primary language. For ML: PyTorch, TensorFlow, Scikit-learn. For NLP/LLMs: HuggingFace, LangChain, LlamaIndex, SpaCy. For deployment: FastAPI, Docker, AWS. I adapt based on project needs."
+                        question={faqs[3].question}
+                        answer={faqs[3].answer}
                     />
 
                     <Divider />
 
                     <FAQItem
                         icon={<DollarSign size={20} />}
-                        question="How do you handle pricing?"
-                        answer="I offer both fixed-price and hourly options. For well-defined projects, I provide a fixed quote upfront. For ongoing or evolving work, I bill hourly with weekly progress reports. All pricing is discussed before starting."
+                        question={faqs[4].question}
+                        answer={faqs[4].answer}
                     />
 
                     <Divider />
 
                     <FAQItem
                         icon={<MessageSquare size={20} />}
-                        question="How do we communicate during the project?"
-                        answer="I use Slack, Discord, or WhatsApp for daily chat. Weekly video calls for progress reviews. You get access to a shared project board (Notion or GitHub Projects) so you always know exactly where things stand."
+                        question={faqs[5].question}
+                        answer={faqs[5].answer}
                     />
 
                 </div>
