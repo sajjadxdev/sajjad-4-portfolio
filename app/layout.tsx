@@ -135,8 +135,11 @@ const jsonLd = {
       "@id": "https://sajjadahmadai.vercel.app/#profilepage",
       url: "https://sajjadahmadai.vercel.app",
       name: "Sajjad Ahmad | AI Engineer — Generative AI, Agentic AI & RAG",
-      datePublished: "2024-01-01",
-      dateModified: "2026-08-28",
+      datePublished: "2024-01-01T00:00:00+00:00",
+      dateModified: "2026-08-28T00:00:00+00:00",
+      mainEntity: {
+        "@id": "https://sajjadahmadai.vercel.app/#person",
+      },
       isPartOf: {
         "@id": "https://sajjadahmadai.vercel.app/#website",
       },
