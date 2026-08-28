@@ -12,18 +12,18 @@ import {
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Sajjad Ahmad CV & Resume | Top AI and ML Developer in Peshawar",
+  title: "Sajjad Ahmad CV & Resume | Top AI and ML Developer in Islamabad",
   description:
-    "Official Curriculum Vitae (CV) and Resume of Sajjad Ahmad — Top Machine Learning Engineer and AI Developer based in Peshawar, Pakistan. Specializing in LLM applications, RAG pipelines, NLP, and Computer Vision.",
+    "Official Curriculum Vitae (CV) and Resume of Sajjad Ahmad — Top Machine Learning Engineer and AI Developer based in Islamabad, Pakistan. Specializing in LLM applications, RAG pipelines, NLP, and Computer Vision.",
   keywords: [
     "Sajjad Ahmad CV",
     "Sajjad Ahmad Resume",
     "AI and ML developer in pesh CV",
-    "AI and ML developer in Peshawar Resume",
-    "Machine Learning Engineer Peshawar CV",
+    "AI and ML developer in Islamabad Resume",
+    "Machine Learning Engineer Islamabad CV",
     "Sajjad Ahmad AI Developer Resume",
-    "Hire AI developer Peshawar",
-    "Top ML engineer Peshawar CV",
+    "Hire AI developer Islamabad",
+    "Top ML engineer Islamabad CV",
   ],
 };
 
@@ -80,7 +80,7 @@ export default function CVPage() {
             <div className="space-y-2 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <MapPin size={16} className="text-primary" />
-                <span>Peshawar, Pakistan • Remote Available</span>
+                <span>Islamabad, Pakistan • Remote Available</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={16} className="text-primary" />
@@ -119,7 +119,7 @@ export default function CVPage() {
             <p className="text-muted-foreground leading-relaxed text-base">
               Top-performing{" "}
               <strong className="text-foreground">
-                AI and ML Developer in Peshawar
+                AI and ML Developer in Islamabad
               </strong>{" "}
               with proven expertise in designing, training, and deploying
               production-grade Machine Learning and Large Language Model (LLM)
@@ -249,7 +249,7 @@ export default function CVPage() {
                   Bachelor of Science in Computer Science / AI
                 </h3>
                 <p className="text-sm text-muted-foreground">
-                  Peshawar, Pakistan • Focus on Artificial Intelligence & Deep
+                  Islamabad, Pakistan • Focus on Artificial Intelligence & Deep
                   Learning
                 </p>
               </div>
@@ -265,7 +265,7 @@ export default function CVPage() {
               <p className="font-bold text-lg">Interested in hiring Sajjad?</p>
               <p className="text-sm text-muted-foreground">
                 Available for freelance, contract, and full-time ML roles in
-                Peshawar & Remote.
+                Islamabad & Remote.
               </p>
             </div>
             <Link href="/#contact">

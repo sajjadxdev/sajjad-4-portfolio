@@ -15,7 +15,7 @@ export async function POST() {
     `https://${host}/services/ai-automation`,
     `https://${host}/services/computer-vision`,
     `https://${host}/locations`,
-    `https://${host}/locations/peshawar`,
+    `https://${host}/locations/islamabad`,
     `https://${host}/locations/pakistan`,
     `https://${host}/locations/uae`,
     `https://${host}/locations/germany`,

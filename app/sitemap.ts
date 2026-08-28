@@ -13,7 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'computer-vision',
   ]
 
-  const locations = ['peshawar', 'pakistan', 'uae', 'germany', 'usa']
+  const locations = ['islamabad', 'pakistan', 'uae', 'germany', 'usa']
 
   const blogPostsEntries: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,

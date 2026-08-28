@@ -29,12 +29,12 @@ const LOCATION_DETAILS: Record<
     keywords: string[];
   }
 > = {
-  peshawar: {
-    name: "Peshawar, Pakistan",
+  islamabad: {
+    name: "Islamabad, Pakistan",
     regionType: "Hyper-Local Region (Tier 1)",
-    headline: "AI Engineering & Machine Learning Development in Peshawar",
-    description: "Local AI consultation, Generative AI applications, custom RAG systems, and Machine Learning engineering services in Peshawar, Khyber Pakhtunkhwa.",
-    overview: "Sajjad Ahmad provides in-person and local AI consultation for tech companies, startups, and institutions in Peshawar and Khyber Pakhtunkhwa. From prototype development to full production AI deployment.",
+    headline: "AI Engineering & Machine Learning Development in Islamabad",
+    description: "Local AI consultation, Generative AI applications, custom RAG systems, and Machine Learning engineering services in Islamabad.",
+    overview: "Sajjad Ahmad provides in-person and local AI consultation for tech companies, startups, and institutions in Islamabad and the ICT region. From prototype development to full production AI deployment.",
     servicesOffered: [
       "Local AI Strategy & Architectural Consultation",
       "Custom Agentic AI & RAG System Development",
@@ -42,11 +42,11 @@ const LOCATION_DETAILS: Record<
       "Computer Vision & Document Intelligence (OCR)",
     ],
     collaborationDetails: [
-      "In-person and remote technical consultations in Peshawar",
+      "In-person and remote technical consultations in Islamabad",
       "Direct milestone delivery and ongoing code maintenance",
       "Technical mentorship for local engineering teams",
     ],
-    keywords: ["AI Developer Peshawar", "AI Engineer Peshawar", "Machine Learning Peshawar", "RAG Developer Peshawar"],
+    keywords: ["AI Developer Islamabad", "AI Engineer Islamabad", "Machine Learning Islamabad", "RAG Developer Islamabad"],
   },
   pakistan: {
     name: "Pakistan (Nationwide)",

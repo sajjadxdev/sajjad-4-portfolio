@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Sajjad Ahmad | AI Engineer — Generative AI, Agentic AI & RAG",
-  description: "Portfolio of Sajjad Ahmad, AI Engineer based in Peshawar, Pakistan. Specializing in Generative AI, Agentic AI, custom RAG pipelines, LLM applications, and production AI systems.",
+  description: "Portfolio of Sajjad Ahmad, AI Engineer based in Islamabad, Pakistan. Specializing in Generative AI, Agentic AI, custom RAG pipelines, LLM applications, and production AI systems.",
   keywords: [
     "Sajjad Ahmad",
     "AI Engineer",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "RAG Developer",
     "LLM Developer",
     "Machine Learning Engineer",
-    "AI Engineer Peshawar",
+    "AI Engineer Islamabad",
     "AI Engineer Pakistan",
     "Remote AI Engineer",
     "Model Context Protocol",
@@ -89,15 +89,15 @@ const jsonLd = {
       givenName: "Sajjad",
       familyName: "Ahmad",
       jobTitle: "AI Engineer",
-      description: "AI Engineer specializing in Generative AI, Agentic AI systems, custom RAG pipelines, LLM application architecture, and production Machine Learning systems based in Peshawar, Pakistan.",
+      description: "AI Engineer specializing in Generative AI, Agentic AI systems, custom RAG pipelines, LLM application architecture, and production Machine Learning systems based in Islamabad, Pakistan.",
       url: "https://sajjadahmadai.vercel.app",
       image: "https://sajjadahmadai.vercel.app/sajjad.png",
       email: "sajjadxdev@gmail.com",
       telephone: "+923166400174",
       address: {
         "@type": "PostalAddress",
-        addressLocality: "Peshawar",
-        addressRegion: "Khyber Pakhtunkhwa",
+        addressLocality: "Islamabad",
+        addressRegion: "Islamabad Capital Territory",
         addressCountry: "PK",
       },
       sameAs: [

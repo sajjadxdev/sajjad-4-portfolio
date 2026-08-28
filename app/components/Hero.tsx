@@ -22,7 +22,7 @@ export default function HeroSection() {
                 <div className="space-y-4 2xl:space-y-8">
 
                     <p className="text-primary font-semibold text-sm 2xl:text-lg m-0 tracking-wide uppercase">
-                        AI & ML Developer in Peshawar • ML Engineer
+                        AI Engineer in Islamabad • ML Specialist
                     </p>
 
                     <ShadowText className="text-[#aaa] font-extrabold text-[13vw] sm:text-6xl 2xl:text-8xl leading-[50px] sm:leading-[80px] 2xl:leading-tight tracking-tight">
@@ -32,15 +32,15 @@ export default function HeroSection() {
                     </ShadowText>
 
                     <p className="text-muted-foreground max-w-lg text-lg leading-relaxed">
-                        <span className="font-semibold text-foreground">Top AI & ML Developer in Peshawar </span>
+                        <span className="font-semibold text-foreground">AI Engineer based in Islamabad </span>
                         with hands-on experience designing, training, and deploying
                         <span className="font-semibold text-foreground"> production-grade AI systems</span>.
-                        Specializing in NLP, LLMs, RAG pipelines, and computer vision solutions.
+                        Specializing in Generative AI, Agentic AI, RAG pipelines, and computer vision solutions.
                     </p>
 
                     <div className="flex items-center gap-3 text-sm text-muted-foreground font-medium">
                         <Globe size={16} className="text-primary" />
-                        Based in Peshawar, Pakistan • Available for Remote & Local Projects
+                        Based in Islamabad, Pakistan • Available for Remote & Local Projects
                     </div>
 
                 </div>

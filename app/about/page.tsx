@@ -21,11 +21,11 @@ import {
 
 export const metadata: Metadata = {
   title: "About Sajjad Ahmad | AI Engineer — Generative AI, Agentic AI & RAG",
-  description: "Learn about Sajjad Ahmad, AI Engineer based in Peshawar, Pakistan. Specializing in Generative AI, Agentic AI, custom RAG pipelines, LLM integration, and production ML systems.",
+  description: "Learn about Sajjad Ahmad, AI Engineer based in Islamabad, Pakistan. Specializing in Generative AI, Agentic AI, custom RAG pipelines, LLM integration, and production ML systems.",
   keywords: [
     "About Sajjad Ahmad",
     "Sajjad Ahmad AI Engineer",
-    "AI Developer Peshawar",
+    "AI Developer Islamabad",
     "Machine Learning Engineer Pakistan",
     "Agentic AI Engineer",
     "RAG Specialist Pakistan",
@@ -57,7 +57,7 @@ export default function AboutPage() {
         image: "https://sajjadahmadai.vercel.app/sajjad.png",
         address: {
           "@type": "PostalAddress",
-          addressLocality: "Peshawar",
+          addressLocality: "Islamabad",
           addressRegion: "Khyber Pakhtunkhwa",
           addressCountry: "PK",
         },
@@ -105,7 +105,7 @@ export default function AboutPage() {
         </h1>
 
         <p className="text-muted-foreground text-lg sm:text-xl leading-relaxed max-w-3xl">
-          Based in <strong className="text-foreground">Peshawar, Pakistan</strong> and available for remote engineering projects worldwide. Specializing in Generative AI, Agentic AI, custom RAG architectures, LLM applications, and robust backend microservices.
+          Based in <strong className="text-foreground">Islamabad, Pakistan</strong> and available for remote engineering projects worldwide. Specializing in Generative AI, Agentic AI, custom RAG architectures, LLM applications, and robust backend microservices.
         </p>
       </section>
 
@@ -122,7 +122,7 @@ export default function AboutPage() {
                 <h2 className="text-xl font-bold text-foreground">Sajjad Ahmad</h2>
                 <p className="text-xs text-primary font-semibold m-0">AI Engineer</p>
                 <div className="flex items-center justify-center gap-1.5 text-xs text-muted-foreground mt-2">
-                  <MapPin size={13} className="text-primary" /> Peshawar, PK (Remote Worldwide)
+                  <MapPin size={13} className="text-primary" /> Islamabad, PK (Remote Worldwide)
                 </div>
               </div>
 
@@ -188,12 +188,12 @@ export default function AboutPage() {
             Global Remote Collaboration
           </h2>
           <p className="text-muted-foreground leading-relaxed">
-            While based in Peshawar, Pakistan, I work seamlessly with engineering teams and businesses across the <strong className="text-foreground">UAE & Middle East, Europe (Germany, UK, EU), and the United States</strong>. I maintain structured communication, milestone-driven check-ins, and flexible time-zone availability.
+            While based in Islamabad, Pakistan, I work seamlessly with engineering teams and businesses across the <strong className="text-foreground">UAE & Middle East, Europe (Germany, UK, EU), and the United States</strong>. I maintain structured communication, milestone-driven check-ins, and flexible time-zone availability.
           </p>
 
           <div className="grid sm:grid-cols-3 gap-6 pt-4">
-            <Link href="/locations/peshawar" className="p-6 rounded-2xl border border-border bg-card hover:border-primary transition-colors block">
-              <h3 className="font-bold text-foreground text-base mb-2">Peshawar & Pakistan</h3>
+            <Link href="/locations/islamabad" className="p-6 rounded-2xl border border-border bg-card hover:border-primary transition-colors block">
+              <h3 className="font-bold text-foreground text-base mb-2">Islamabad & Pakistan</h3>
               <p className="text-xs text-muted-foreground m-0">Local consultation & national AI development</p>
             </Link>
 

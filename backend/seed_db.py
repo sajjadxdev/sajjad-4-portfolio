@@ -28,7 +28,7 @@ if existing_count > 0:
 # Portfolio Knowledge Base Chunks
 documents = [
     # Bio & Summary
-    "Sajjad Ahmad is a top Machine Learning Engineer and AI Developer based in Peshawar, Pakistan. He specializes in designing, training, and deploying production-grade AI systems, Large Language Models (LLMs), RAG pipelines, and Computer Vision solutions.",
+    "Sajjad Ahmad is a top Machine Learning Engineer and AI Developer based in Islamabad, Pakistan. He specializes in designing, training, and deploying production-grade AI systems, Large Language Models (LLMs), RAG pipelines, and Computer Vision solutions.",
     
     # Skills & Tech Stack
     "Sajjad's core technical skills include: Python, PyTorch, TensorFlow, Scikit-learn, HuggingFace Transformers, LangChain, LlamaIndex, RAG Pipelines, Prompt Engineering, Fine-tuning (LoRA/QLoRA), OpenCV, YOLO, SpaCy, NLTK, FastAPI, Docker, AWS, Git, CI/CD, and Vector Databases (Pinecone, ChromaDB, Qdrant, Weaviate).",
@@ -43,13 +43,13 @@ documents = [
     "Project: AI Voice Assistant & NLP Trading Analyzer. Sajjad developed speech-to-text and speech synthesis pipelines for hands-free conversational AI interaction. He also implemented sentiment analysis and entity extraction on financial news streams to generate predictive trading signals.",
     
     # Education
-    "Education: Sajjad Ahmad holds a Bachelor of Science in Computer Science with a focus on Artificial Intelligence and Deep Learning from Peshawar, Pakistan.",
+    "Education: Sajjad Ahmad holds a Bachelor of Science in Computer Science with a focus on Artificial Intelligence and Deep Learning from Islamabad, Pakistan.",
     
     # Contact & Hire
-    "Contact & Hiring: You can hire Sajjad Ahmad for freelance, contract, or full-time ML and AI roles (remote worldwide or local in Peshawar). Email: sajjadxdev@gmail.com | Phone/WhatsApp: +92 316 6400174 | LinkedIn: https://linkedin.com/in/sajjadxdev | GitHub: https://github.com/sajjadxdev | Website: https://sajjadahmadai.vercel.app",
+    "Contact & Hiring: You can hire Sajjad Ahmad for freelance, contract, or full-time ML and AI roles (remote worldwide or local in Islamabad). Email: sajjadxdev@gmail.com | Phone/WhatsApp: +92 316 6400174 | LinkedIn: https://linkedin.com/in/sajjadxdev | GitHub: https://github.com/sajjadxdev | Website: https://sajjadahmadai.vercel.app",
     
     # Location & Availability
-    "Sajjad Ahmad is based in Peshawar, Khyber Pakhtunkhwa, Pakistan. He is available for remote projects worldwide and local consultations in Pakistan."
+    "Sajjad Ahmad is based in Islamabad, Khyber Pakhtunkhwa, Pakistan. He is available for remote projects worldwide and local consultations in Pakistan."
 ]
 
 ids = [f"doc_{i+1}" for i in range(len(documents))]

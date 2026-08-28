@@ -6,7 +6,7 @@ import { ArrowRight, Globe, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Global AI Engineering & Geographic Service Regions | Sajjad Ahmad",
-  description: "Explore AI engineering and development services across target regional hubs: Peshawar, Pakistan, UAE & Middle East, Germany & Europe, and the United States.",
+  description: "Explore AI engineering and development services across target regional hubs: Islamabad, Pakistan, UAE & Middle East, Germany & Europe, and the United States.",
   alternates: {
     canonical: "/locations",
   },
@@ -21,10 +21,10 @@ export const metadata: Metadata = {
 
 const LOCATIONS = [
   {
-    slug: "peshawar",
-    name: "Peshawar, Pakistan",
+    slug: "islamabad",
+    name: "Islamabad, Pakistan",
     tier: "Tier 1 — Hyper-Local",
-    description: "Local AI consultation, Machine Learning development, and technical project delivery in Peshawar & Khyber Pakhtunkhwa.",
+    description: "Local AI consultation, Machine Learning development, and technical project delivery in Islamabad & ICT.",
   },
   {
     slug: "pakistan",

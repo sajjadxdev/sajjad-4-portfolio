@@ -112,9 +112,9 @@ export default function Chatbot() {
       } else if (lower.includes("rag") || lower.includes("llm") || lower.includes("experience") || lower.includes("project")) {
         aiReply = "Sajjad has designed and deployed enterprise RAG platforms processing over 100,000+ documents with sub-second retrieval using Pinecone and custom embedding models! He also builds real-time Computer Vision systems and NLP trading analyzers."
       } else if (lower.includes("hire") || lower.includes("contact") || lower.includes("email") || lower.includes("phone") || lower.includes("freelance")) {
-        aiReply = "You can hire Sajjad for freelance, contract, or full-time AI/ML roles! 💼 Feel free to email him at sajjadxdev@gmail.com, call +92 316 6400174, or use the Contact form on this website. He is based in Peshawar and available for remote work worldwide!"
+        aiReply = "You can hire Sajjad for freelance, contract, or full-time AI/ML roles! 💼 Feel free to email him at sajjadxdev@gmail.com, call +92 316 6400174, or use the Contact form on this website. He is based in Islamabad and available for remote work worldwide!"
       } else if (lower.includes("cv") || lower.includes("resume") || lower.includes("summarize")) {
-        aiReply = "Sajjad is a top Machine Learning Engineer and AI Developer in Peshawar. You can view or download his full official CV by clicking the 'CV' button or visiting the /cv page on this website! 📜"
+        aiReply = "Sajjad is a top Machine Learning Engineer and AI Developer in Islamabad. You can view or download his full official CV by clicking the 'CV' button or visiting the /cv page on this website! 📜"
       } else if (lower.includes("hello") || lower.includes("hi") || lower.includes("hey")) {
         aiReply = "Hello there! 👋 Great to meet you. Feel free to ask me anything about Sajjad's AI projects, tech stack, or consultation availability!"
       }
