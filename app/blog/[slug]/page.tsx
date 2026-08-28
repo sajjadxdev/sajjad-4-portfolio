@@ -226,7 +226,7 @@ export default async function BlogPostPage({ params }: Props) {
                 <Sparkles size={16} className="text-primary" /> About the Author
               </div>
               <p className="text-xs text-muted-foreground leading-relaxed m-0">
-                Sajjad Ahmad is a Machine Learning Engineer specializing in LLM RAG pipelines, FastAPI backends, and Agentic AI applications in Peshawar, Pakistan.
+                Sajjad Ahmad is an AI Engineer specializing in LLM RAG pipelines, FastAPI backends, and Agentic AI applications in Islamabad, Pakistan.
               </p>
               <div className="flex items-center gap-3 pt-2">
                 <a href={post.author.github} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full border border-border hover:text-primary text-muted-foreground transition-colors">
@@ -279,7 +279,7 @@ export default async function BlogPostPage({ params }: Props) {
               <img src={post.author.image} alt={post.author.name} className="w-10 h-10 rounded-full border border-border object-cover" />
               <div>
                 <p className="font-bold text-sm text-foreground m-0">{post.author.name}</p>
-                <p className="text-xs text-muted-foreground m-0">Top AI & ML Developer in Peshawar</p>
+                <p className="text-xs text-muted-foreground m-0">AI Engineer based in Islamabad</p>
               </div>
             </div>
 

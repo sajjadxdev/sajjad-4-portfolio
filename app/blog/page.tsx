@@ -7,12 +7,12 @@ import { BLOG_POSTS } from "./data/posts";
 import { ArrowRight, Calendar, Clock, Sparkles, Tag, User } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "AI & ML Insights Blog | Sajjad Ahmad — AI Developer in Peshawar",
+  title: "AI & ML Insights Blog | Sajjad Ahmad — AI Engineer",
   description: "Read cutting-edge articles on Agentic AI, RAG pipelines, LLM fine-tuning, Machine Learning architecture, and business automation by Sajjad Ahmad.",
   keywords: [
     "AI Blog",
     "Agentic AI business sales",
-    "Machine Learning Blog Peshawar",
+    "Machine Learning Blog Islamabad",
     "LLM RAG guide",
     "Sajjad Ahmad blog",
     "AI sales automation",
@@ -51,7 +51,7 @@ export default function BlogIndexPage() {
         </h1>
 
         <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
-          In-depth technical guides, business ROI analyses, and architectural breakdowns written by Sajjad Ahmad—Top AI & ML Developer in Peshawar.
+          In-depth technical guides, business ROI analyses, and architectural breakdowns written by Sajjad Ahmad—AI Engineer based in Islamabad.
         </p>
       </section>
 
