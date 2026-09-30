@@ -9,49 +9,53 @@ import {
 
 const experiences = [
     {
-        title: "Machine Learning Engineer",
-        company: "Apptex Software Solution",
+        title: "AI Engineer",
+        company: "Apptex Software Solution, Pakistan",
         period: "Aug 2025 – Present",
         type: "work",
         highlights: [
-            "Designed & fine-tuned YOLO/CNN models for traffic light detection (84% accuracy)",
-            "Processed 10K+ labeled image samples for model training",
-            "Reduced inference latency by 30% through model quantization",
-            "Built end-to-end ML pipelines: data ingestion → production inference",
-            "Deployed models as scalable REST APIs with FastAPI + Docker"
+            "Develop and test Machine Learning and Deep Learning solutions using Python, PyTorch, and TensorFlow for real-world AI applications.",
+            "Perform end-to-end data preprocessing, feature engineering, model evaluation, debugging, and performance optimization across AI workflows.",
+            "Develop Computer Vision solutions using YOLO and CNN architectures for real-time object detection and image processing applications.",
+            "Build and integrate trained AI models through FastAPI REST APIs for backend deployment and application integration.",
+            "Develop LLM-powered applications using prompt engineering, RAG, and conversational memory as part of enterprise AI solutions."
         ],
     },
     {
         title: "Machine Learning Trainee",
-        company: "ML1 (Machine Learning 1 Pvt Ltd)",
-        period: "April 2025 – June 2025",
+        company: "ML1 Pvt Ltd, Pakistan",
+        period: "Apr 2025 – Jun 2025",
         type: "work",
         highlights: [
-            "Intensive training in supervised & unsupervised ML techniques",
-            "Built computer vision models for license plate detection (CNN + YOLO)",
-            "Applied cross-validation & hyperparameter tuning"
+            "Implemented end-to-end Machine Learning workflows including data preprocessing, feature scaling, model training, and validation using Python and Scikit-learn.",
+            "Worked with supervised and unsupervised learning techniques on real-world datasets to extract actionable data insights.",
+            "Developed Computer Vision models using CNNs and YOLO for object detection and classification tasks.",
+            "Applied cross-validation techniques and hyperparameter tuning to improve model performance and generalization."
         ],
     },
     {
-        title: "Chatbot Developer (LLM & NLP)",
-        company: "INNOVATION.TECH",
-        period: "Jan 2025 – April 2025",
+        title: "Chatbot Developer",
+        company: "INNOVATION.TECH, Pakistan",
+        period: "Jan 2025 – Apr 2025",
         type: "work",
         highlights: [
-            "Designed LLM-based conversational systems with prompt engineering",
-            "Built intelligent chatbot pipelines using LangChain",
-            "Integrated chatbot APIs using FastAPI"
+            "Developed LLM-powered applications using Python, LangChain, and Hugging Face models.",
+            "Designed multi-turn conversational pipelines with stateful memory mechanisms for context-aware interactive agents.",
+            "Integrated AI core services with FastAPI backends and REST APIs for low-latency client communication.",
+            "Engineered optimized prompt templates and LLM evaluation workflows to improve response accuracy."
         ],
     },
     {
-        title: "AI/ML Intern",
-        company: "Bave Technologies (Remote)",
-        period: "Aug 2024 – Sept 2024",
+        title: "Generative AI & Machine Learning Intern",
+        company: "VersatileSoft, Pakistan",
+        period: "Apr 2023 – Oct 2024",
         type: "work",
         highlights: [
-            "Developed supervised ML models using real-world datasets",
-            "Conducted EDA, handled missing values, engineered features",
-            "Supported CI/CD workflows for ML services"
+            "Developed and fine-tuned Large Language Models (LLMs) to generate accurate, domain-specific, and context-aware responses.",
+            "Built and refined Small Language Models (SLMs) and optimized runtime latency for edge and resource-constrained environments.",
+            "Executed automated data preprocessing, data cleaning, and evaluation pipelines to enhance dataset quality and model reliability.",
+            "Worked on modern Generative AI model architectures, fine-tuning methodologies (LoRA/QLoRA), and inference optimization.",
+            "Collaborated within cross-functional teams to resolve production bottlenecks and deliver robust AI product capabilities."
         ],
     },
     {

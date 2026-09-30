@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Github } from "lucide-react";
+import { Github, Video, ExternalLink } from "lucide-react";
 
 type Project = {
     icon: React.ReactNode;
@@ -10,6 +10,7 @@ type Project = {
     stack: string[];
     highlights: string[];
     github: string;
+    linkText?: string;
     accent?: string;
 };
 
@@ -103,8 +104,14 @@ export default function NotebookGlassCard({ project, index, isMobile }: Props) {
                             className="group inline-flex items-center gap-2 text-sm font-medium transition-all duration-300 hover:gap-3"
                             style={{ color: accent.replace("0.5", "0.9") }}
                         >
-                            <Github className="h-4 w-4" />
-                            View on GitHub
+                            {project.linkText && (project.linkText.toLowerCase().includes("video") || project.github.includes("drive.google") || project.github.includes("awesomescreenshot")) ? (
+                                <Video className="h-4 w-4" />
+                            ) : project.linkText ? (
+                                <ExternalLink className="h-4 w-4" />
+                            ) : (
+                                <Github className="h-4 w-4" />
+                            )}
+                            {project.linkText || "View on GitHub"}
                             <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
                         </Link>
                     </div>

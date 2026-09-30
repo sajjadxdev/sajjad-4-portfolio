@@ -13,6 +13,7 @@ export interface Project {
     stack: string[];
     highlights: string[];
     github: string;
+    linkText?: string;
     accent?: string;
 }
 
@@ -20,77 +21,95 @@ const projectsLarge: Project[] = [
     {
         icon: <Mic size={20} className="text-violet-400" />,
         title: "AI Voice Call Agent",
-        description: "Real-time AI voice agent integrating Speech-to-Text and Text-to-Speech with LLM-based conversational orchestration and contextual memory handling.",
-        stack: ["LLM", "FastAPI", "Docker", "Twilio"],
+        description: "Real-time AI voice agent integrating Speech-to-Text, Large Language Models, and Text-to-Speech with conversational memory for natural voice interactions.",
+        stack: ["Python", "STT/TTS", "LLMs", "FastAPI", "LangChain"],
         highlights: [
-            "Real-time speech processing pipeline",
-            "LLM orchestration with contextual memory",
-            "Modular backend architecture",
-            "Containerized for scalable deployment"
+            "Real-time speech-to-text, LLM, and text-to-speech integration",
+            "Multi-turn conversational memory & context orchestration",
+            "End-to-end conversational AI workflow for voice calls"
         ],
-        github: "https://github.com/sajjadxdev",
-        image: "/project1.png",
+        github: "https://drive.google.com/file/d/1M4A1Qn5exDoYM34kARs2IpG6EEYuvJZh/view",
+        linkText: "Watch Demo Video",
+        image: "/voice-assistant.jpeg",
         accent: "rgba(139,92,246,0.5)",
+    },
+    {
+        icon: <Car size={20} className="text-emerald-400" />,
+        title: "Automatic License Plate Recognition (ALPR)",
+        description: "Automatic vehicle license plate detection and extraction system using YOLO object detection and EasyOCR.",
+        stack: ["YOLO", "EasyOCR", "Python", "OpenCV", "PyTorch"],
+        highlights: [
+            "YOLO object detection & OCR text extraction",
+            "Computer Vision pipeline detecting license plates from vehicle images",
+            "Automated license plate detail parsing"
+        ],
+        github: "https://www.awesomescreenshot.com/video/54841618?key=92dc04fd65f5a9d743cd25fe95125412",
+        linkText: "Watch Demo Video",
+        image: "/detection1.png",
+        accent: "rgba(52,211,153,0.5)",
     },
     {
         icon: <Camera size={20} className="text-cyan-400" />,
         title: "Traffic Light Detection System",
-        description: "Computer vision system using YOLO-based object detection for real-time traffic light recognition with 84% validation accuracy.",
-        stack: ["YOLO", "CNN", "Python", "OpenCV"],
+        description: "Real-time traffic light detection and state recognition system built with YOLO for intelligent transportation systems.",
+        stack: ["YOLO", "PyTorch", "Python", "OpenCV", "Real-Time Inference"],
         highlights: [
-            "84% validation accuracy",
-            "Real-time video stream processing",
-            "Custom dataset training & fine-tuning",
-            "Optimized inference speed"
+            "Real-time traffic light detection using YOLO architecture",
+            "Custom dataset training, object detection, and evaluation",
+            "Low-latency real-time video stream inference"
         ],
-        github: "https://github.com/sajjadxdev",
-        image: "/project2.png",
+        github: "https://www.awesomescreenshot.com/video/54840783?key=d977f0332f7983810b68fa89cdd280ac",
+        linkText: "Watch Demo Video",
+        image: "/trafic.jpeg",
         accent: "rgba(34,211,238,0.5)",
     },
     {
-        icon: <Car size={20} className="text-emerald-400" />,
-        title: "Automatic License Plate Recognition",
-        description: "End-to-end detection and OCR pipeline for real-time license plate recognition using YOLOv8 and Tesseract.",
-        stack: ["YOLOv8", "Tesseract OCR", "Python", "OpenCV"],
-        highlights: [
-            "YOLOv8 for plate detection",
-            "Tesseract OCR text extraction",
-            "Modular architecture (detection → preprocessing → output)",
-            "Real-time processing capability"
-        ],
-        github: "https://github.com/sajjadxdev",
-        image: "/project3.png",
-        accent: "rgba(52,211,153,0.5)",
-    },
-    {
         icon: <FileSearch size={20} className="text-amber-400" />,
-        title: "AI-Powered PDF Q&A System",
-        description: "RAG pipeline using embeddings and semantic search for intelligent document question answering with conversational retrieval.",
-        stack: ["RAG", "LangChain", "HuggingFace", "Streamlit"],
+        title: "Lead Finder -- B2B Service Intelligence",
+        description: "Asynchronous B2B lead-generation platform discovering Google Maps listings with deep website gap analysis and automated scoring.",
+        stack: ["FastAPI", "Playwright", "BeautifulSoup4", "Pandas", "JavaScript"],
         highlights: [
-            "Document chunking & vector embeddings",
-            "Semantic search retrieval",
-            "Conversational Q&A with LangChain",
-            "Interactive Streamlit frontend"
+            "Discovers and analyzes targeted Google Maps business listings",
+            "Deep website gap-analysis (SSL, live chat, Cloudflare email extraction)",
+            "Opportunity Scoring & Service Matchmaking (Hot/Warm/Cold tiers)",
+            "Bloomberg Terminal-style dashboard with export capabilities"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/project4.png",
+        linkText: "View Repository",
+        image: "/lead_finder_dashboard.jpg",
         accent: "rgba(251,191,36,0.5)",
     },
     {
         icon: <BarChart3 size={20} className="text-rose-400" />,
-        title: "Titanic Survival Prediction",
-        description: "Complete ML pipeline including EDA, feature engineering, model training, and validation achieving 82% accuracy.",
-        stack: ["Random Forest", "XGBoost", "Pandas", "Scikit-learn"],
+        title: "Crypto Volatility & Market Scanner -- GulelX",
+        description: "High-frequency crypto market scanner streaming real-time metrics for 300+ USDT pairs via Binance APIs and WebSockets.",
+        stack: ["Python", "Flask", "WebSockets", "SSE", "NumPy", "Pandas"],
         highlights: [
-            "82% prediction accuracy",
-            "Feature engineering & EDA",
-            "Hyperparameter tuning",
-            "Cross-validation techniques"
+            "Streams 300+ USDT market pairs via WebSockets & Binance APIs",
+            "Concurrent workers using multithreading & ThreadPoolExecutor",
+            "ATR, Bollinger Bands, Historical Volatility & Volume Surge scoring",
+            "SSE-based real-time updates & thread-safe bounded buffers"
+        ],
+        github: "https://github.com/sajjadxdev/Voiltile_coin/",
+        linkText: "View Repository",
+        image: "/gulelx_crypto_scanner.jpg",
+        accent: "rgba(251,113,133,0.5)",
+    },
+    {
+        icon: <FileSearch size={20} className="text-indigo-400" />,
+        title: "AI Academic Quiz & RAG Platform",
+        description: "Modular RAG backend using ChromaDB and Groq LLM to generate context-aware academic quizzes with LaTeX normalization.",
+        stack: ["FastAPI", "RAG", "ChromaDB", "Groq LLM", "Docker", "Supabase"],
+        highlights: [
+            "RAG backend generating context-aware MCQs via Groq LLM",
+            "Vector indexing pipeline with Sentence-Transformers & LaTeX parsing",
+            "Solo & multiplayer quiz APIs with Supabase/PostgreSQL",
+            "Productionized via Docker, Nginx, Systemd with Flutter mobile app"
         ],
         github: "https://github.com/sajjadxdev",
-        image: "/project5.png",
-        accent: "rgba(251,113,133,0.5)",
+        linkText: "View Repository",
+        image: "/pdf-reader.jpeg",
+        accent: "rgba(129,140,248,0.5)",
     },
 ];
 
