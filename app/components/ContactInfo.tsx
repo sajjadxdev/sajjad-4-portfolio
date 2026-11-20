@@ -2,7 +2,7 @@
 
 import ShadowCard from "./ShadowCard"
 import InnerShadowCard from "./InnerShadowEffect"
-import { Github, Linkedin, Mail, Phone, Info, Send } from "lucide-react"
+import { Github, Linkedin, Mail, Phone, Info, } from "lucide-react"
 
 export default function ContactCTASection() {
     return (

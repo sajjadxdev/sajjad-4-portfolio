@@ -1,6 +1,6 @@
 "use client"
 import React, { useState, useEffect } from 'react';
-import { MessageSquare, X, Sparkles, Bot } from 'lucide-react';
+import { X, Sparkles, Bot } from 'lucide-react';
 
 export default function ChatTooltip() {
   const [isVisible, setIsVisible] = useState(true);
@@ -30,8 +30,8 @@ export default function ChatTooltip() {
             }
           `}</style>
           
-          <div className="relative flex items-center gap-2 px-4 py-3 rounded-2xl bg-gradient-to-r from-primary to-purple-600 text-white shadow-2xl backdrop-blur-md border border-white/20">
-            <Sparkles className="w-5 h-5 animate-pulse text-yellow-300" />
+          <div className="relative flex items-center gap-2 px-4 py-3 rounded-full bg-[#161414] text-[#ede6d8] shadow-2xl border border-white/10">
+            <Sparkles className="w-4 h-4 text-[#e0574d]" />
             <span className="text-sm font-semibold tracking-wide">
               Chat with AI Assistant!
             </span>
@@ -41,7 +41,7 @@ export default function ChatTooltip() {
             >
               <X className="w-3.5 h-3.5" />
             </button>
-            <div className="absolute -bottom-2 right-4 w-4 h-4 bg-purple-600 rotate-45 transform origin-center border-b border-r border-white/20" />
+            <div className="absolute -bottom-2 right-4 w-4 h-4 bg-[#161414] rotate-45 transform origin-center border-b border-r border-white/20" />
           </div>
         </div>
       )}
@@ -50,7 +50,7 @@ export default function ChatTooltip() {
       {/* pointer-events-none lets the click pass through to the actual Qualzo widget underneath! */}
       <div className="fixed bottom-6 right-6 z-[9998] w-[60px] h-[60px] rounded-full bg-card shadow-2xl border border-border flex items-center justify-center pointer-events-none">
         <Bot className="w-8 h-8 text-primary pointer-events-none" />
-        <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-primary/40 to-purple-500/40 blur-sm opacity-50 -z-10" />
+        <div className="absolute -inset-1 rounded-full bg-[#b3261e]/40 blur-sm opacity-50 -z-10" />
       </div>
     </>
   );

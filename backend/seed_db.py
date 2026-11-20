@@ -46,7 +46,7 @@ documents = [
     "Education: Sajjad Ahmad holds a Bachelor of Science in Computer Science with a focus on Artificial Intelligence and Deep Learning from Islamabad, Pakistan.",
     
     # Contact & Hire
-    "Contact & Hiring: You can hire Sajjad Ahmad for freelance, contract, or full-time ML and AI roles (remote worldwide or local in Islamabad). Email: sajjadxdev@gmail.com | Phone/WhatsApp: +92 316 6400174 | LinkedIn: https://linkedin.com/in/sajjadxdev | GitHub: https://github.com/sajjadxdev | Website: https://sajjadahmadai.vercel.app",
+    "Contact & Hiring: You can hire Sajjad Ahmad for freelance, contract, or full-time ML and AI roles (remote worldwide or local in Islamabad). Email: sajjadxdev@gmail.com | Phone/WhatsApp: +92 316 6400174 | LinkedIn: https://linkedin.com/in/sajjadxdev | GitHub: https://github.com/sajjadxdev | Website: https://www.sajjadahmad.site",
     
     # Location & Availability
     "Sajjad Ahmad is based in Islamabad, Khyber Pakhtunkhwa, Pakistan. He is available for remote projects worldwide and local consultations in Pakistan."

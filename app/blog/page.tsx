@@ -1,10 +1,11 @@
+import Image from "next/image";
+import Footer from "@/app/components/Footer";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "../components/Header";
 import ShadowCard from "../components/ShadowCard";
-import InnerShadowCard from "../components/InnerShadowEffect";
 import { BLOG_POSTS } from "./data/posts";
-import { ArrowRight, Calendar, Clock, Sparkles, Tag, User } from "lucide-react";
+import { ArrowRight, Calendar, Clock, Sparkles, Tag, } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "AI & ML Insights Blog | Sajjad Ahmad — AI Engineer",
@@ -21,9 +22,11 @@ export const metadata: Metadata = {
     canonical: "/blog",
   },
   openGraph: {
+
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Sajjad Ahmad, AI Engineer" }],
     title: "AI & ML Insights Blog | Sajjad Ahmad",
     description: "Cutting-edge insights on Agentic AI, RAG pipelines, and LLM automation for business growth.",
-    url: "https://sajjadahmadai.vercel.app/blog",
+    url: "https://www.sajjadahmad.site/blog",
     siteName: "Sajjad Ahmad Portfolio & Blog",
     type: "website",
   },
@@ -33,37 +36,37 @@ export default function BlogIndexPage() {
   const featuredPost = BLOG_POSTS[0];
 
   return (
-    <main className="relative min-h-screen bg-background text-foreground pb-24">
+    <main className="relative min-h-screen bg-background text-foreground">
       <Header />
 
       {/* Hero Header */}
-      <section className="pt-36 pb-16 px-6 max-w-7xl mx-auto text-center">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card mb-6 text-xs uppercase tracking-widest text-primary font-semibold">
+      <section className="pt-20 pb-16 px-[var(--gutter)]">
+        <div className="eyebrow inline-flex items-center gap-2 mb-6">
           <Sparkles size={14} />
           AI & Machine Learning Insights
         </div>
 
-        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 max-w-4xl mx-auto leading-tight">
+        <h1 className="text-[42px] sm:text-6xl lg:text-7xl font-bold tracking-[-0.06em] leading-[0.95] mb-6 max-w-4xl">
           Engineering the Future of <br className="hidden sm:inline" />
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-purple-500 to-indigo-500">
+          <span className="text-primary">
             Agentic AI & Business Automation
           </span>
         </h1>
 
-        <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
+        <p className="text-muted-foreground text-lg max-w-2xl leading-relaxed">
           In-depth technical guides, business ROI analyses, and architectural breakdowns written by Sajjad Ahmad—AI Engineer based in Islamabad.
         </p>
       </section>
 
       {/* Featured Post Card */}
       {featuredPost && (
-        <section className="px-6 max-w-7xl mx-auto mb-20">
+        <section className="px-[var(--gutter)] mb-20">
           <ShadowCard className="p-8 sm:p-12 rounded-[32px] border border-border relative overflow-hidden">
             <div className="grid lg:grid-cols-12 gap-8 items-center">
               
               <div className="lg:col-span-8 space-y-6">
                 <div className="flex flex-wrap items-center gap-4 text-xs text-muted-foreground font-medium">
-                  <span className="px-3 py-1 rounded-full border border-primary/30 text-primary bg-primary/10 font-semibold">
+                  <span className="eyebrow">
                     Featured Article
                   </span>
                   <div className="flex items-center gap-1.5">
@@ -101,7 +104,7 @@ export default function BlogIndexPage() {
                 <div className="pt-4 flex items-center justify-between">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full border border-border overflow-hidden bg-muted">
-                      <img src={featuredPost.author.image} alt={featuredPost.author.name} className="w-full h-full object-cover" />
+                      <Image src={featuredPost.author.image} alt={featuredPost.author.name} width={40} height={40} className="w-full h-full object-cover" />
                     </div>
                     <div>
                       <p className="text-sm font-semibold text-foreground m-0">{featuredPost.author.name}</p>
@@ -120,11 +123,13 @@ export default function BlogIndexPage() {
 
               {/* Visual Banner Image */}
               <div className="lg:col-span-4 h-full min-h-[240px] rounded-2xl border border-border overflow-hidden relative group">
-                <Link href={`/blog/${featuredPost.slug}`} className="block h-full w-full">
-                  <img
+                <Link href={`/blog/${featuredPost.slug}`} className="relative block h-full w-full">
+                  <Image
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 360px"
                     src={featuredPost.coverImage}
                     alt={featuredPost.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain bg-white group-hover:scale-[1.02] transition-transform duration-500"
                   />
                 </Link>
               </div>
@@ -135,7 +140,7 @@ export default function BlogIndexPage() {
       )}
 
       {/* All Articles Grid */}
-      <section className="px-6 max-w-7xl mx-auto">
+      <section className="px-[var(--gutter)]">
         <div className="mb-10 flex items-center justify-between border-b border-border pb-4">
           <h2 className="text-2xl font-bold text-foreground flex items-center gap-2">
             <Tag size={20} className="text-primary" />
@@ -145,7 +150,7 @@ export default function BlogIndexPage() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {BLOG_POSTS.map((post) => (
+          {[...BLOG_POSTS].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt)).map((post) => (
             <ShadowCard key={post.slug} className="p-6 rounded-2xl border border-border flex flex-col justify-between">
               <div className="space-y-4">
                 <div className="flex items-center gap-3 text-xs text-muted-foreground">
@@ -185,6 +190,7 @@ export default function BlogIndexPage() {
           ))}
         </div>
       </section>
+      <Footer />
     </main>
   );
 }

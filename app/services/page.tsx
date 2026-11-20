@@ -1,8 +1,8 @@
+import Footer from "@/app/components/Footer";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "../components/Header";
 import ShadowCard from "../components/ShadowCard";
-import InnerShadowCard from "../components/InnerShadowEffect";
 import {
   ArrowRight,
   Bot,
@@ -16,7 +16,7 @@ import {
 
 export const metadata: Metadata = {
   title: "AI Development Services | Sajjad Ahmad — AI Engineer",
-  description: "Explore production AI development services: Agentic AI Systems, Custom RAG Pipelines, Generative AI Applications, Model Context Protocol (MCP) Servers, and Computer Vision.",
+  description: "Production AI development services: AI agents, custom RAG pipelines, generative AI apps, MCP servers, computer vision and ML deployment.",
   keywords: [
     "AI Development Services",
     "Agentic AI Development",
@@ -30,9 +30,11 @@ export const metadata: Metadata = {
     canonical: "/services",
   },
   openGraph: {
+
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Sajjad Ahmad, AI Engineer" }],
     title: "AI Development Services | Sajjad Ahmad",
     description: "Production AI development services: Agentic AI, RAG pipelines, LLM applications, and custom MCP integrations.",
-    url: "https://sajjadahmadai.vercel.app/services",
+    url: "https://www.sajjadahmad.site/services",
     siteName: "Sajjad Ahmad Portfolio",
     type: "website",
   },
@@ -50,7 +52,7 @@ const SERVICES = [
     slug: "rag-development",
     icon: Database,
     title: "Custom RAG Pipelines",
-    description: "Enterprise Retrieval-Augmented Generation systems leveraging vector databases (ChromaDB, Pinecone) for zero-hallucination factual search.",
+    description: "Enterprise Retrieval-Augmented Generation systems leveraging vector databases (ChromaDB, Pinecone) to ground answers in your own documents.",
     features: ["Vector embedding indexing", "Distance threshold guardrails", "Hybrid semantic search", "Document & Knowledge Base AI"],
   },
   {
@@ -93,7 +95,7 @@ export default function ServicesIndexPage() {
         provider: {
           "@type": "Person",
           name: "Sajjad Ahmad",
-          url: "https://sajjadahmadai.vercel.app",
+          url: "https://www.sajjadahmad.site",
         },
         serviceType: "Artificial Intelligence Development",
         areaServed: ["Worldwide", "Pakistan", "United Arab Emirates", "Germany", "United States"],
@@ -105,13 +107,13 @@ export default function ServicesIndexPage() {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://sajjadahmadai.vercel.app",
+            item: "https://www.sajjadahmad.site",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "Services",
-            item: "https://sajjadahmadai.vercel.app/services",
+            item: "https://www.sajjadahmad.site/services",
           },
         ],
       },
@@ -119,7 +121,7 @@ export default function ServicesIndexPage() {
   };
 
   return (
-    <main className="relative min-h-screen bg-background text-foreground pb-24">
+    <main className="relative min-h-screen bg-background text-foreground">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -127,22 +129,22 @@ export default function ServicesIndexPage() {
       <Header />
 
       {/* Hero Header */}
-      <section className="pt-36 pb-16 px-6 max-w-7xl mx-auto text-center">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card mb-6 text-xs uppercase tracking-widest text-primary font-semibold">
+      <section className="pt-20 pb-16 px-[var(--gutter)]">
+        <div className="eyebrow inline-flex items-center gap-2 mb-6">
           <Brain size={14} /> AI Development Services
         </div>
 
-        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 max-w-4xl mx-auto leading-tight">
+        <h1 className="text-[42px] sm:text-6xl lg:text-7xl font-bold tracking-[-0.06em] leading-[0.95] mb-6 max-w-4xl">
           Production AI Systems Built for Real-World Value
         </h1>
 
-        <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
+        <p className="text-muted-foreground text-lg max-w-2xl leading-relaxed">
           From autonomous agent architectures to enterprise RAG pipelines, explore specialized AI engineering services tailored to your technical requirements.
         </p>
       </section>
 
       {/* Services Grid */}
-      <section className="px-6 max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <section className="px-[var(--gutter)] grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {SERVICES.map((service) => {
           const Icon = service.icon;
           return (
@@ -187,6 +189,7 @@ export default function ServicesIndexPage() {
           );
         })}
       </section>
+      <Footer />
     </main>
   );
 }

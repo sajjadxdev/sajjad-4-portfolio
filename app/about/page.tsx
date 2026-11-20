@@ -1,27 +1,22 @@
+import Image from "next/image";
+import Footer from "@/app/components/Footer";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "../components/Header";
 import ShadowCard from "../components/ShadowCard";
 import InnerShadowCard from "../components/InnerShadowEffect";
 import {
-  ArrowRight,
   Brain,
   CheckCircle2,
-  Code,
-  Cpu,
   Github,
-  Globe,
   Linkedin,
   Mail,
   MapPin,
-  Rocket,
-  ShieldCheck,
-  Terminal,
-} from "lucide-react";
+  } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Sajjad Ahmad | AI Engineer — Generative AI, Agentic AI & RAG",
-  description: "Learn about Sajjad Ahmad, AI Engineer based in Islamabad, Pakistan. Specializing in Generative AI, Agentic AI, custom RAG pipelines, LLM integration, and production ML systems.",
+  title: "About Sajjad Ahmad | AI Engineer in Islamabad",
+  description: "About Sajjad Ahmad, an AI Engineer in Islamabad, Pakistan specializing in Generative AI, AI agents, custom RAG pipelines and production ML systems.",
   keywords: [
     "About Sajjad Ahmad",
     "Sajjad Ahmad AI Engineer",
@@ -34,12 +29,12 @@ export const metadata: Metadata = {
     canonical: "/about",
   },
   openGraph: {
-    title: "About Sajjad Ahmad | AI Engineer — Generative AI, Agentic AI & RAG",
+    title: "About Sajjad Ahmad | AI Engineer in Islamabad",
     description: "Sajjad Ahmad is an AI Engineer specializing in Generative AI, Agentic AI, custom RAG pipelines, and scalable production AI systems.",
-    url: "https://sajjadahmadai.vercel.app/about",
+    url: "https://www.sajjadahmad.site/about",
     siteName: "Sajjad Ahmad - AI Engineer Portfolio",
     type: "profile",
-    images: [{ url: "/sajjad.png", alt: "Sajjad Ahmad - AI Engineer" }],
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Sajjad Ahmad, AI Engineer" }],
   },
 };
 
@@ -49,16 +44,16 @@ export default function AboutPage() {
     "@graph": [
       {
         "@type": "Person",
-        "@id": "https://sajjadahmadai.vercel.app/#person",
+        "@id": "https://www.sajjadahmad.site/#person",
         name: "Sajjad Ahmad",
         jobTitle: "AI Engineer",
         description: "AI Engineer specializing in Generative AI, Agentic AI, custom RAG pipelines, LLM applications, and production Machine Learning systems.",
-        url: "https://sajjadahmadai.vercel.app",
-        image: "https://sajjadahmadai.vercel.app/sajjad.png",
+        url: "https://www.sajjadahmad.site",
+        image: "https://www.sajjadahmad.site/sajjad-ahmad-ai-engineer.jpg",
         address: {
           "@type": "PostalAddress",
           addressLocality: "Islamabad",
-          addressRegion: "Khyber Pakhtunkhwa",
+          addressRegion: "Islamabad Capital Territory",
           addressCountry: "PK",
         },
         sameAs: [
@@ -73,13 +68,13 @@ export default function AboutPage() {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://sajjadahmadai.vercel.app",
+            item: "https://www.sajjadahmad.site",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "About",
-            item: "https://sajjadahmadai.vercel.app/about",
+            item: "https://www.sajjadahmad.site/about",
           },
         ],
       },
@@ -87,7 +82,7 @@ export default function AboutPage() {
   };
 
   return (
-    <main className="relative min-h-screen bg-background text-foreground pb-24">
+    <main className="relative min-h-screen bg-background text-foreground">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -95,12 +90,12 @@ export default function AboutPage() {
       <Header />
 
       {/* Hero Header */}
-      <section className="pt-36 pb-16 px-6 max-w-5xl mx-auto">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card mb-6 text-xs uppercase tracking-widest text-primary font-semibold">
+      <section className="pt-20 pb-16 px-[var(--gutter)]">
+        <div className="eyebrow inline-flex items-center gap-2 mb-6">
           <Brain size={14} /> About Sajjad Ahmad
         </div>
 
-        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+        <h1 className="text-[42px] sm:text-6xl lg:text-7xl font-bold tracking-[-0.06em] leading-[0.95] mb-6">
           AI Engineer Building Production-Ready AI Systems
         </h1>
 
@@ -110,13 +105,13 @@ export default function AboutPage() {
       </section>
 
       {/* Main Profile Grid */}
-      <section className="px-6 max-w-5xl mx-auto space-y-12">
+      <section className="px-[var(--gutter)] space-y-12">
         <ShadowCard className="p-8 sm:p-12 rounded-[32px] border border-border">
           <div className="grid md:grid-cols-12 gap-8 items-center">
             
             <div className="md:col-span-4 flex flex-col items-center text-center space-y-4">
               <div className="w-36 h-36 rounded-3xl border border-border overflow-hidden shadow-xl bg-card">
-                <img src="/sajjad.png" alt="Sajjad Ahmad" className="w-full h-full object-cover" />
+                <Image src="/sajjad-ahmad-avatar.jpg" alt="Sajjad Ahmad, AI Engineer in Islamabad, Pakistan" width={144} height={144} className="w-full h-full object-cover" />
               </div>
               <div>
                 <h2 className="text-xl font-bold text-foreground">Sajjad Ahmad</h2>
@@ -151,28 +146,28 @@ export default function AboutPage() {
               <div className="grid sm:grid-cols-2 gap-4">
                 <InnerShadowCard className="p-4 rounded-xl space-y-1">
                   <p className="font-bold text-foreground text-sm m-0 flex items-center gap-2">
-                    <CheckCircle2 size={16} className="text-emerald-500" /> Agentic AI Systems
+                    <CheckCircle2 size={16} className="text-primary" /> Agentic AI Systems
                   </p>
                   <p className="text-xs text-muted-foreground m-0">Autonomous goal seeking & tool calling</p>
                 </InnerShadowCard>
 
                 <InnerShadowCard className="p-4 rounded-xl space-y-1">
                   <p className="font-bold text-foreground text-sm m-0 flex items-center gap-2">
-                    <CheckCircle2 size={16} className="text-emerald-500" /> Custom RAG Pipelines
+                    <CheckCircle2 size={16} className="text-primary" /> Custom RAG Pipelines
                   </p>
-                  <p className="text-xs text-muted-foreground m-0">Zero-hallucination factual knowledge retrieval</p>
+                  <p className="text-xs text-muted-foreground m-0">Answers grounded in your own documents</p>
                 </InnerShadowCard>
 
                 <InnerShadowCard className="p-4 rounded-xl space-y-1">
                   <p className="font-bold text-foreground text-sm m-0 flex items-center gap-2">
-                    <CheckCircle2 size={16} className="text-emerald-500" /> Model Context Protocol
+                    <CheckCircle2 size={16} className="text-primary" /> Model Context Protocol
                   </p>
                   <p className="text-xs text-muted-foreground m-0">Custom MCP server & API integrations</p>
                 </InnerShadowCard>
 
                 <InnerShadowCard className="p-4 rounded-xl space-y-1">
                   <p className="font-bold text-foreground text-sm m-0 flex items-center gap-2">
-                    <CheckCircle2 size={16} className="text-emerald-500" /> Computer Vision & NLP
+                    <CheckCircle2 size={16} className="text-primary" /> Computer Vision & NLP
                   </p>
                   <p className="text-xs text-muted-foreground m-0">Object detection, OCR & text classification</p>
                 </InnerShadowCard>
@@ -191,15 +186,25 @@ export default function AboutPage() {
             While based in Islamabad, Pakistan, I work seamlessly with engineering teams and businesses across the <strong className="text-foreground">UAE & Middle East, Europe (Germany, UK, EU), and the United States</strong>. I maintain structured communication, milestone-driven check-ins, and flexible time-zone availability.
           </p>
 
-          <div className="grid sm:grid-cols-3 gap-6 pt-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 pt-4">
             <Link href="/locations/islamabad" className="p-6 rounded-2xl border border-border bg-card hover:border-primary transition-colors block">
-              <h3 className="font-bold text-foreground text-base mb-2">Islamabad & Pakistan</h3>
-              <p className="text-xs text-muted-foreground m-0">Local consultation & national AI development</p>
+              <h3 className="font-bold text-foreground text-base mb-2">Islamabad</h3>
+              <p className="text-xs text-muted-foreground m-0">Local consultation & AI development</p>
+            </Link>
+
+            <Link href="/locations/pakistan" className="p-6 rounded-2xl border border-border bg-card hover:border-primary transition-colors block">
+              <h3 className="font-bold text-foreground text-base mb-2">Pakistan</h3>
+              <p className="text-xs text-muted-foreground m-0">Nationwide AI engineering</p>
             </Link>
 
             <Link href="/locations/uae" className="p-6 rounded-2xl border border-border bg-card hover:border-primary transition-colors block">
               <h3 className="font-bold text-foreground text-base mb-2">Middle East & UAE</h3>
               <p className="text-xs text-muted-foreground m-0">Enterprise AI automation & RAG solutions</p>
+            </Link>
+
+            <Link href="/locations/germany" className="p-6 rounded-2xl border border-border bg-card hover:border-primary transition-colors block">
+              <h3 className="font-bold text-foreground text-base mb-2">Germany & Europe</h3>
+              <p className="text-xs text-muted-foreground m-0">GDPR-aware remote AI engineering</p>
             </Link>
 
             <Link href="/locations/usa" className="p-6 rounded-2xl border border-border bg-card hover:border-primary transition-colors block">
@@ -210,8 +215,8 @@ export default function AboutPage() {
         </section>
 
         {/* Call to Action */}
-        <div className="p-8 rounded-3xl bg-gradient-to-br from-primary/10 via-card to-background border border-primary/20 text-center space-y-4">
-          <h3 className="text-2xl font-bold text-foreground">Let's Discuss Your AI Project</h3>
+        <div className="p-8 rounded-3xl theme-dark-cta text-center space-y-4">
+          <h3 className="text-2xl font-bold text-foreground">Let&apos;s Discuss Your AI Project</h3>
           <p className="text-muted-foreground max-w-xl mx-auto text-sm">
             Whether you need autonomous AI agents, enterprise RAG, custom MCP servers, or full AI application development, get in touch to get started.
           </p>
@@ -226,6 +231,7 @@ export default function AboutPage() {
         </div>
 
       </section>
+      <Footer />
     </main>
   );
 }

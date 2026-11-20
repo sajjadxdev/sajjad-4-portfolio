@@ -27,6 +27,8 @@ export function ThemeProvider({
         const saved = localStorage.getItem("theme") as Theme | null
 
         if (saved) {
+            // Syncing from localStorage must happen after mount to avoid a hydration mismatch
+            // eslint-disable-next-line react-hooks/set-state-in-effect
             setTheme(saved)
             document.documentElement.classList.toggle(
                 "dark",

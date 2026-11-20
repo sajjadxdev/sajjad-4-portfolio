@@ -1,3 +1,4 @@
+import Footer from "@/app/components/Footer";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Header from "../components/Header";
@@ -5,15 +6,17 @@ import ShadowCard from "../components/ShadowCard";
 import { ArrowRight, Globe, MapPin } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Global AI Engineering & Geographic Service Regions | Sajjad Ahmad",
+  title: "AI Engineering Service Regions | Sajjad Ahmad",
   description: "Explore AI engineering and development services across target regional hubs: Islamabad, Pakistan, UAE & Middle East, Germany & Europe, and the United States.",
   alternates: {
     canonical: "/locations",
   },
   openGraph: {
+
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Sajjad Ahmad, AI Engineer" }],
     title: "Geographic Service Regions | Sajjad Ahmad — AI Engineer",
     description: "Sajjad Ahmad provides remote and regional AI engineering services across Pakistan, the Middle East, Europe, and the US.",
-    url: "https://sajjadahmadai.vercel.app/locations",
+    url: "https://www.sajjadahmad.site/locations",
     siteName: "Sajjad Ahmad Portfolio",
     type: "website",
   },
@@ -63,13 +66,13 @@ export default function LocationsIndexPage() {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://sajjadahmadai.vercel.app",
+            item: "https://www.sajjadahmad.site",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "Locations",
-            item: "https://sajjadahmadai.vercel.app/locations",
+            item: "https://www.sajjadahmad.site/locations",
           },
         ],
       },
@@ -77,32 +80,32 @@ export default function LocationsIndexPage() {
   };
 
   return (
-    <main className="relative min-h-screen bg-background text-foreground pb-24">
+    <main className="relative min-h-screen bg-background text-foreground">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Header />
 
-      <section className="pt-36 pb-16 px-6 max-w-5xl mx-auto text-center">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card mb-6 text-xs uppercase tracking-widest text-primary font-semibold">
+      <section className="pt-20 pb-16 px-[var(--gutter)]">
+        <div className="eyebrow inline-flex items-center gap-2 mb-6">
           <Globe size={14} /> Geographic Service Hubs
         </div>
 
-        <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+        <h1 className="text-[42px] sm:text-6xl lg:text-7xl font-bold tracking-[-0.06em] leading-[0.95] mb-6">
           AI Engineering Across Key Regions
         </h1>
 
-        <p className="text-muted-foreground text-lg max-w-2xl mx-auto leading-relaxed">
+        <p className="text-muted-foreground text-lg max-w-2xl leading-relaxed">
           Sajjad Ahmad provides custom AI engineering, Agentic AI development, and RAG systems tailored to local, regional, and global remote business requirements.
         </p>
       </section>
 
-      <section className="px-6 max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+      <section className="px-[var(--gutter)] grid md:grid-cols-2 gap-8">
         {LOCATIONS.map((loc) => (
           <ShadowCard key={loc.slug} className="p-8 rounded-3xl border border-border flex flex-col justify-between group hover:border-primary/50 transition-colors">
             <div className="space-y-4">
-              <span className="text-xs px-3 py-1 rounded-full border border-primary/30 text-primary bg-primary/10 font-semibold w-fit inline-block">
+              <span className="eyebrow w-fit inline-block">
                 {loc.tier}
               </span>
 
@@ -128,6 +131,7 @@ export default function LocationsIndexPage() {
           </ShadowCard>
         ))}
       </section>
+      <Footer />
     </main>
   );
 }

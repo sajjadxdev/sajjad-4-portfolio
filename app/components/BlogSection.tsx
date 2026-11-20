@@ -3,7 +3,7 @@
 import Link from "next/link"
 import ShadowCard from "./ShadowCard"
 import { BLOG_POSTS } from "../blog/data/posts"
-import { ArrowRight, BookOpen, Calendar, Clock, Sparkles } from "lucide-react"
+import { ArrowRight, BookOpen, Calendar, Clock, } from "lucide-react"
 
 export default function BlogSection() {
     return (

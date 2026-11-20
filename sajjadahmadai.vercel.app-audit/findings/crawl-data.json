@@ -1,0 +1,1850 @@
+[
+ {
+  "path": "/",
+  "status": 200,
+  "title": "Sajjad Ahmad | AI Engineer \u2014 Generative AI, Agentic AI & RAG",
+  "title_len": 60,
+  "desc": "Portfolio of Sajjad Ahmad, AI Engineer based in Islamabad, Pakistan. Specializing in Generative AI, Agentic AI, custom RAG pipelines, LLM applications, and production AI systems.",
+  "desc_len": 178,
+  "canonical": "https://sajjadahmadai.vercel.app",
+  "robots": "index, follow",
+  "og_image": "https://sajjadahmadai.vercel.app/sajjad.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Build AI thatworks in the real world."
+  ],
+  "headings": [
+   [
+    "h1",
+    "Build AI thatworks in the real world."
+   ],
+   [
+    "h2",
+    "Focused expertise.Useful outcomes."
+   ],
+   [
+    "h3",
+    "Generative AI systems"
+   ],
+   [
+    "h3",
+    "Computer vision"
+   ],
+   [
+    "h3",
+    "Production APIs"
+   ],
+   [
+    "h3",
+    "ML engineering"
+   ],
+   [
+    "h3",
+    "AI product delivery"
+   ],
+   [
+    "h3",
+    "Model optimization"
+   ],
+   [
+    "h2",
+    "Projects thatshipped."
+   ],
+   [
+    "h3",
+    "AI Voice Call Agent"
+   ],
+   [
+    "h3",
+    "Automatic License Plate Recognition"
+   ],
+   [
+    "h3",
+    "Traffic Light Detection System"
+   ],
+   [
+    "h3",
+    "Lead Finder Service Intelligence"
+   ],
+   [
+    "h3",
+    "GulelX Crypto Market Scanner"
+   ],
+   [
+    "h3",
+    "AI Academic Quiz & RAG Platform"
+   ],
+   [
+    "h2",
+    "Technical depth.Human communication."
+   ],
+   [
+    "h2",
+    "Let's turn the idea into a system."
+   ]
+  ],
+  "words": 861,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad-cutout.png&w=3840&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad-cutout.png&w=256&q=75",
+    "alt": ""
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/services",
+   "/services/ai-product-delivery",
+   "/services/computer-vision",
+   "/services/generative-ai",
+   "/services/ml-engineering",
+   "/services/model-optimization",
+   "/services/production-apis"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/about",
+  "status": 200,
+  "title": "About Sajjad Ahmad | AI Engineer \u2014 Generative AI, Agentic AI & RAG",
+  "title_len": 66,
+  "desc": "Learn about Sajjad Ahmad, AI Engineer based in Islamabad, Pakistan. Specializing in Generative AI, Agentic AI, custom RAG pipelines, LLM integration, and production ML systems.",
+  "desc_len": 176,
+  "canonical": "https://sajjadahmadai.vercel.app/about",
+  "robots": "index, follow",
+  "og_image": "https://sajjadahmadai.vercel.app/sajjad.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "AI Engineer Building Production-Ready AI Systems"
+  ],
+  "headings": [
+   [
+    "h1",
+    "AI Engineer Building Production-Ready AI Systems"
+   ],
+   [
+    "h2",
+    "Sajjad Ahmad"
+   ],
+   [
+    "h3",
+    "Engineering Philosophy & Expertise"
+   ],
+   [
+    "h2",
+    "Global Remote Collaboration"
+   ],
+   [
+    "h3",
+    "Islamabad & Pakistan"
+   ],
+   [
+    "h3",
+    "Middle East & UAE"
+   ],
+   [
+    "h3",
+    "US & Global Remote"
+   ],
+   [
+    "h3",
+    "Let's Discuss Your AI Project"
+   ]
+  ],
+  "words": 254,
+  "imgs": [
+   {
+    "src": "/sajjad.png",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "Person",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/locations/islamabad",
+   "/locations/uae",
+   "/locations/usa",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog",
+  "status": 200,
+  "title": "AI & ML Insights Blog | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 50,
+  "desc": "Read cutting-edge articles on Agentic AI, RAG pipelines, LLM fine-tuning, Machine Learning architecture, and business automation by Sajjad Ahmad.",
+  "desc_len": 145,
+  "canonical": "https://sajjadahmadai.vercel.app/blog",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Engineering the Future of Agentic AI & Business Automation"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Engineering the Future of Agentic AI & Business Automation"
+   ],
+   [
+    "h2",
+    "How Can AI Agents Increase Sales for Your Business?"
+   ],
+   [
+    "h2",
+    "All Published Guides"
+   ],
+   [
+    "h3",
+    "How Can AI Agents Increase Sales for Your Business?"
+   ],
+   [
+    "h3",
+    "What Is Agentic AI? A Complete Guide for Engineers & Businesses"
+   ],
+   [
+    "h3",
+    "What Is Model Context Protocol (MCP)? Architecture & Integration Guide"
+   ],
+   [
+    "h3",
+    "Andrew Ng: The Biggest Opportunities in AI Aren't Where You Think"
+   ]
+  ],
+  "words": 324,
+  "imgs": [
+   {
+    "src": "/sajjad.png",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/blog-banner.png",
+    "alt": "How Can AI Agents Increase Sales for Your Business?"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/andrew-ng-biggest-opportunities-in-ai",
+   "/blog/how-can-ai-agents-increase-sales-for-your-business",
+   "/blog/what-is-agentic-ai",
+   "/blog/what-is-model-context-protocol-mcp",
+   "/cv",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/cv",
+  "status": 200,
+  "title": "Sajjad Ahmad CV & Resume | Top AI and ML Developer in Islamabad",
+  "title_len": 63,
+  "desc": "Official Curriculum Vitae (CV) and Resume of Sajjad Ahmad \u2014 Top Machine Learning Engineer and AI Developer based in Islamabad, Pakistan. Specializing in LLM applications, RAG pipelines, NLP, and Computer Vision.",
+  "desc_len": 211,
+  "canonical": "https://sajjadahmadai.vercel.app",
+  "robots": "index, follow",
+  "og_image": "https://sajjadahmadai.vercel.app/sajjad.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Sajjad Ahmad"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Sajjad Ahmad"
+   ],
+   [
+    "h2",
+    "Professional Summary"
+   ],
+   [
+    "h2",
+    "Core Expertise & Skills"
+   ],
+   [
+    "h3",
+    "AI & Large Language Models"
+   ],
+   [
+    "h3",
+    "Machine Learning & Deep Learning"
+   ],
+   [
+    "h3",
+    "Backend & MLOps"
+   ],
+   [
+    "h2",
+    "Key Projects & Experience"
+   ],
+   [
+    "h3",
+    "Enterprise RAG & LLM Assistant Platform"
+   ],
+   [
+    "h3",
+    "Real-Time Computer Vision & Object Detection System"
+   ],
+   [
+    "h3",
+    "AI Voice Assistant & NLP Trading Analyzer"
+   ],
+   [
+    "h2",
+    "Education & Background"
+   ],
+   [
+    "h3",
+    "Bachelor of Science in Computer Science / AI"
+   ]
+  ],
+  "words": 373,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/sajjad-ahmad-resume.pdf",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services",
+  "status": 200,
+  "title": "AI Development Services | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 52,
+  "desc": "Explore production AI development services: Agentic AI Systems, Custom RAG Pipelines, Generative AI Applications, Model Context Protocol (MCP) Servers, and Computer Vision.",
+  "desc_len": 172,
+  "canonical": "https://sajjadahmadai.vercel.app/services",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Production AI Systems Built for Real-World Value"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Production AI Systems Built for Real-World Value"
+   ],
+   [
+    "h2",
+    "AI Agent Development"
+   ],
+   [
+    "h2",
+    "Custom RAG Pipelines"
+   ],
+   [
+    "h2",
+    "Generative AI Applications"
+   ],
+   [
+    "h2",
+    "Model Context Protocol (MCP)"
+   ],
+   [
+    "h2",
+    "AI Automation Services"
+   ],
+   [
+    "h2",
+    "Computer Vision & Multimodal AI"
+   ]
+  ],
+  "words": 263,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "Service",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/services",
+   "/services/ai-agent-development",
+   "/services/ai-automation",
+   "/services/computer-vision",
+   "/services/generative-ai",
+   "/services/mcp-development",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/ai-product-delivery",
+  "status": 200,
+  "title": "AI Product Delivery | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 48,
+  "desc": "Clear scope, milestones and rapid iteration to take an AI idea from concept to a deployed, measurable product.",
+  "desc_len": 110,
+  "canonical": "https://sajjadahmadai.vercel.app/services/ai-product-delivery",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "From AI Idea to Shipped Product, Without the Guesswork"
+  ],
+  "headings": [
+   [
+    "h1",
+    "From AI Idea to Shipped Product, Without the Guesswork"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 207,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "Service",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/computer-vision",
+  "status": 200,
+  "title": "Computer Vision & Multimodal AI Services | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 69,
+  "desc": "Visual AI systems for object detection, OCR document analysis, image classification, and Vision-Language Model integration.",
+  "desc_len": 123,
+  "canonical": "https://sajjadahmadai.vercel.app/services/computer-vision",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Visual AI & Document Intelligence Systems"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Visual AI & Document Intelligence Systems"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 170,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "Service",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/generative-ai",
+  "status": 200,
+  "title": "Generative AI Development Services | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 63,
+  "desc": "Full-stack Generative AI solutions, custom LLM integration, prompt engineering, and production Web application development.",
+  "desc_len": 123,
+  "canonical": "https://sajjadahmadai.vercel.app/services/generative-ai",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Production-Grade Generative AI & LLM Applications"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Production-Grade Generative AI & LLM Applications"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 160,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "Service",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/ml-engineering",
+  "status": 200,
+  "title": "Machine Learning Engineering Services | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 66,
+  "desc": "End-to-end ML engineering: data preparation, model training, evaluation and deployment with Python, PyTorch, TensorFlow and Scikit-learn.",
+  "desc_len": 137,
+  "canonical": "https://sajjadahmadai.vercel.app/services/ml-engineering",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "From Raw Data to a Model You Can Trust"
+  ],
+  "headings": [
+   [
+    "h1",
+    "From Raw Data to a Model You Can Trust"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 207,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "Service",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/model-optimization",
+  "status": 200,
+  "title": "AI Model Optimization & Fine-Tuning | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 64,
+  "desc": "Fine-tuning with LoRA/QLoRA, prompt engineering, evaluation workflows and inference improvements for accurate, efficient AI.",
+  "desc_len": 124,
+  "canonical": "https://sajjadahmadai.vercel.app/services/model-optimization",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Make Your AI More Accurate, Faster and Cheaper"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Make Your AI More Accurate, Faster and Cheaper"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 210,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "Service",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/production-apis",
+  "status": 200,
+  "title": "Production AI API Development | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 58,
+  "desc": "Scalable FastAPI backends that turn trained models into reliable, documented APIs, containerized with Docker and ready for AWS.",
+  "desc_len": 127,
+  "canonical": "https://sajjadahmadai.vercel.app/services/production-apis",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Turn Your Models into Reliable, Scalable APIs"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Turn Your Models into Reliable, Scalable APIs"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 211,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "Service",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/locations/islamabad",
+  "status": 200,
+  "title": "Islamabad, Pakistan AI Engineering Services | Sajjad Ahmad",
+  "title_len": 58,
+  "desc": "Local AI consultation, Generative AI applications, custom RAG systems, and Machine Learning engineering services in Islamabad.",
+  "desc_len": 126,
+  "canonical": "https://sajjadahmadai.vercel.app/locations/islamabad",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "AI Engineering & Machine Learning Development in Islamabad"
+  ],
+  "headings": [
+   [
+    "h1",
+    "AI Engineering & Machine Learning Development in Islamabad"
+   ],
+   [
+    "h2",
+    "AI Engineering Capabilities for Islamabad, Pakistan"
+   ],
+   [
+    "h2",
+    "Delivery & Remote Work Framework"
+   ],
+   [
+    "h3",
+    "Start an AI Project in Islamabad, Pakistan"
+   ]
+  ],
+  "words": 153,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/locations/uae",
+  "status": 200,
+  "title": "United Arab Emirates & Gulf Region AI Engineering Services | Sajjad Ahmad",
+  "title_len": 73,
+  "desc": "Enterprise AI automation, Agentic sales systems, and custom RAG knowledge bases for businesses in Dubai, Abu Dhabi, Saudi Arabia, and the Gulf.",
+  "desc_len": 143,
+  "canonical": "https://sajjadahmadai.vercel.app/locations/uae",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "AI Engineering & Automation Services for UAE & Gulf Businesses"
+  ],
+  "headings": [
+   [
+    "h1",
+    "AI Engineering & Automation Services for UAE & Gulf Businesses"
+   ],
+   [
+    "h2",
+    "AI Engineering Capabilities for United Arab Emirates & Gulf Region"
+   ],
+   [
+    "h2",
+    "Delivery & Remote Work Framework"
+   ],
+   [
+    "h3",
+    "Start an AI Project in United Arab Emirates & Gulf Region"
+   ]
+  ],
+  "words": 160,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/locations/usa",
+  "status": 200,
+  "title": "United States (US Market) AI Engineering Services | Sajjad Ahmad",
+  "title_len": 64,
+  "desc": "Remote AI engineering, custom AI agent development, enterprise RAG, and MCP servers for tech startups and enterprises in the United States.",
+  "desc_len": 139,
+  "canonical": "https://sajjadahmadai.vercel.app/locations/usa",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Full-Stack AI Engineering & Custom AI Development for US Companies"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Full-Stack AI Engineering & Custom AI Development for US Companies"
+   ],
+   [
+    "h2",
+    "AI Engineering Capabilities for United States (US Market)"
+   ],
+   [
+    "h2",
+    "Delivery & Remote Work Framework"
+   ],
+   [
+    "h3",
+    "Start an AI Project in United States (US Market)"
+   ]
+  ],
+  "words": 159,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/andrew-ng-biggest-opportunities-in-ai",
+  "status": 200,
+  "title": "Andrew Ng: The Biggest Opportunities in AI Aren't Where You Think | Sajjad Ahmad \u2014 AI Developer",
+  "title_len": 95,
+  "desc": "Andrew Ng shares a practical, optimistic vision for the future of artificial intelligence, covering job impacts, education, privacy, and the biggest opportunities for builders.",
+  "desc_len": 176,
+  "canonical": "https://sajjadahmadai.vercel.app/blog/andrew-ng-biggest-opportunities-in-ai",
+  "robots": "index, follow",
+  "og_image": "https://sajjadahmadai.vercel.app/sajjad.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Andrew Ng: The Biggest Opportunities in AI Aren't Where You Think"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Andrew Ng: The Biggest Opportunities in AI Aren't Where You Think"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Key Takeaway"
+   ],
+   [
+    "h2",
+    "1. AI Fear-Mongering and Regulatory Capture"
+   ],
+   [
+    "h2",
+    "2. Jobs, Productivity, and the Human \"Context Advantage\""
+   ],
+   [
+    "h2",
+    "3. Education, Skill Expansion, and Learning"
+   ],
+   [
+    "h2",
+    "4. Building with AI & The Product Management Bottleneck"
+   ],
+   [
+    "h2",
+    "5. Privacy, Safety, and Open-Source Models"
+   ],
+   [
+    "h2",
+    "6. AGI Timeline"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What is Andrew Ng's view on AI job replacement?"
+   ],
+   [
+    "h3",
+    "Q: Why is product management becoming a bottleneck in AI?"
+   ]
+  ],
+  "words": 588,
+  "imgs": [
+   {
+    "src": "/sajjad.png",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/AndrewNg.png",
+    "alt": "Andrew Ng: The Biggest Opportunities in AI Aren't Where You Think"
+   },
+   {
+    "src": "/sajjad.png",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/andrew-ng-biggest-opportunities-in-ai",
+   "/cv",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/how-can-ai-agents-increase-sales-for-your-business",
+  "status": 200,
+  "title": "How Can AI Agents Increase Sales for Your Business? | Sajjad Ahmad \u2014 AI Developer",
+  "title_len": 81,
+  "desc": "Discover how autonomous AI agents support sales by qualifying leads 24/7, accelerating follow-ups, personalizing product recommendations via RAG, and automating CRM workflows to drive measurable revenue growth.",
+  "desc_len": 210,
+  "canonical": "https://sajjadahmadai.vercel.app/blog/how-can-ai-agents-increase-sales-for-your-business",
+  "robots": "index, follow",
+  "og_image": "https://sajjadahmadai.vercel.app/sajjad.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "How Can AI Agents Increase Sales for Your Business?"
+  ],
+  "headings": [
+   [
+    "h1",
+    "How Can AI Agents Increase Sales for Your Business?"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Answer for AI & Business Leaders"
+   ],
+   [
+    "h2",
+    "1. What Is an AI Sales Agent?"
+   ],
+   [
+    "h2",
+    "2. Autonomous Lead Generation & Qualification"
+   ],
+   [
+    "h3",
+    "Interactive Profiling"
+   ],
+   [
+    "h3",
+    "Instant Escalation"
+   ],
+   [
+    "h2",
+    "3. Personalized Sales Pitching via Custom RAG"
+   ],
+   [
+    "h2",
+    "4. Multi-Channel Follow-Up & CRM Action"
+   ],
+   [
+    "h2",
+    "5. Measuring ROI & Business Impact"
+   ],
+   [
+    "h2",
+    "6. Building Your Custom AI Sales Solution"
+   ],
+   [
+    "h4",
+    "AI Agent Development"
+   ],
+   [
+    "h4",
+    "AI Automation"
+   ],
+   [
+    "h4",
+    "Custom RAG Pipelines"
+   ],
+   [
+    "h3",
+    "Discuss Your AI Development Project"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: How can AI agents increase sales for a business?"
+   ],
+   [
+    "h3",
+    "Q: How does an AI agent differ from traditional sales automation?"
+   ],
+   [
+    "h3",
+    "Q: Can AI sales agents integrate with existing CRMs?"
+   ]
+  ],
+  "words": 750,
+  "imgs": [
+   {
+    "src": "/sajjad.png",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/blog-banner.png",
+    "alt": "How Can AI Agents Increase Sales for Your Business?"
+   },
+   {
+    "src": "/sajjad.png",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/how-can-ai-agents-increase-sales-for-your-business",
+   "/cv",
+   "/services",
+   "/services/ai-agent-development",
+   "/services/ai-automation",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/what-is-agentic-ai",
+  "status": 200,
+  "title": "What Is Agentic AI? A Complete Guide for Engineers & Businesses | Sajjad Ahmad \u2014 AI Developer",
+  "title_len": 93,
+  "desc": "An architectural guide exploring Agentic AI: autonomous goal-seeking systems, tool calling, multi-agent coordination, and real-world implementation patterns.",
+  "desc_len": 157,
+  "canonical": "https://sajjadahmadai.vercel.app/blog/what-is-agentic-ai",
+  "robots": "index, follow",
+  "og_image": "https://sajjadahmadai.vercel.app/sajjad.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "What Is Agentic AI? A Complete Guide for Engineers & Businesses"
+  ],
+  "headings": [
+   [
+    "h1",
+    "What Is Agentic AI? A Complete Guide for Engineers & Businesses"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Concise Answer"
+   ],
+   [
+    "h2",
+    "What Is Agentic AI?"
+   ],
+   [
+    "h2",
+    "AI Agents vs Traditional AI"
+   ],
+   [
+    "h2",
+    "How Does Agentic AI Work?"
+   ],
+   [
+    "h2",
+    "Agentic AI Architecture"
+   ],
+   [
+    "h2",
+    "The Agentic AI Loop"
+   ],
+   [
+    "h2",
+    "What Are AI Agent Tools?"
+   ],
+   [
+    "h2",
+    "Agentic AI and MCP"
+   ],
+   [
+    "h2",
+    "Single-Agent vs Multi-Agent Systems"
+   ],
+   [
+    "h2",
+    "Agentic AI vs Traditional Automation"
+   ],
+   [
+    "h2",
+    "How Can Businesses Use Agentic AI?"
+   ],
+   [
+    "h2",
+    "How to Measure Agentic AI ROI"
+   ],
+   [
+    "h2",
+    "Agentic AI Security"
+   ],
+   [
+    "h2",
+    "Human-in-the-Loop AI Agents"
+   ],
+   [
+    "h2",
+    "How Engineers Can Build an AI Agent"
+   ],
+   [
+    "h2",
+    "What Is the Future of Agentic AI?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions"
+   ],
+   [
+    "h4",
+    "What is an AI agent?"
+   ],
+   [
+    "h4",
+    "Can AI agents increase business revenue?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What is agentic AI?"
+   ],
+   [
+    "h3",
+    "Q: What is an AI agent?"
+   ],
+   [
+    "h3",
+    "Q: How are AI agents different from chatbots?"
+   ],
+   [
+    "h3",
+    "Q: Can AI agents increase business revenue?"
+   ],
+   [
+    "h3",
+    "Q: What is multi-agent AI?"
+   ]
+  ],
+  "words": 1295,
+  "imgs": [
+   {
+    "src": "/sajjad.png",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/agentic.png",
+    "alt": "What Is Agentic AI? A Complete Guide for Engineers & Businesses"
+   },
+   {
+    "src": "/sajjad.png",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/what-is-agentic-ai",
+   "/cv",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/what-is-model-context-protocol-mcp",
+  "status": 200,
+  "title": "What Is Model Context Protocol (MCP)? Architecture & Integration Guide | Sajjad Ahmad \u2014 AI Developer",
+  "title_len": 100,
+  "desc": "Learn what Model Context Protocol (MCP) is, how MCP architecture works, and how MCP servers connect AI agents and LLMs to tools, data, APIs, and external systems.",
+  "desc_len": 162,
+  "canonical": "https://sajjadahmadai.vercel.app/blog/what-is-model-context-protocol-mcp",
+  "robots": "index, follow",
+  "og_image": "https://sajjadahmadai.vercel.app/sajjad.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "What Is Model Context Protocol (MCP)? Architecture & Integration Guide"
+  ],
+  "headings": [
+   [
+    "h1",
+    "What Is Model Context Protocol (MCP)? Architecture & Integration Guide"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Concise Answer"
+   ],
+   [
+    "h2",
+    "What Is Model Context Protocol (MCP)?"
+   ],
+   [
+    "h3",
+    "AI Coding Agent Needs"
+   ],
+   [
+    "h3",
+    "AI Sales Agent Needs"
+   ],
+   [
+    "h2",
+    "Why Does MCP Matter?"
+   ],
+   [
+    "h2",
+    "MCP Architecture Explained"
+   ],
+   [
+    "h3",
+    "1. What Is an MCP Host?"
+   ],
+   [
+    "h3",
+    "2. What Is an MCP Client?"
+   ],
+   [
+    "h3",
+    "3. What Is an MCP Server?"
+   ],
+   [
+    "h2",
+    "The Three Core MCP Primitives"
+   ],
+   [
+    "h3",
+    "MCP Tools"
+   ],
+   [
+    "h3",
+    "MCP Resources"
+   ],
+   [
+    "h3",
+    "MCP Prompts"
+   ],
+   [
+    "h2",
+    "MCP and AI Agents"
+   ],
+   [
+    "h2",
+    "MCP vs APIs & Function Calling"
+   ],
+   [
+    "h2",
+    "MCP Transport and Communication"
+   ],
+   [
+    "h2",
+    "MCP Security: What Developers Need to Know"
+   ],
+   [
+    "h2",
+    "How to Build an MCP Server"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions"
+   ],
+   [
+    "h4",
+    "What is MCP in AI?"
+   ],
+   [
+    "h4",
+    "Can MCP be used with RAG?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What is MCP in AI?"
+   ],
+   [
+    "h3",
+    "Q: What is an MCP server?"
+   ],
+   [
+    "h3",
+    "Q: What is an MCP client?"
+   ],
+   [
+    "h3",
+    "Q: Is MCP an API?"
+   ],
+   [
+    "h3",
+    "Q: Can MCP be used with RAG?"
+   ],
+   [
+    "h3",
+    "Q: Can MCP be used for AI agents?"
+   ]
+  ],
+  "words": 1315,
+  "imgs": [
+   {
+    "src": "/sajjad.png",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/mcp.png",
+    "alt": "What Is Model Context Protocol (MCP)? Architecture & Integration Guide"
+   },
+   {
+    "src": "/sajjad.png",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/what-is-model-context-protocol-mcp",
+   "/cv",
+   "/services",
+   "/services/ai-agent-development",
+   "/services/mcp-development",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/ai-agent-development",
+  "status": 200,
+  "title": "AI Agent Development Services | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 58,
+  "desc": "Engineering autonomous AI agents with tool-calling capabilities, multi-agent coordination, decision logic, and CRM integration.",
+  "desc_len": 127,
+  "canonical": "https://sajjadahmadai.vercel.app/services/ai-agent-development",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Autonomous AI Agents Designed for Tool Execution & Goal Solving"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Autonomous AI Agents Designed for Tool Execution & Goal Solving"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 170,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "Service",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/ai-automation",
+  "status": 200,
+  "title": "AI Automation Services | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 51,
+  "desc": "End-to-end intelligent workflow automation replacing manual labor with automated AI pipelines and CRM/ERP synchronization.",
+  "desc_len": 122,
+  "canonical": "https://sajjadahmadai.vercel.app/services/ai-automation",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Streamline Operations with Intelligent AI Workflows"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Streamline Operations with Intelligent AI Workflows"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 161,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "Service",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/mcp-development",
+  "status": 200,
+  "title": "Model Context Protocol (MCP) Server Development | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 76,
+  "desc": "Standardized TypeScript and Python MCP server development connecting AI clients to local databases, APIs, and file systems.",
+  "desc_len": 123,
+  "canonical": "https://sajjadahmadai.vercel.app/services/mcp-development",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Standardized MCP Server & Tool Integration"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Standardized MCP Server & Tool Integration"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 172,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "Service",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/rag-development",
+  "status": 200,
+  "title": "Custom RAG Development Services | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 60,
+  "desc": "Enterprise Retrieval-Augmented Generation systems built with ChromaDB, LlamaIndex, and FastAPI for zero-hallucination factual search.",
+  "desc_len": 133,
+  "canonical": "https://sajjadahmadai.vercel.app/services/rag-development",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Zero-Hallucination Retrieval-Augmented Generation Systems"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Zero-Hallucination Retrieval-Augmented Generation Systems"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 161,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "Service",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/locations",
+  "status": 200,
+  "title": "Global AI Engineering & Geographic Service Regions | Sajjad Ahmad",
+  "title_len": 65,
+  "desc": "Explore AI engineering and development services across target regional hubs: Islamabad, Pakistan, UAE & Middle East, Germany & Europe, and the United States.",
+  "desc_len": 157,
+  "canonical": "https://sajjadahmadai.vercel.app/locations",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "AI Engineering Across Key Regions"
+  ],
+  "headings": [
+   [
+    "h1",
+    "AI Engineering Across Key Regions"
+   ],
+   [
+    "h2",
+    "Islamabad, Pakistan"
+   ],
+   [
+    "h2",
+    "Pakistan (Nationwide)"
+   ],
+   [
+    "h2",
+    "United Arab Emirates & Gulf"
+   ],
+   [
+    "h2",
+    "Germany & Wider Europe"
+   ],
+   [
+    "h2",
+    "United States (US Market)"
+   ]
+  ],
+  "words": 193,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/locations/germany",
+   "/locations/islamabad",
+   "/locations/pakistan",
+   "/locations/uae",
+   "/locations/usa",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/locations/germany",
+  "status": 200,
+  "title": "Germany & Wider Europe AI Engineering Services | Sajjad Ahmad",
+  "title_len": 61,
+  "desc": "Remote AI development, custom RAG systems, and Agentic AI workflows for companies in Germany, the UK, Finland, Netherlands, and Europe.",
+  "desc_len": 135,
+  "canonical": "https://sajjadahmadai.vercel.app/locations/germany",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Remote AI Engineering Services for European Businesses"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Remote AI Engineering Services for European Businesses"
+   ],
+   [
+    "h2",
+    "AI Engineering Capabilities for Germany & Wider Europe"
+   ],
+   [
+    "h2",
+    "Delivery & Remote Work Framework"
+   ],
+   [
+    "h3",
+    "Start an AI Project in Germany & Wider Europe"
+   ]
+  ],
+  "words": 158,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/locations/pakistan",
+  "status": 200,
+  "title": "Pakistan (Nationwide) AI Engineering Services | Sajjad Ahmad",
+  "title_len": 60,
+  "desc": "Production AI development, Agentic AI, custom RAG pipelines, and LLM applications for businesses and startups across Pakistan.",
+  "desc_len": 126,
+  "canonical": "https://sajjadahmadai.vercel.app/locations/pakistan",
+  "robots": "index, follow",
+  "og_image": null,
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Nationwide AI Engineering & Generative AI Solutions in Pakistan"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Nationwide AI Engineering & Generative AI Solutions in Pakistan"
+   ],
+   [
+    "h2",
+    "AI Engineering Capabilities for Pakistan (Nationwide)"
+   ],
+   [
+    "h2",
+    "Delivery & Remote Work Framework"
+   ],
+   [
+    "h3",
+    "Start an AI Project in Pakistan (Nationwide)"
+   ]
+  ],
+  "words": 143,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/cv",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ }
+]

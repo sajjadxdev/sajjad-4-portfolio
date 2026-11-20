@@ -3,7 +3,7 @@
 import { Bot, Cpu, Rocket, Server } from "lucide-react"
 import ShadowCard from "./ShadowCard"
 import InnerShadowCard from "./InnerShadowEffect"
-
+//changes done 
 export default function BenefitsSection() {
     return (
         <section id="benefits" className="w-full py-32 px-6">

@@ -1,16 +1,16 @@
+import Footer from "@/app/components/Footer";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Header from "@/app/components/Header";
+import { LOCATION_EXTRAS } from "../data/location-extras";
 import ShadowCard from "@/app/components/ShadowCard";
 import InnerShadowCard from "@/app/components/InnerShadowEffect";
 import {
   ArrowLeft,
   ArrowRight,
   CheckCircle2,
-  Globe,
-  MapPin,
-} from "lucide-react";
+  } from "lucide-react";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -72,7 +72,7 @@ const LOCATION_DETAILS: Record<
     regionType: "Middle East Market (Tier 3)",
     headline: "AI Engineering & Automation Services for UAE & Gulf Businesses",
     description: "Enterprise AI automation, Agentic sales systems, and custom RAG knowledge bases for businesses in Dubai, Abu Dhabi, Saudi Arabia, and the Gulf.",
-    overview: "Delivering custom AI agent workflows and zero-hallucination RAG pipelines designed for growing businesses in Dubai, Abu Dhabi, Riyadh, and the GCC region.",
+    overview: "Delivering custom AI agent workflows and source-grounded RAG pipelines designed for growing businesses in Dubai, Abu Dhabi, Riyadh, and the GCC region.",
     servicesOffered: [
       "Autonomous AI Agents for Lead Qualification & Sales",
       "Multilingual Enterprise RAG Knowledge Systems",
@@ -138,17 +138,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: "Location Not Found | Sajjad Ahmad" };
   }
 
+  const full = `${loc.name} AI Engineering | Sajjad Ahmad`;
+  const title = full.length <= 60 ? full : `${loc.name} AI Engineering`;
   return {
-    title: `${loc.name} AI Engineering Services | Sajjad Ahmad`,
+    title,
     description: loc.description,
     keywords: loc.keywords,
     alternates: {
-      canonical: `https://sajjadahmadai.vercel.app/locations/${slug}`,
+      canonical: `https://www.sajjadahmad.site/locations/${slug}`,
     },
     openGraph: {
-      title: `${loc.name} AI Engineering Services | Sajjad Ahmad`,
+
+      images: [{ url: "/og.png", width: 1200, height: 630, alt: "Sajjad Ahmad, AI Engineer" }],
+      title,
       description: loc.description,
-      url: `https://sajjadahmadai.vercel.app/locations/${slug}`,
+      url: `https://www.sajjadahmad.site/locations/${slug}`,
       siteName: "Sajjad Ahmad Portfolio",
       type: "website",
     },
@@ -163,9 +167,29 @@ export default async function LocationDetailPage({ params }: Props) {
     notFound();
   }
 
+  const extra = LOCATION_EXTRAS[slug];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "Service",
+        name: loc.headline,
+        description: loc.description,
+        serviceType: "AI engineering",
+        areaServed: loc.name,
+        provider: { "@id": "https://www.sajjadahmad.site/#person" },
+      },
+      ...(extra
+        ? [{
+            "@type": "FAQPage",
+            mainEntity: extra.faqs.map((f) => ({
+              "@type": "Question",
+              name: f.question,
+              acceptedAnswer: { "@type": "Answer", text: f.answer },
+            })),
+          }]
+        : []),
       {
         "@type": "BreadcrumbList",
         itemListElement: [
@@ -173,19 +197,19 @@ export default async function LocationDetailPage({ params }: Props) {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://sajjadahmadai.vercel.app",
+            item: "https://www.sajjadahmad.site",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "Locations",
-            item: "https://sajjadahmadai.vercel.app/locations",
+            item: "https://www.sajjadahmad.site/locations",
           },
           {
             "@type": "ListItem",
             position: 3,
             name: loc.name,
-            item: `https://sajjadahmadai.vercel.app/locations/${slug}`,
+            item: `https://www.sajjadahmad.site/locations/${slug}`,
           },
         ],
       },
@@ -193,7 +217,7 @@ export default async function LocationDetailPage({ params }: Props) {
   };
 
   return (
-    <main className="relative min-h-screen bg-background text-foreground pb-24">
+    <main className="relative min-h-screen bg-background text-foreground">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -201,7 +225,7 @@ export default async function LocationDetailPage({ params }: Props) {
       <Header />
 
       {/* Top Breadcrumb */}
-      <div className="pt-28 pb-8 px-6 max-w-4xl mx-auto">
+      <div className="pt-12 pb-8 px-[var(--gutter)]">
         <Link
           href="/locations"
           className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors mb-6 font-medium"
@@ -209,11 +233,11 @@ export default async function LocationDetailPage({ params }: Props) {
           <ArrowLeft size={16} /> Back to All Locations
         </Link>
 
-        <span className="text-xs px-3 py-1 rounded-full border border-primary/30 text-primary bg-primary/10 font-semibold mb-4 block w-fit">
+        <span className="eyebrow mb-4 block w-fit">
           {loc.regionType}
         </span>
 
-        <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-foreground leading-tight mb-6">
+        <h1 className="text-[42px] sm:text-6xl lg:text-7xl font-bold tracking-[-0.06em] leading-[0.95] text-foreground mb-6">
           {loc.headline}
         </h1>
 
@@ -223,7 +247,7 @@ export default async function LocationDetailPage({ params }: Props) {
       </div>
 
       {/* Body Details */}
-      <div className="px-6 max-w-4xl mx-auto space-y-12">
+      <div className="px-[var(--gutter)] space-y-12">
         <ShadowCard className="p-8 rounded-3xl border border-border space-y-6">
           <h2 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">
             AI Engineering Capabilities for {loc.name}
@@ -255,17 +279,97 @@ export default async function LocationDetailPage({ params }: Props) {
           </div>
         </section>
 
+        {extra && (
+          <>
+            {/* Market-specific detail */}
+            <section className="grid gap-8 lg:grid-cols-[1.4fr_1fr]">
+              <p className="text-lg leading-relaxed text-muted-foreground m-0">{extra.intro}</p>
+              <div className="theme-dark-cta rounded-3xl p-7">
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#e0574d] mb-3">Time zones</p>
+                <p className="text-2xl font-bold tracking-[-0.03em] mb-3">{extra.timezone.label}</p>
+                <p className="text-muted-foreground m-0 leading-relaxed">{extra.timezone.overlap}</p>
+              </div>
+            </section>
+
+            <section className="space-y-6">
+              <h2 className="text-2xl font-bold text-foreground tracking-tight">AI use cases for this market</h2>
+              <div className="grid gap-4 sm:grid-cols-2">
+                {extra.useCases.map((u) => (
+                  <div key={u.title} className="theme-card p-6">
+                    <h3 className="text-lg font-bold mb-2">{u.title}</h3>
+                    <p className="text-sm text-muted-foreground m-0 leading-relaxed">{u.body}</p>
+                  </div>
+                ))}
+              </div>
+            </section>
+
+            <section className="space-y-6">
+              <h2 className="text-2xl font-bold text-foreground tracking-tight">Data protection & AI rules I design for</h2>
+              <div className="border-t border-border">
+                {extra.compliance.map((c) => (
+                  <div key={c.title} className="grid gap-2 border-b border-border py-5 md:grid-cols-[1fr_2fr] md:gap-8">
+                    <h3 className="text-base font-bold m-0">{c.title}</h3>
+                    <p className="text-sm text-muted-foreground m-0 leading-relaxed">{c.body}</p>
+                  </div>
+                ))}
+              </div>
+              <p className="text-xs text-muted-foreground m-0">This is engineering guidance, not legal advice. Your legal team confirms what applies.</p>
+            </section>
+
+            <section className="space-y-6">
+              <h2 className="text-2xl font-bold text-foreground tracking-tight">How we work together</h2>
+              <ul className="list-none p-0 m-0 border-t border-border">
+                {extra.engagement.map((e) => (
+                  <li key={e} className="flex gap-4 border-b border-border py-4 text-base">
+                    <ArrowRight size={18} className="mt-1 shrink-0 text-primary" aria-hidden="true" />
+                    {e}
+                  </li>
+                ))}
+              </ul>
+            </section>
+
+            <section className="space-y-6" aria-labelledby="loc-faq">
+              <h2 id="loc-faq" className="text-2xl font-bold text-foreground tracking-tight">Frequently asked questions</h2>
+              <div className="border-t border-border">
+                {extra.faqs.map((f) => (
+                  <details key={f.question} className="group border-b border-border py-5">
+                    <summary className="flex cursor-pointer list-none items-start justify-between gap-6">
+                      <h3 className="m-0 text-lg font-semibold">{f.question}</h3>
+                      <span className="text-primary text-2xl leading-none transition-transform group-open:rotate-45" aria-hidden="true">+</span>
+                    </summary>
+                    <p className="mt-3 mb-0 text-base leading-relaxed text-muted-foreground">{f.answer}</p>
+                  </details>
+                ))}
+              </div>
+            </section>
+          </>
+        )}
+
         {/* Conversion CTA */}
-        <div className="p-8 rounded-3xl bg-gradient-to-br from-primary/10 via-card to-background border border-primary/20 text-center space-y-4">
+        <nav aria-label="Other regions" className="pt-4">
+          <p className="eyebrow mb-4">Other regions I work with</p>
+          <div className="flex flex-wrap gap-2">
+            {Object.entries(LOCATION_DETAILS)
+              .filter(([s]) => s !== slug)
+              .map(([s, l]) => (
+                <Link key={s} href={`/locations/${s}`} className="rounded-full border border-border px-4 py-2 text-sm font-semibold hover:border-primary hover:text-primary transition-colors">
+                  {l.name}
+                </Link>
+              ))}
+          </div>
+        </nav>
+
+        <div className="p-8 rounded-3xl theme-dark-cta text-center space-y-4">
           <h3 className="text-2xl font-bold text-foreground">Start an AI Project in {loc.name}</h3>
           <p className="text-muted-foreground max-w-xl mx-auto text-sm">
             Discuss your AI engineering requirements with Sajjad Ahmad.
           </p>
-          <a href="/#contact" className="inline-flex items-center gap-2 px-8 py-3 rounded-full bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity shadow-md">
+          <Link href="/#contact" className="inline-flex items-center gap-2 px-8 py-3 rounded-full bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity shadow-md">
             Schedule an AI Consultation <ArrowRight size={16} />
-          </a>
+          </Link>
         </div>
       </div>
+      <Footer />
     </main>
   );
 }

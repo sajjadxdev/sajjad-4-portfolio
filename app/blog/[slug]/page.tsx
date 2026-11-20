@@ -1,3 +1,5 @@
+import Image from "next/image";
+import Footer from "@/app/components/Footer";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -13,10 +15,8 @@ import {
   Linkedin,
   List,
   MessageSquare,
-  Share2,
   Sparkles,
-  User,
-} from "lucide-react";
+  } from "lucide-react";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -38,25 +38,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
+  const full = `${post.title} | Sajjad Ahmad`;
+  const title = full.length <= 60 ? full : post.title;
   return {
-    title: `${post.title} | Sajjad Ahmad — AI Developer`,
+    title,
     description: post.excerpt,
     keywords: post.tags,
     alternates: {
-      canonical: `https://sajjadahmadai.vercel.app/blog/${post.slug}`,
+      canonical: `https://www.sajjadahmad.site/blog/${post.slug}`,
     },
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      url: `https://sajjadahmadai.vercel.app/blog/${post.slug}`,
+      url: `https://www.sajjadahmad.site/blog/${post.slug}`,
       siteName: "Sajjad Ahmad - AI & ML Developer Portfolio",
       type: "article",
       publishedTime: post.publishedAt,
       modifiedTime: post.updatedAt,
-      authors: ["https://sajjadahmadai.vercel.app"],
+      authors: ["https://www.sajjadahmad.site"],
       images: [
         {
-          url: "https://sajjadahmadai.vercel.app/sajjad.png",
+          url: post.coverImage ? `https://www.sajjadahmad.site${post.coverImage}` : "https://www.sajjadahmad.site/og.png",
           width: 1200,
           height: 630,
           alt: post.title,
@@ -67,7 +69,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
-      images: ["https://sajjadahmadai.vercel.app/sajjad.png"],
+      images: [post.coverImage ? `https://www.sajjadahmad.site${post.coverImage}` : "https://www.sajjadahmad.site/og.png"],
     },
   };
 }
@@ -80,33 +82,43 @@ export default async function BlogPostPage({ params }: Props) {
     notFound();
   }
 
+  const related = BLOG_POSTS.filter((p) => p.slug !== post.slug)
+    .map((p) => ({ p, score: p.tags.filter((t) => post.tags.includes(t)).length }))
+    .sort((a, b) => b.score - a.score || b.p.publishedAt.localeCompare(a.p.publishedAt))
+    .slice(0, 3)
+    .map(({ p }) => p);
+
   // Generate BlogPosting JSON-LD
   const blogPostingJsonLd = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "@id": `https://sajjadahmadai.vercel.app/blog/${post.slug}#article`,
+    "@id": `https://www.sajjadahmad.site/blog/${post.slug}#article`,
     headline: post.title,
     description: post.excerpt,
     datePublished: post.publishedAt,
     dateModified: post.updatedAt,
+    image: `https://www.sajjadahmad.site${post.coverImage || "/og.png"}`,
+    inLanguage: "en",
+    wordCount: post.content.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length,
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://sajjadahmadai.vercel.app/blog/${post.slug}`,
+      "@id": `https://www.sajjadahmad.site/blog/${post.slug}`,
     },
     author: {
       "@type": "Person",
       name: post.author.name,
       jobTitle: post.author.role,
-      url: "https://sajjadahmadai.vercel.app",
+      "@id": "https://www.sajjadahmad.site/#person",
+      url: "https://www.sajjadahmad.site/about",
       sameAs: [post.author.github, post.author.linkedin],
     },
     publisher: {
       "@type": "Organization",
-      name: "Sajjad Ahmad Portfolio",
-      url: "https://sajjadahmadai.vercel.app",
+      name: "Sajjad Ahmad",
+      url: "https://www.sajjadahmad.site",
       logo: {
         "@type": "ImageObject",
-        url: "https://sajjadahmadai.vercel.app/sajjad.png",
+        url: "https://www.sajjadahmad.site/og.png",
       },
     },
     keywords: post.tags.join(", "),
@@ -127,7 +139,7 @@ export default async function BlogPostPage({ params }: Props) {
   };
 
   return (
-    <main className="relative min-h-screen bg-background text-foreground pb-24">
+    <main className="relative min-h-screen bg-background text-foreground">
       {/* Inject Structured Data Schemas */}
       <script
         type="application/ld+json"
@@ -141,7 +153,7 @@ export default async function BlogPostPage({ params }: Props) {
       <Header />
 
       {/* Top Banner / Breadcrumb */}
-      <div className="pt-28 pb-8 px-6 max-w-4xl mx-auto">
+      <div className="pt-12 pb-8 px-[var(--gutter)]">
         <Link
           href="/blog"
           className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors mb-6 font-medium"
@@ -154,21 +166,23 @@ export default async function BlogPostPage({ params }: Props) {
           {post.tags.map((tag) => (
             <span
               key={tag}
-              className="text-xs px-3 py-1 rounded-full border border-primary/30 text-primary bg-primary/10 font-semibold"
+              className="eyebrow"
             >
               {tag}
             </span>
           ))}
         </div>
 
-        <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-foreground leading-tight mb-6">
+        <h1 className="text-[42px] sm:text-6xl lg:text-7xl font-bold tracking-[-0.06em] leading-[0.95] text-foreground mb-6">
           {post.title}
         </h1>
 
         {/* Meta Author Info */}
         <div className="flex flex-wrap items-center justify-between gap-4 py-4 border-y border-border">
           <div className="flex items-center gap-3">
-            <img
+            <Image
+              width={48}
+              height={48}
               src={post.author.image}
               alt={post.author.name}
               className="w-12 h-12 rounded-full border border-border object-cover"
@@ -188,7 +202,11 @@ export default async function BlogPostPage({ params }: Props) {
         {/* Featured Banner Image */}
         {post.coverImage && (
           <div className="mt-8 rounded-2xl overflow-hidden border border-border shadow-xl bg-card">
-            <img
+            <Image
+              width={1200}
+              height={675}
+              priority
+              sizes="(max-width: 900px) 100vw, 896px"
               src={post.coverImage}
               alt={post.title}
               className="w-full h-auto object-cover max-h-[500px]"
@@ -198,7 +216,7 @@ export default async function BlogPostPage({ params }: Props) {
       </div>
 
       {/* Main Content & Table of Contents Grid */}
-      <div className="px-6 max-w-7xl mx-auto grid lg:grid-cols-12 gap-12">
+      <div className="px-[var(--gutter)] grid lg:grid-cols-12 gap-12">
         
         {/* Sticky Table of Contents Sidebar */}
         <aside className="hidden lg:block lg:col-span-4 space-y-6">
@@ -251,7 +269,7 @@ export default async function BlogPostPage({ params }: Props) {
 
           {/* Q&A / GEO FAQ Section inside article */}
           <section id="faq" className="mt-16 pt-12 border-t border-border">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-primary/30 text-primary bg-primary/10 text-xs uppercase tracking-widest font-semibold mb-4">
+            <div className="eyebrow inline-flex items-center gap-2 mb-6">
               <MessageSquare size={14} /> GEO & AI Search FAQ
             </div>
 
@@ -276,7 +294,7 @@ export default async function BlogPostPage({ params }: Props) {
           {/* Article Footer & Author Signature */}
           <div className="mt-12 p-6 rounded-2xl border border-border bg-card flex flex-wrap items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <img src={post.author.image} alt={post.author.name} className="w-10 h-10 rounded-full border border-border object-cover" />
+              <Image src={post.author.image} alt={post.author.name} width={40} height={40} className="w-10 h-10 rounded-full border border-border object-cover" />
               <div>
                 <p className="font-bold text-sm text-foreground m-0">{post.author.name}</p>
                 <p className="text-xs text-muted-foreground m-0">AI Engineer based in Islamabad</p>
@@ -288,9 +306,22 @@ export default async function BlogPostPage({ params }: Props) {
             </Link>
           </div>
 
+          {/* Related articles: internal links between posts */}
+          <nav aria-label="Related articles" className="mt-16 pt-10 border-t border-border">
+            <p className="eyebrow mb-6">Keep reading</p>
+            <div className="grid sm:grid-cols-3 gap-4">
+              {related.map((r) => (
+                <Link key={r.slug} href={`/blog/${r.slug}`} className="theme-card block p-5 no-underline">
+                  <span className="text-xs text-muted-foreground">{r.readTime}</span>
+                  <p className="mt-2 mb-0 font-bold text-foreground leading-snug">{r.title}</p>
+                </Link>
+              ))}
+            </div>
+          </nav>
         </article>
 
       </div>
+      <Footer />
     </main>
   );
 }

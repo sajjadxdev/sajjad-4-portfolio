@@ -8,8 +8,7 @@ import {
     Mail,
     Phone,
     Globe,
-    ArrowRight
-} from "lucide-react"
+    } from "lucide-react"
 
 export default function HeroSection() {
     return (

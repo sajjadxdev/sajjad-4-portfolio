@@ -4,6 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import { ThemeProvider } from "./components/ThemeProvider";
 import ChatTooltip from "./components/ChatTooltip";
+import { Analytics } from "@vercel/analytics/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -17,7 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Sajjad Ahmad | AI Engineer — Generative AI, Agentic AI & RAG",
-  description: "Portfolio of Sajjad Ahmad, AI Engineer based in Islamabad, Pakistan. Specializing in Generative AI, Agentic AI, custom RAG pipelines, LLM applications, and production AI systems.",
+  description: "Sajjad Ahmad is an AI Engineer in Islamabad building production Generative AI, AI agents, RAG pipelines and computer vision systems. Remote worldwide.",
   keywords: [
     "Sajjad Ahmad",
     "AI Engineer",
@@ -37,18 +38,18 @@ export const metadata: Metadata = {
   authors: [{ name: "Sajjad Ahmad", url: "https://github.com/sajjadxdev" }],
   creator: "Sajjad Ahmad",
   publisher: "Sajjad Ahmad",
-  metadataBase: new URL("https://sajjadahmadai.vercel.app"),
+  metadataBase: new URL("https://www.sajjadahmad.site"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: "Sajjad Ahmad | AI Engineer — Generative AI, Agentic AI & RAG",
     description: "Sajjad Ahmad is an AI Engineer specializing in Generative AI, Agentic AI, custom RAG pipelines, LLM integration, and production ML systems.",
-    url: "https://sajjadahmadai.vercel.app",
+    url: "https://www.sajjadahmad.site",
     siteName: "Sajjad Ahmad - AI Engineer Portfolio",
     images: [
       {
-        url: "/sajjad.png",
+        url: "/og.png",
         width: 1200,
         height: 630,
         alt: "Sajjad Ahmad - AI Engineer",
@@ -61,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sajjad Ahmad | AI Engineer — Generative AI, Agentic AI & RAG",
     description: "AI Engineer specializing in Generative AI, Agentic AI, RAG pipelines, and LLM applications.",
-    images: ["/sajjad.png"],
+    images: ["/og.png"],
   },
   robots: {
     index: true,
@@ -84,14 +85,20 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://sajjadahmadai.vercel.app/#person",
+      "@id": "https://www.sajjadahmad.site/#person",
       name: "Sajjad Ahmad",
       givenName: "Sajjad",
       familyName: "Ahmad",
       jobTitle: "AI Engineer",
       description: "AI Engineer specializing in Generative AI, Agentic AI systems, custom RAG pipelines, LLM application architecture, and production Machine Learning systems based in Islamabad, Pakistan.",
-      url: "https://sajjadahmadai.vercel.app",
-      image: "https://sajjadahmadai.vercel.app/sajjad.png",
+      url: "https://www.sajjadahmad.site",
+      image: {
+        "@type": "ImageObject",
+        url: "https://www.sajjadahmad.site/sajjad-ahmad-ai-engineer.jpg",
+        width: 356,
+        height: 784,
+        caption: "Sajjad Ahmad, AI Engineer in Islamabad, Pakistan",
+      },
       email: "sajjadxdev@gmail.com",
       telephone: "+923166400174",
       address: {
@@ -122,31 +129,13 @@ const jsonLd = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://sajjadahmadai.vercel.app/#website",
-      url: "https://sajjadahmadai.vercel.app",
+      "@id": "https://www.sajjadahmad.site/#website",
+      url: "https://www.sajjadahmad.site",
       name: "Sajjad Ahmad — AI Engineer Portfolio",
       description: "Official website of Sajjad Ahmad, AI Engineer specializing in Generative AI, Agentic AI, RAG pipelines, and production AI systems.",
       publisher: {
-        "@id": "https://sajjadahmadai.vercel.app/#person",
+        "@id": "https://www.sajjadahmad.site/#person",
       },
-    },
-    {
-      "@type": "ProfilePage",
-      "@id": "https://sajjadahmadai.vercel.app/#profilepage",
-      url: "https://sajjadahmadai.vercel.app",
-      name: "Sajjad Ahmad | AI Engineer — Generative AI, Agentic AI & RAG",
-      datePublished: "2024-01-01T00:00:00+00:00",
-      dateModified: "2026-08-28T00:00:00+00:00",
-      mainEntity: {
-        "@id": "https://sajjadahmadai.vercel.app/#person",
-      },
-      isPartOf: {
-        "@id": "https://sajjadahmadai.vercel.app/#website",
-      },
-      about: {
-        "@id": "https://sajjadahmadai.vercel.app/#person",
-      },
-      description: "Portfolio of Sajjad Ahmad, AI Engineer specializing in Generative AI, Agentic AI, RAG, and scalable AI solutions.",
     },
   ],
 };
@@ -177,6 +166,7 @@ export default function RootLayout({
             strategy="lazyOnload"
           />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );

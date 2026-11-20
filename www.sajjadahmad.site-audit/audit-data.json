@@ -1,0 +1,241 @@
+{
+  "summary": {
+    "health_score": 83,
+    "business_type": "Personal-brand AI engineering freelancer (remote-first, geo service pages)",
+    "top_findings": [
+      "Live www domain serves the old build; vercel.app duplicate host returns 200",
+      "5 thin templated location pages (141-157 words)",
+      "4 original posts cite no sources; Andrew Ng post 482 words",
+      "3 first-person experience claims need confirmation",
+      "8 pages with fewer than 3 inbound internal links"
+    ],
+    "quick_wins": [
+      "Deploy current code",
+      "308 redirect vercel.app to www",
+      "Verify new Search Console property and submit sitemap (plus Bing)",
+      "Add citations to the 4 original posts",
+      "Add Blog + ItemList schema to /blog"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": 85,
+      "what_works": [
+        "39/39 pages 200",
+        "Self-referencing canonicals on new domain",
+        "/cv 308 to /about",
+        "AI crawlers named in robots.txt",
+        "Real lastmod dates",
+        "Security headers set",
+        "Apex 308 to www"
+      ],
+      "findings": [
+        {
+          "title": "Live site serves old build",
+          "severity": "Critical",
+          "description": "www.sajjadahmad.site canonical points to vercel.app; llms.txt 404; new posts missing.",
+          "recommendation": "Deploy current code."
+        },
+        {
+          "title": "Duplicate host",
+          "severity": "Critical",
+          "description": "sajjadahmadai.vercel.app returns 200 with same content.",
+          "recommendation": "308 redirect to www.sajjadahmad.site."
+        },
+        {
+          "title": "Old verification token",
+          "severity": "Medium",
+          "description": "Google verification token belongs to old property.",
+          "recommendation": "Verify new property, swap token."
+        },
+        {
+          "title": "No CSP",
+          "severity": "Low",
+          "description": "Content-Security-Policy header absent.",
+          "recommendation": "Add CSP once widget domains are known."
+        }
+      ]
+    },
+    {
+      "name": "Content Quality",
+      "score": 76,
+      "what_works": [
+        "15 new 2,000-2,400-word articles with 5-11 sources each",
+        "Service pages have deliverables, stack, project, FAQs",
+        "Overclaims removed"
+      ],
+      "findings": [
+        {
+          "title": "Thin location pages",
+          "severity": "High",
+          "description": "5 templated pages, 141-157 words.",
+          "recommendation": "Merge or write unique local content."
+        },
+        {
+          "title": "Original posts lack sources",
+          "severity": "Medium",
+          "description": "4 posts cite 0 sources; Andrew Ng post 482 words, no answer block.",
+          "recommendation": "Add citations and answer block; expand."
+        },
+        {
+          "title": "Unverified first-person claims",
+          "severity": "Medium",
+          "description": "3 experience statements in vector DB and FastAPI posts.",
+          "recommendation": "Confirm or rephrase."
+        },
+        {
+          "title": "Light hub pages",
+          "severity": "Low",
+          "description": "/about 250 words, /services 265 words.",
+          "recommendation": "Add bio timeline and services intro/FAQ."
+        }
+      ]
+    },
+    {
+      "name": "On-Page SEO",
+      "score": 90,
+      "what_works": [
+        "Titles <=60, descriptions 110-160",
+        "One H1 per page",
+        "No duplicates",
+        "OG image on every page",
+        "Writing section, related posts, footer links"
+      ],
+      "findings": [
+        {
+          "title": "Weak inbound links",
+          "severity": "Medium",
+          "description": "8 pages with <3 inbound internal links.",
+          "recommendation": "Add contextual links."
+        }
+      ]
+    },
+    {
+      "name": "Schema / Structured Data",
+      "score": 85,
+      "what_works": [
+        "Person+WebSite sitewide",
+        "ProfilePage home only",
+        "Service+FAQPage on 10 services",
+        "BlogPosting+FAQPage on 19 posts",
+        "All JSON-LD valid"
+      ],
+      "findings": [
+        {
+          "title": "No Blog/ItemList on /blog",
+          "severity": "Low",
+          "description": "Blog index has no list schema.",
+          "recommendation": "Add Blog + ItemList."
+        },
+        {
+          "title": "No Service on locations",
+          "severity": "Low",
+          "description": "Location pages lack Service/areaServed.",
+          "recommendation": "Add if pages stay."
+        }
+      ]
+    },
+    {
+      "name": "Performance (CWV)",
+      "score": 75,
+      "what_works": [
+        "next/image for covers and avatars",
+        "Hero priority image",
+        "next/font"
+      ],
+      "findings": [
+        {
+          "title": "Third-party widget",
+          "severity": "Low",
+          "description": "qualzo.app widget on every page (lazyOnload). Estimated; no field data.",
+          "recommendation": "Measure after deploy."
+        }
+      ]
+    },
+    {
+      "name": "AI Search Readiness",
+      "score": 85,
+      "what_works": [
+        "llms.txt auto-generated",
+        "11 AI crawlers explicitly allowed",
+        "Answer-first content, FAQ schema on 29 pages",
+        "Primary-source citations"
+      ],
+      "findings": [
+        {
+          "title": "Not live yet",
+          "severity": "Medium",
+          "description": "Improvements only in undeployed code.",
+          "recommendation": "Deploy."
+        },
+        {
+          "title": "Few off-site brand signals",
+          "severity": "Medium",
+          "description": "sameAs only GitHub and LinkedIn.",
+          "recommendation": "Build mentions and links elsewhere."
+        }
+      ]
+    },
+    {
+      "name": "Images",
+      "score": 85,
+      "what_works": [
+        "100% alt coverage",
+        "Correct 1200x630 OG image"
+      ],
+      "findings": [
+        {
+          "title": "Unused images",
+          "severity": "Low",
+          "description": "Old project screenshots in public/.",
+          "recommendation": "Delete."
+        }
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Phase 1: Critical Fixes",
+        "timeframe": "Today",
+        "items": [
+          "Deploy",
+          "vercel.app 308 redirect",
+          "Search Console + Bing setup"
+        ]
+      },
+      {
+        "name": "Phase 2: High-Impact Improvements",
+        "timeframe": "Week 1",
+        "items": [
+          "Location pages",
+          "Confirm first-person claims",
+          "Request indexing for new posts"
+        ]
+      },
+      {
+        "name": "Phase 3: Content & Authority",
+        "timeframe": "Month 1-2",
+        "items": [
+          "Upgrade 4 original posts",
+          "Internal links to weak pages",
+          "Off-site distribution"
+        ]
+      },
+      {
+        "name": "Phase 4: Monitoring & Iteration",
+        "timeframe": "Ongoing",
+        "items": [
+          "Connect GSC/CrUX",
+          "Monthly AI-citation checks",
+          "Re-audit in 4-6 weeks"
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "screenshots_dir": "screenshots/"
+  }
+}

@@ -1,0 +1,4254 @@
+[
+ {
+  "path": "/",
+  "status": 200,
+  "title": "Sajjad Ahmad | AI Engineer \u2014 Generative AI, Agentic AI & RAG",
+  "title_len": 60,
+  "desc": "Sajjad Ahmad is an AI Engineer in Islamabad building production Generative AI, AI agents, RAG pipelines and computer vision systems. Remote worldwide.",
+  "desc_len": 150,
+  "canonical": "https://www.sajjadahmad.site",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Build AI that works in the real world."
+  ],
+  "headings": [
+   [
+    "h1",
+    "Build AI that works in the real world."
+   ],
+   [
+    "h2",
+    "Focused expertise.Useful outcomes."
+   ],
+   [
+    "h3",
+    "Generative AI systems"
+   ],
+   [
+    "h3",
+    "Computer vision"
+   ],
+   [
+    "h3",
+    "Production APIs"
+   ],
+   [
+    "h3",
+    "ML engineering"
+   ],
+   [
+    "h3",
+    "AI product delivery"
+   ],
+   [
+    "h3",
+    "Model optimization"
+   ],
+   [
+    "h2",
+    "Projects thatshipped."
+   ],
+   [
+    "h3",
+    "AI Voice Call Agent"
+   ],
+   [
+    "h3",
+    "Automatic License Plate Recognition"
+   ],
+   [
+    "h3",
+    "Traffic Light Detection System"
+   ],
+   [
+    "h3",
+    "Lead Finder Service Intelligence"
+   ],
+   [
+    "h3",
+    "GulelX Crypto Market Scanner"
+   ],
+   [
+    "h3",
+    "AI Academic Quiz & RAG Platform"
+   ],
+   [
+    "h2",
+    "Technical depth.Human communication."
+   ],
+   [
+    "h2",
+    "Notes fromthe build."
+   ],
+   [
+    "h3",
+    "How to Reduce LLM Hallucinations: A Practical Guide"
+   ],
+   [
+    "h2",
+    "Let's turn the idea into a system."
+   ]
+  ],
+  "words": 970,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad-cutout.png&w=3840&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad-cutout.png&w=256&q=75",
+    "alt": ""
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "ProfilePage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/generative-ai-use-cases-for-small-business",
+   "/blog/how-ai-voice-agents-work",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-rag-retrieval-augmented-generation",
+   "/locations",
+   "/services",
+   "/services/ai-product-delivery",
+   "/services/computer-vision",
+   "/services/generative-ai",
+   "/services/ml-engineering",
+   "/services/model-optimization",
+   "/services/production-apis"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/about",
+  "status": 200,
+  "title": "About Sajjad Ahmad | AI Engineer in Islamabad",
+  "title_len": 45,
+  "desc": "About Sajjad Ahmad, an AI Engineer in Islamabad, Pakistan specializing in Generative AI, AI agents, custom RAG pipelines and production ML systems.",
+  "desc_len": 147,
+  "canonical": "https://www.sajjadahmad.site/about",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/sajjad.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "AI Engineer Building Production-Ready AI Systems"
+  ],
+  "headings": [
+   [
+    "h1",
+    "AI Engineer Building Production-Ready AI Systems"
+   ],
+   [
+    "h2",
+    "Sajjad Ahmad"
+   ],
+   [
+    "h3",
+    "Engineering Philosophy & Expertise"
+   ],
+   [
+    "h2",
+    "Global Remote Collaboration"
+   ],
+   [
+    "h3",
+    "Islamabad & Pakistan"
+   ],
+   [
+    "h3",
+    "Middle East & UAE"
+   ],
+   [
+    "h3",
+    "US & Global Remote"
+   ],
+   [
+    "h3",
+    "Let's Discuss Your AI Project"
+   ]
+  ],
+  "words": 250,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=384&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "Person",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/locations/islamabad",
+   "/locations/uae",
+   "/locations/usa",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog",
+  "status": 200,
+  "title": "AI & ML Insights Blog | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 50,
+  "desc": "Read cutting-edge articles on Agentic AI, RAG pipelines, LLM fine-tuning, Machine Learning architecture, and business automation by Sajjad Ahmad.",
+  "desc_len": 145,
+  "canonical": "https://www.sajjadahmad.site/blog",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Engineering the Future of Agentic AI & Business Automation"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Engineering the Future of Agentic AI & Business Automation"
+   ],
+   [
+    "h2",
+    "How Can AI Agents Increase Sales for Your Business?"
+   ],
+   [
+    "h2",
+    "All Published Guides"
+   ],
+   [
+    "h3",
+    "How to Reduce LLM Hallucinations: A Practical Guide"
+   ],
+   [
+    "h3",
+    "How to Evaluate LLM Applications: A Practical Guide"
+   ],
+   [
+    "h3",
+    "Generative AI Use Cases for Small Business (2026 Guide)"
+   ],
+   [
+    "h3",
+    "What Is RAG? Retrieval-Augmented Generation Explained"
+   ],
+   [
+    "h3",
+    "How AI Voice Agents Work: STT, LLM, TTS and Realtime"
+   ],
+   [
+    "h3",
+    "How to Hire an AI Engineer: Skills, Tests and Red Flags"
+   ],
+   [
+    "h3",
+    "Best AI Agent Frameworks in 2026: An Honest Comparison"
+   ],
+   [
+    "h3",
+    "How to Train a Custom YOLO Model: YOLO26 Guide (2026)"
+   ],
+   [
+    "h3",
+    "How to Reduce LLM API Costs: 8 Practical Techniques"
+   ],
+   [
+    "h3",
+    "RAG vs Fine-Tuning: Which Should You Use in 2026?"
+   ],
+   [
+    "h3",
+    "How to Deploy an ML Model with FastAPI and Docker"
+   ],
+   [
+    "h3",
+    "AI Chatbot for Customer Support: A Practical 2026 Guide"
+   ],
+   [
+    "h3",
+    "How to Build an AI Agent: A Step-by-Step 2026 Guide"
+   ],
+   [
+    "h3",
+    "Best Vector Database for RAG: 2026 Comparison Guide"
+   ],
+   [
+    "h3",
+    "How Much Does It Cost to Build an AI App or AI Agent?"
+   ],
+   [
+    "h3",
+    "What Is Model Context Protocol (MCP)? A Complete Guide"
+   ],
+   [
+    "h3",
+    "Andrew Ng on the Biggest Opportunities in AI"
+   ],
+   [
+    "h3",
+    "How Can AI Agents Increase Sales for Your Business?"
+   ],
+   [
+    "h3",
+    "What Is Agentic AI? A Complete Guide for Businesses"
+   ]
+  ],
+  "words": 958,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fblog-banner.png&w=3840&q=75",
+    "alt": "How Can AI Agents Increase Sales for Your Business?"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/ai-chatbot-for-customer-support",
+   "/blog/ai-development-cost",
+   "/blog/andrew-ng-biggest-opportunities-in-ai",
+   "/blog/best-ai-agent-frameworks",
+   "/blog/best-vector-databases-for-rag",
+   "/blog/deploy-machine-learning-model-fastapi-docker",
+   "/blog/generative-ai-use-cases-for-small-business",
+   "/blog/how-ai-voice-agents-work",
+   "/blog/how-can-ai-agents-increase-sales-for-your-business",
+   "/blog/how-to-build-an-ai-agent",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-hire-an-ai-engineer",
+   "/blog/how-to-reduce-llm-api-costs",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/rag-vs-fine-tuning",
+   "/blog/train-custom-yolo-object-detection",
+   "/blog/what-is-agentic-ai",
+   "/blog/what-is-model-context-protocol-mcp",
+   "/blog/what-is-rag-retrieval-augmented-generation",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/generative-ai-use-cases-for-small-business",
+  "status": 200,
+  "title": "Generative AI Use Cases for Small Business (2026 Guide)",
+  "title_len": 55,
+  "desc": "Practical generative AI use cases for small business by function, quick wins vs custom builds, key risks, and a step-by-step plan to get started safely.",
+  "desc_len": 152,
+  "canonical": "https://www.sajjadahmad.site/blog/generative-ai-use-cases-for-small-business",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Generative AI Use Cases for Small Business (2026 Guide)"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Generative AI Use Cases for Small Business (2026 Guide)"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "How Many Small Businesses Use AI Today?"
+   ],
+   [
+    "h2",
+    "What Are the Best Generative AI Use Cases by Function?"
+   ],
+   [
+    "h2",
+    "What Do Generative AI Use Cases Look Like by Industry?"
+   ],
+   [
+    "h3",
+    "Retail and e-commerce"
+   ],
+   [
+    "h3",
+    "Professional services"
+   ],
+   [
+    "h3",
+    "Trades and field services"
+   ],
+   [
+    "h3",
+    "Hospitality and restaurants"
+   ],
+   [
+    "h3",
+    "Clinics and wellness"
+   ],
+   [
+    "h3",
+    "Real estate"
+   ],
+   [
+    "h2",
+    "Which Use Cases Are Quick Wins?"
+   ],
+   [
+    "h3",
+    "Writing first drafts"
+   ],
+   [
+    "h3",
+    "Summarising"
+   ],
+   [
+    "h3",
+    "Customer reply suggestions"
+   ],
+   [
+    "h3",
+    "Translation and tone"
+   ],
+   [
+    "h2",
+    "When Does a Custom AI Build Make Sense?"
+   ],
+   [
+    "h2",
+    "What Are the Risks of Generative AI for Small Businesses?"
+   ],
+   [
+    "h2",
+    "How Should a Small Business Get Started?"
+   ],
+   [
+    "h2",
+    "How Do You Measure Whether AI Is Paying Off?"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What is the best first generative AI use case for a small business?"
+   ],
+   [
+    "h3",
+    "Q: How much does generative AI cost for a small business?"
+   ],
+   [
+    "h3",
+    "Q: Is it safe to put customer data into AI tools?"
+   ],
+   [
+    "h3",
+    "Q: Can generative AI replace employees in a small business?"
+   ],
+   [
+    "h3",
+    "Q: Do small businesses need a custom AI solution?"
+   ]
+  ],
+  "words": 2173,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/ai-development-cost",
+   "/blog/generative-ai-use-cases-for-small-business",
+   "/blog/how-can-ai-agents-increase-sales-for-your-business",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/rag-vs-fine-tuning",
+   "/blog/what-is-agentic-ai",
+   "/locations",
+   "/services",
+   "/services/ai-automation",
+   "/services/computer-vision",
+   "/services/generative-ai",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/how-ai-voice-agents-work",
+  "status": 200,
+  "title": "How AI Voice Agents Work: STT, LLM, TTS and Realtime",
+  "title_len": 52,
+  "desc": "How AI voice agents work: the STT to LLM to TTS pipeline vs speech-to-speech realtime models, latency budgets, turn-taking, interruptions and phone calls.",
+  "desc_len": 154,
+  "canonical": "https://www.sajjadahmad.site/blog/how-ai-voice-agents-work",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "How AI Voice Agents Work: STT, LLM, TTS and Realtime"
+  ],
+  "headings": [
+   [
+    "h1",
+    "How AI Voice Agents Work: STT, LLM, TTS and Realtime"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h2",
+    "Quick Answer: How Do AI Voice Agents Work?"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "What Is an AI Voice Agent?"
+   ],
+   [
+    "h3",
+    "Transport"
+   ],
+   [
+    "h3",
+    "Turn detection"
+   ],
+   [
+    "h3",
+    "Reasoning and tools"
+   ],
+   [
+    "h3",
+    "Speech in and out"
+   ],
+   [
+    "h2",
+    "How Does the STT, LLM, TTS Pipeline Work?"
+   ],
+   [
+    "h2",
+    "What Are Speech-to-Speech Realtime Models?"
+   ],
+   [
+    "h2",
+    "Pipeline or Speech-to-Speech: Which Should You Choose?"
+   ],
+   [
+    "h2",
+    "Where Does Voice Agent Latency Come From?"
+   ],
+   [
+    "h2",
+    "How Do Voice Agents Handle Turn-Taking and Interruptions?"
+   ],
+   [
+    "h2",
+    "How Do AI Voice Agents Answer Phone Calls?"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: How does an AI voice agent understand speech?"
+   ],
+   [
+    "h3",
+    "Q: What is the difference between a voice agent and an IVR?"
+   ],
+   [
+    "h3",
+    "Q: Why do AI voice agents sometimes interrupt or talk over people?"
+   ],
+   [
+    "h3",
+    "Q: Can AI voice agents make and receive real phone calls?"
+   ],
+   [
+    "h3",
+    "Q: Which is better for voice agents, a pipeline or a realtime model?"
+   ]
+  ],
+  "words": 2194,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/generative-ai-use-cases-for-small-business",
+   "/blog/how-ai-voice-agents-work",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-agentic-ai",
+   "/blog/what-is-model-context-protocol-mcp",
+   "/locations",
+   "/services",
+   "/services/ai-agent-development",
+   "/services/ai-automation"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/how-to-evaluate-llm-applications",
+  "status": 200,
+  "title": "How to Evaluate LLM Applications: A Practical Guide",
+  "title_len": 51,
+  "desc": "How to evaluate LLM applications: golden datasets, offline vs online evals, LLM-as-judge pitfalls, RAG faithfulness metrics, Ragas and DeepEval.",
+  "desc_len": 144,
+  "canonical": "https://www.sajjadahmad.site/blog/how-to-evaluate-llm-applications",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "How to Evaluate LLM Applications: A Practical Guide"
+  ],
+  "headings": [
+   [
+    "h1",
+    "How to Evaluate LLM Applications: A Practical Guide"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h2",
+    "Quick Answer: How Do You Evaluate LLM Applications?"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "Why Is Evaluating LLM Applications Hard?"
+   ],
+   [
+    "h2",
+    "What Is the Difference Between Offline and Online Evaluation?"
+   ],
+   [
+    "h3",
+    "Offline (pre-deployment)"
+   ],
+   [
+    "h3",
+    "Online (production)"
+   ],
+   [
+    "h2",
+    "How Do You Build a Golden Dataset for LLM Evaluation?"
+   ],
+   [
+    "h2",
+    "Which Evaluation Methods Should You Use?"
+   ],
+   [
+    "h2",
+    "How Reliable Is LLM-as-a-Judge?"
+   ],
+   [
+    "h2",
+    "How Do You Evaluate a RAG System?"
+   ],
+   [
+    "h2",
+    "Which LLM Evaluation Tools Should You Use?"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What is LLM evaluation?"
+   ],
+   [
+    "h3",
+    "Q: What is a golden dataset for LLM evaluation?"
+   ],
+   [
+    "h3",
+    "Q: Is LLM-as-a-judge reliable?"
+   ],
+   [
+    "h3",
+    "Q: What metrics are used to evaluate RAG?"
+   ],
+   [
+    "h3",
+    "Q: How many test cases do I need to evaluate an LLM app?"
+   ],
+   [
+    "h3",
+    "Q: What is the difference between Ragas, DeepEval and promptfoo?"
+   ]
+  ],
+  "words": 2337,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/best-vector-databases-for-rag",
+   "/blog/generative-ai-use-cases-for-small-business",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-agentic-ai",
+   "/blog/what-is-rag-retrieval-augmented-generation",
+   "/locations",
+   "/services",
+   "/services/ai-product-delivery",
+   "/services/generative-ai",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/how-to-reduce-llm-hallucinations",
+  "status": 200,
+  "title": "How to Reduce LLM Hallucinations: A Practical Guide",
+  "title_len": 51,
+  "desc": "How to reduce LLM hallucinations: ground answers with RAG, require citations, allow abstention, constrain outputs, verify claims and measure in production.",
+  "desc_len": 155,
+  "canonical": "https://www.sajjadahmad.site/blog/how-to-reduce-llm-hallucinations",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "How to Reduce LLM Hallucinations: A Practical Guide"
+  ],
+  "headings": [
+   [
+    "h1",
+    "How to Reduce LLM Hallucinations: A Practical Guide"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "Why Do LLMs Hallucinate?"
+   ],
+   [
+    "h2",
+    "How Does Grounding with RAG Reduce Hallucinations?"
+   ],
+   [
+    "h2",
+    "Why Should Answers Include Citations?"
+   ],
+   [
+    "h2",
+    "How Do You Let a Model Say \u201cI Don't Know\u201d?"
+   ],
+   [
+    "h2",
+    "Do Structured Outputs and Temperature Help?"
+   ],
+   [
+    "h2",
+    "How Can You Verify Outputs Before Users See Them?"
+   ],
+   [
+    "h2",
+    "Does the Choice of Model and Prompt Matter?"
+   ],
+   [
+    "h2",
+    "How Do You Measure Hallucinations in Production?"
+   ],
+   [
+    "h2",
+    "A Step-by-Step Hallucination Reduction Checklist"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: Can LLM hallucinations be completely eliminated?"
+   ],
+   [
+    "h3",
+    "Q: What is the most effective way to reduce hallucinations?"
+   ],
+   [
+    "h3",
+    "Q: Does lowering temperature reduce hallucinations?"
+   ],
+   [
+    "h3",
+    "Q: Why do LLMs make up citations?"
+   ],
+   [
+    "h3",
+    "Q: How do you detect hallucinations automatically?"
+   ],
+   [
+    "h3",
+    "Q: Does fine-tuning reduce hallucinations?"
+   ]
+  ],
+  "words": 2180,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/how-to-build-an-ai-agent",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-reduce-llm-api-costs",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-rag-retrieval-augmented-generation",
+   "/locations",
+   "/services",
+   "/services/generative-ai",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/what-is-rag-retrieval-augmented-generation",
+  "status": 200,
+  "title": "What Is RAG? Retrieval-Augmented Generation Explained",
+  "title_len": 53,
+  "desc": "What is RAG? A complete guide to retrieval-augmented generation: chunking, embeddings, vector and hybrid search, reranking, evaluation and common failures.",
+  "desc_len": 155,
+  "canonical": "https://www.sajjadahmad.site/blog/what-is-rag-retrieval-augmented-generation",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "What Is RAG? Retrieval-Augmented Generation Explained"
+  ],
+  "headings": [
+   [
+    "h1",
+    "What Is RAG? Retrieval-Augmented Generation Explained"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "What Is Retrieval-Augmented Generation?"
+   ],
+   [
+    "h2",
+    "How Does RAG Work Step by Step?"
+   ],
+   [
+    "h2",
+    "How Should You Chunk Documents for RAG?"
+   ],
+   [
+    "h2",
+    "How Do Embeddings and Vector Search Work?"
+   ],
+   [
+    "h2",
+    "What Are Hybrid Search and Reranking?"
+   ],
+   [
+    "h2",
+    "How Should the Generation Step Be Prompted?"
+   ],
+   [
+    "h2",
+    "How Do You Evaluate a RAG System?"
+   ],
+   [
+    "h2",
+    "Why Do RAG Systems Fail?"
+   ],
+   [
+    "h2",
+    "When Do You Not Need RAG?"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What does RAG stand for in AI?"
+   ],
+   [
+    "h3",
+    "Q: What is an example of RAG?"
+   ],
+   [
+    "h3",
+    "Q: What is the difference between RAG and a vector database?"
+   ],
+   [
+    "h3",
+    "Q: Does RAG eliminate hallucinations?"
+   ],
+   [
+    "h3",
+    "Q: What is the best chunk size for RAG?"
+   ],
+   [
+    "h3",
+    "Q: Is RAG still needed with long-context LLMs?"
+   ]
+  ],
+  "words": 2227,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/best-vector-databases-for-rag",
+   "/blog/how-to-build-an-ai-agent",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/rag-vs-fine-tuning",
+   "/blog/what-is-rag-retrieval-augmented-generation",
+   "/locations",
+   "/services",
+   "/services/generative-ai",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/locations",
+  "status": 200,
+  "title": "AI Engineering Service Regions | Sajjad Ahmad",
+  "title_len": 45,
+  "desc": "Explore AI engineering and development services across target regional hubs: Islamabad, Pakistan, UAE & Middle East, Germany & Europe, and the United States.",
+  "desc_len": 157,
+  "canonical": "https://www.sajjadahmad.site/locations",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "AI Engineering Across Key Regions"
+  ],
+  "headings": [
+   [
+    "h1",
+    "AI Engineering Across Key Regions"
+   ],
+   [
+    "h2",
+    "Islamabad, Pakistan"
+   ],
+   [
+    "h2",
+    "Pakistan (Nationwide)"
+   ],
+   [
+    "h2",
+    "United Arab Emirates & Gulf"
+   ],
+   [
+    "h2",
+    "Germany & Wider Europe"
+   ],
+   [
+    "h2",
+    "United States (US Market)"
+   ]
+  ],
+  "words": 189,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/locations/germany",
+   "/locations/islamabad",
+   "/locations/pakistan",
+   "/locations/uae",
+   "/locations/usa",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services",
+  "status": 200,
+  "title": "AI Development Services | Sajjad Ahmad \u2014 AI Engineer",
+  "title_len": 52,
+  "desc": "Production AI development services: AI agents, custom RAG pipelines, generative AI apps, MCP servers, computer vision and ML deployment.",
+  "desc_len": 136,
+  "canonical": "https://www.sajjadahmad.site/services",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Production AI Systems Built for Real-World Value"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Production AI Systems Built for Real-World Value"
+   ],
+   [
+    "h2",
+    "AI Agent Development"
+   ],
+   [
+    "h2",
+    "Custom RAG Pipelines"
+   ],
+   [
+    "h2",
+    "Generative AI Applications"
+   ],
+   [
+    "h2",
+    "Model Context Protocol (MCP)"
+   ],
+   [
+    "h2",
+    "AI Automation Services"
+   ],
+   [
+    "h2",
+    "Computer Vision & Multimodal AI"
+   ]
+  ],
+  "words": 265,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "Service",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services",
+   "/services/ai-agent-development",
+   "/services/ai-automation",
+   "/services/computer-vision",
+   "/services/generative-ai",
+   "/services/mcp-development",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/ai-product-delivery",
+  "status": 200,
+  "title": "AI Product Delivery | Sajjad Ahmad",
+  "title_len": 34,
+  "desc": "Clear scope, milestones and rapid iteration to take an AI idea from concept to a deployed, measurable product.",
+  "desc_len": 110,
+  "canonical": "https://www.sajjadahmad.site/services/ai-product-delivery",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "From AI Idea to Shipped Product, Without the Guesswork"
+  ],
+  "headings": [
+   [
+    "h1",
+    "From AI Idea to Shipped Product, Without the Guesswork"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Deliverables, not just a demo."
+   ],
+   [
+    "h2",
+    "Questions clients ask first."
+   ],
+   [
+    "h3",
+    "How do I know if my AI idea is feasible?"
+   ],
+   [
+    "h3",
+    "How much does it cost to build an AI MVP?"
+   ],
+   [
+    "h3",
+    "Why do so many AI projects never make it past the demo stage?"
+   ],
+   [
+    "h3",
+    "Do I need a technical co-founder to build an AI product?"
+   ],
+   [
+    "h3",
+    "What happens after the AI product launches?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 703,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "Service",
+   "FAQPage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/computer-vision",
+  "status": 200,
+  "title": "Computer Vision & Multimodal AI Services | Sajjad Ahmad",
+  "title_len": 55,
+  "desc": "Visual AI systems for object detection, OCR document analysis, image classification, and Vision-Language Model integration.",
+  "desc_len": 123,
+  "canonical": "https://www.sajjadahmad.site/services/computer-vision",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Visual AI & Document Intelligence Systems"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Visual AI & Document Intelligence Systems"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Deliverables, not just a demo."
+   ],
+   [
+    "h2",
+    "Questions clients ask first."
+   ],
+   [
+    "h3",
+    "How much training data do I need for a computer vision model?"
+   ],
+   [
+    "h3",
+    "Can computer vision run in real time on video?"
+   ],
+   [
+    "h3",
+    "Do I need a GPU to run computer vision models?"
+   ],
+   [
+    "h3",
+    "Can AI extract data from scanned documents and images?"
+   ],
+   [
+    "h3",
+    "What is the difference between object detection and image classification?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 682,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "Service",
+   "FAQPage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/generative-ai",
+  "status": 200,
+  "title": "Generative AI Development Services | Sajjad Ahmad",
+  "title_len": 49,
+  "desc": "Full-stack Generative AI solutions, custom LLM integration, prompt engineering, and production Web application development.",
+  "desc_len": 123,
+  "canonical": "https://www.sajjadahmad.site/services/generative-ai",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Production-Grade Generative AI & LLM Applications"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Production-Grade Generative AI & LLM Applications"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Deliverables, not just a demo."
+   ],
+   [
+    "h2",
+    "Questions clients ask first."
+   ],
+   [
+    "h3",
+    "What can generative AI do for my business?"
+   ],
+   [
+    "h3",
+    "How much does it cost to build a generative AI application?"
+   ],
+   [
+    "h3",
+    "Do I need my own GPU to run generative AI?"
+   ],
+   [
+    "h3",
+    "Which LLM should I use for my product?"
+   ],
+   [
+    "h3",
+    "Can you add generative AI to our existing app?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 671,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "Service",
+   "FAQPage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/ml-engineering",
+  "status": 200,
+  "title": "Machine Learning Engineering Services | Sajjad Ahmad",
+  "title_len": 52,
+  "desc": "End-to-end ML engineering: data preparation, model training, evaluation and deployment with Python, PyTorch, TensorFlow and Scikit-learn.",
+  "desc_len": 137,
+  "canonical": "https://www.sajjadahmad.site/services/ml-engineering",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "From Raw Data to a Model You Can Trust"
+  ],
+  "headings": [
+   [
+    "h1",
+    "From Raw Data to a Model You Can Trust"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Deliverables, not just a demo."
+   ],
+   [
+    "h2",
+    "Questions clients ask first."
+   ],
+   [
+    "h3",
+    "How much data do I need to build a machine learning model?"
+   ],
+   [
+    "h3",
+    "Why does my model perform well in testing but fail in production?"
+   ],
+   [
+    "h3",
+    "Should I use deep learning or classical machine learning?"
+   ],
+   [
+    "h3",
+    "How do you make sure a machine learning model is reliable?"
+   ],
+   [
+    "h3",
+    "Can my team retrain the model after you hand it over?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 688,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "Service",
+   "FAQPage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/model-optimization",
+  "status": 200,
+  "title": "AI Model Optimization & Fine-Tuning | Sajjad Ahmad",
+  "title_len": 50,
+  "desc": "Fine-tuning with LoRA/QLoRA, prompt engineering, evaluation workflows and inference improvements for accurate, efficient AI.",
+  "desc_len": 124,
+  "canonical": "https://www.sajjadahmad.site/services/model-optimization",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Make Your AI More Accurate, Faster and Cheaper"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Make Your AI More Accurate, Faster and Cheaper"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Deliverables, not just a demo."
+   ],
+   [
+    "h2",
+    "Questions clients ask first."
+   ],
+   [
+    "h3",
+    "What is LoRA fine-tuning?"
+   ],
+   [
+    "h3",
+    "What is the difference between LoRA and QLoRA?"
+   ],
+   [
+    "h3",
+    "Should I fine-tune a model or improve my prompts first?"
+   ],
+   [
+    "h3",
+    "How can I reduce my LLM API costs?"
+   ],
+   [
+    "h3",
+    "How do you know if a prompt or model change actually helped?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 659,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "Service",
+   "FAQPage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/production-apis",
+  "status": 200,
+  "title": "Production AI API Development | Sajjad Ahmad",
+  "title_len": 44,
+  "desc": "Scalable FastAPI backends that turn trained models into reliable, documented APIs, containerized with Docker and ready for AWS.",
+  "desc_len": 127,
+  "canonical": "https://www.sajjadahmad.site/services/production-apis",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Turn Your Models into Reliable, Scalable APIs"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Turn Your Models into Reliable, Scalable APIs"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Deliverables, not just a demo."
+   ],
+   [
+    "h2",
+    "Questions clients ask first."
+   ],
+   [
+    "h3",
+    "Why use FastAPI to serve machine learning models?"
+   ],
+   [
+    "h3",
+    "How do you deploy an AI model to production?"
+   ],
+   [
+    "h3",
+    "How do you make an AI API handle high traffic?"
+   ],
+   [
+    "h3",
+    "Can one API serve several AI models to our web and mobile apps?"
+   ],
+   [
+    "h3",
+    "Do you deploy on AWS or can you use our existing infrastructure?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 700,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "Service",
+   "FAQPage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/locations/islamabad",
+  "status": 200,
+  "title": "Islamabad, Pakistan AI Engineering | Sajjad Ahmad",
+  "title_len": 49,
+  "desc": "Local AI consultation, Generative AI applications, custom RAG systems, and Machine Learning engineering services in Islamabad.",
+  "desc_len": 126,
+  "canonical": "https://www.sajjadahmad.site/locations/islamabad",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "AI Engineering & Machine Learning Development in Islamabad"
+  ],
+  "headings": [
+   [
+    "h1",
+    "AI Engineering & Machine Learning Development in Islamabad"
+   ],
+   [
+    "h2",
+    "AI Engineering Capabilities for Islamabad, Pakistan"
+   ],
+   [
+    "h2",
+    "Delivery & Remote Work Framework"
+   ],
+   [
+    "h3",
+    "Start an AI Project in Islamabad, Pakistan"
+   ]
+  ],
+  "words": 151,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/locations/uae",
+  "status": 200,
+  "title": "United Arab Emirates & Gulf Region AI Engineering",
+  "title_len": 49,
+  "desc": "Enterprise AI automation, Agentic sales systems, and custom RAG knowledge bases for businesses in Dubai, Abu Dhabi, Saudi Arabia, and the Gulf.",
+  "desc_len": 143,
+  "canonical": "https://www.sajjadahmad.site/locations/uae",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "AI Engineering & Automation Services for UAE & Gulf Businesses"
+  ],
+  "headings": [
+   [
+    "h1",
+    "AI Engineering & Automation Services for UAE & Gulf Businesses"
+   ],
+   [
+    "h2",
+    "AI Engineering Capabilities for United Arab Emirates & Gulf Region"
+   ],
+   [
+    "h2",
+    "Delivery & Remote Work Framework"
+   ],
+   [
+    "h3",
+    "Start an AI Project in United Arab Emirates & Gulf Region"
+   ]
+  ],
+  "words": 155,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/locations/usa",
+  "status": 200,
+  "title": "United States (US Market) AI Engineering | Sajjad Ahmad",
+  "title_len": 55,
+  "desc": "Remote AI engineering, custom AI agent development, enterprise RAG, and MCP servers for tech startups and enterprises in the United States.",
+  "desc_len": 139,
+  "canonical": "https://www.sajjadahmad.site/locations/usa",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Full-Stack AI Engineering & Custom AI Development for US Companies"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Full-Stack AI Engineering & Custom AI Development for US Companies"
+   ],
+   [
+    "h2",
+    "AI Engineering Capabilities for United States (US Market)"
+   ],
+   [
+    "h2",
+    "Delivery & Remote Work Framework"
+   ],
+   [
+    "h3",
+    "Start an AI Project in United States (US Market)"
+   ]
+  ],
+  "words": 157,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/ai-chatbot-for-customer-support",
+  "status": 200,
+  "title": "AI Chatbot for Customer Support: A Practical 2026 Guide",
+  "title_len": 55,
+  "desc": "How an AI chatbot for customer support works: RAG on your help docs, human handoff, deflection and CSAT metrics, implementation steps and key pitfalls.",
+  "desc_len": 151,
+  "canonical": "https://www.sajjadahmad.site/blog/ai-chatbot-for-customer-support",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "AI Chatbot for Customer Support: A Practical 2026 Guide"
+  ],
+  "headings": [
+   [
+    "h1",
+    "AI Chatbot for Customer Support: A Practical 2026 Guide"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "How Does an AI Customer Support Chatbot Work?"
+   ],
+   [
+    "h3",
+    "Understanding"
+   ],
+   [
+    "h3",
+    "Retrieval"
+   ],
+   [
+    "h3",
+    "Actions"
+   ],
+   [
+    "h3",
+    "Escalation"
+   ],
+   [
+    "h2",
+    "Why Should a Support Bot Use RAG on Your Help Docs?"
+   ],
+   [
+    "h2",
+    "When Should the Bot Hand Off to a Human?"
+   ],
+   [
+    "h2",
+    "Which Metrics Show a Support Bot Is Working?"
+   ],
+   [
+    "h2",
+    "How Do You Implement an AI Support Chatbot?"
+   ],
+   [
+    "h2",
+    "Should You Buy a Platform or Build a Custom Bot?"
+   ],
+   [
+    "h2",
+    "What Are the Biggest AI Support Chatbot Pitfalls?"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: Can an AI chatbot replace customer support agents?"
+   ],
+   [
+    "h3",
+    "Q: How do AI support chatbots avoid making things up?"
+   ],
+   [
+    "h3",
+    "Q: What is a good deflection rate for a support chatbot?"
+   ],
+   [
+    "h3",
+    "Q: How long does it take to launch an AI customer support chatbot?"
+   ],
+   [
+    "h3",
+    "Q: Is a company liable for what its chatbot says?"
+   ]
+  ],
+  "words": 2185,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/ai-chatbot-for-customer-support",
+   "/blog/ai-development-cost",
+   "/blog/how-to-reduce-llm-api-costs",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-agentic-ai",
+   "/blog/what-is-rag-retrieval-augmented-generation",
+   "/locations",
+   "/services",
+   "/services/ai-agent-development",
+   "/services/ai-automation",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/ai-development-cost",
+  "status": 200,
+  "title": "How Much Does It Cost to Build an AI App or AI Agent?",
+  "title_len": 53,
+  "desc": "What it costs to build an AI app or AI agent: the real cost drivers, running costs, how to estimate your budget, build vs buy, and freelancer vs agency.",
+  "desc_len": 152,
+  "canonical": "https://www.sajjadahmad.site/blog/ai-development-cost",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "How Much Does It Cost to Build an AI App or AI Agent?"
+  ],
+  "headings": [
+   [
+    "h1",
+    "How Much Does It Cost to Build an AI App or AI Agent?"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "What Drives the Cost of Building an AI App?"
+   ],
+   [
+    "h3",
+    "1. Scope and integrations"
+   ],
+   [
+    "h3",
+    "2. Data readiness"
+   ],
+   [
+    "h3",
+    "3. Model and API usage"
+   ],
+   [
+    "h3",
+    "4. Infrastructure"
+   ],
+   [
+    "h3",
+    "5. Reliability and maintenance"
+   ],
+   [
+    "h2",
+    "How Does Cost Change by Project Type?"
+   ],
+   [
+    "h2",
+    "What Does an AI App Cost to Run Each Month?"
+   ],
+   [
+    "h2",
+    "How Do You Estimate Your AI Budget?"
+   ],
+   [
+    "h2",
+    "Should You Build a Custom AI App or Buy a Tool?"
+   ],
+   [
+    "h2",
+    "Freelancer, Agency or In-House: Which Costs Less?"
+   ],
+   [
+    "h2",
+    "What Hidden Costs Do AI Projects Miss?"
+   ],
+   [
+    "h2",
+    "How Can You Lower the Cost of an AI Project?"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: How much does it cost to build an AI agent?"
+   ],
+   [
+    "h3",
+    "Q: Why do AI development quotes vary so much?"
+   ],
+   [
+    "h3",
+    "Q: What are the ongoing costs of an AI application?"
+   ],
+   [
+    "h3",
+    "Q: Is it cheaper to use ChatGPT or build a custom AI app?"
+   ],
+   [
+    "h3",
+    "Q: How long does it take to build an AI app?"
+   ]
+  ],
+  "words": 2389,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/ai-development-cost",
+   "/blog/generative-ai-use-cases-for-small-business",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-hire-an-ai-engineer",
+   "/blog/how-to-reduce-llm-api-costs",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-agentic-ai",
+   "/locations",
+   "/services",
+   "/services/ai-agent-development",
+   "/services/ai-product-delivery",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/andrew-ng-biggest-opportunities-in-ai",
+  "status": 200,
+  "title": "Andrew Ng on the Biggest Opportunities in AI | Sajjad Ahmad",
+  "title_len": 59,
+  "desc": "Andrew Ng's practical view on the future of AI: job impacts, education, privacy, and where the biggest opportunities for builders really are.",
+  "desc_len": 141,
+  "canonical": "https://www.sajjadahmad.site/blog/andrew-ng-biggest-opportunities-in-ai",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/AndrewNg.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Andrew Ng on the Biggest Opportunities in AI"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Andrew Ng on the Biggest Opportunities in AI"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Key Takeaway"
+   ],
+   [
+    "h2",
+    "1. AI Fear-Mongering and Regulatory Capture"
+   ],
+   [
+    "h2",
+    "2. Jobs, Productivity, and the Human \"Context Advantage\""
+   ],
+   [
+    "h2",
+    "3. Education, Skill Expansion, and Learning"
+   ],
+   [
+    "h2",
+    "4. Building with AI & The Product Management Bottleneck"
+   ],
+   [
+    "h2",
+    "5. Privacy, Safety, and Open-Source Models"
+   ],
+   [
+    "h2",
+    "6. AGI Timeline"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What is Andrew Ng's view on AI job replacement?"
+   ],
+   [
+    "h3",
+    "Q: Why is product management becoming a bottleneck in AI?"
+   ]
+  ],
+  "words": 614,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2FAndrewNg.png&w=3840&q=75",
+    "alt": "Andrew Ng on the Biggest Opportunities in AI"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/andrew-ng-biggest-opportunities-in-ai",
+   "/blog/generative-ai-use-cases-for-small-business",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/best-ai-agent-frameworks",
+  "status": 200,
+  "title": "Best AI Agent Frameworks in 2026: An Honest Comparison",
+  "title_len": 54,
+  "desc": "Compare the best AI agent frameworks in 2026: LangGraph, OpenAI Agents SDK, CrewAI, Microsoft Agent Framework, Pydantic AI, LlamaIndex and Google ADK.",
+  "desc_len": 150,
+  "canonical": "https://www.sajjadahmad.site/blog/best-ai-agent-frameworks",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Best AI Agent Frameworks in 2026: An Honest Comparison"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Best AI Agent Frameworks in 2026: An Honest Comparison"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "What Makes a Good AI Agent Framework?"
+   ],
+   [
+    "h2",
+    "How Do the Top AI Agent Frameworks Compare?"
+   ],
+   [
+    "h2",
+    "Is LangGraph Still the Best Choice for Complex Agents?"
+   ],
+   [
+    "h2",
+    "What Is the OpenAI Agents SDK Good For?"
+   ],
+   [
+    "h2",
+    "When Should You Use CrewAI?"
+   ],
+   [
+    "h2",
+    "What Happened to AutoGen? Microsoft Agent Framework"
+   ],
+   [
+    "h2",
+    "What About Pydantic AI, LlamaIndex, Google ADK and Claude Agent SDK?"
+   ],
+   [
+    "h3",
+    "Pydantic AI"
+   ],
+   [
+    "h3",
+    "LlamaIndex"
+   ],
+   [
+    "h3",
+    "Google ADK"
+   ],
+   [
+    "h3",
+    "Claude Agent SDK"
+   ],
+   [
+    "h2",
+    "Which AI Agent Framework Should You Choose?"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What is the best AI agent framework in 2026?"
+   ],
+   [
+    "h3",
+    "Q: Is AutoGen still maintained?"
+   ],
+   [
+    "h3",
+    "Q: Is LangGraph the same as LangChain?"
+   ],
+   [
+    "h3",
+    "Q: Can I use the OpenAI Agents SDK with non-OpenAI models?"
+   ],
+   [
+    "h3",
+    "Q: Do I need a framework to build an AI agent?"
+   ],
+   [
+    "h3",
+    "Q: Which AI agent framework is best for beginners?"
+   ]
+  ],
+  "words": 2225,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/best-ai-agent-frameworks",
+   "/blog/generative-ai-use-cases-for-small-business",
+   "/blog/how-to-build-an-ai-agent",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-model-context-protocol-mcp",
+   "/locations",
+   "/services",
+   "/services/ai-agent-development",
+   "/services/mcp-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/best-vector-databases-for-rag",
+  "status": 200,
+  "title": "Best Vector Database for RAG: 2026 Comparison Guide",
+  "title_len": 51,
+  "desc": "Pinecone, Qdrant, Weaviate, Milvus, Chroma or pgvector? Compare hosting, licensing, hybrid search and filtering to pick the best vector database for RAG.",
+  "desc_len": 153,
+  "canonical": "https://www.sajjadahmad.site/blog/best-vector-databases-for-rag",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Best Vector Database for RAG: 2026 Comparison Guide"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Best Vector Database for RAG: 2026 Comparison Guide"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h2",
+    "Quick Answer: Which Vector Database Is Best for RAG?"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "What Matters in a Vector Database for RAG?"
+   ],
+   [
+    "h2",
+    "How Do Pinecone, Qdrant, Weaviate, Milvus, Chroma and pgvector Compare?"
+   ],
+   [
+    "h2",
+    "What Are the Strengths and Trade-offs of Each Database?"
+   ],
+   [
+    "h3",
+    "pgvector: vectors inside PostgreSQL"
+   ],
+   [
+    "h3",
+    "Qdrant: Rust engine with strong filtering"
+   ],
+   [
+    "h3",
+    "Weaviate: hybrid search and multi-tenancy built in"
+   ],
+   [
+    "h3",
+    "Milvus: built for billions of vectors"
+   ],
+   [
+    "h3",
+    "Chroma: the fastest path to a working prototype"
+   ],
+   [
+    "h3",
+    "Pinecone: fully managed, now also in your own cloud"
+   ],
+   [
+    "h2",
+    "Do You Need Hybrid Search for RAG?"
+   ],
+   [
+    "h2",
+    "How Do You Choose? A Step-by-Step Decision Process"
+   ],
+   [
+    "h3",
+    "Start here if unsure"
+   ],
+   [
+    "h3",
+    "Switch when"
+   ],
+   [
+    "h2",
+    "What Mistakes Do Teams Make When Choosing a Vector Database?"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What is the best vector database for RAG?"
+   ],
+   [
+    "h3",
+    "Q: Is pgvector good enough for production RAG?"
+   ],
+   [
+    "h3",
+    "Q: Which vector databases are open source?"
+   ],
+   [
+    "h3",
+    "Q: Do I need a dedicated vector database for RAG?"
+   ],
+   [
+    "h3",
+    "Q: Does the vector database affect RAG answer quality?"
+   ]
+  ],
+  "words": 2386,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/best-vector-databases-for-rag",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-reduce-llm-api-costs",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-agentic-ai",
+   "/blog/what-is-rag-retrieval-augmented-generation",
+   "/locations",
+   "/services",
+   "/services/mcp-development",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/deploy-machine-learning-model-fastapi-docker",
+  "status": 200,
+  "title": "How to Deploy an ML Model with FastAPI and Docker",
+  "title_len": 49,
+  "desc": "Step-by-step guide to deploy an ML model with FastAPI and Docker: Pydantic validation, startup model loading, a lean Dockerfile, health checks and scaling.",
+  "desc_len": 155,
+  "canonical": "https://www.sajjadahmad.site/blog/deploy-machine-learning-model-fastapi-docker",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "How to Deploy an ML Model with FastAPI and Docker"
+  ],
+  "headings": [
+   [
+    "h1",
+    "How to Deploy an ML Model with FastAPI and Docker"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h2",
+    "Quick Answer: How Do You Deploy an ML Model with FastAPI and Docker?"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "What Does a Production ML API Need?"
+   ],
+   [
+    "h3",
+    "FastAPI handles"
+   ],
+   [
+    "h3",
+    "Docker handles"
+   ],
+   [
+    "h2",
+    "How Do You Deploy an ML Model with FastAPI and Docker, Step by Step?"
+   ],
+   [
+    "h2",
+    "How Do You Build the FastAPI Prediction Service?"
+   ],
+   [
+    "h2",
+    "How Should You Write the Dockerfile for a FastAPI Model?"
+   ],
+   [
+    "h2",
+    "How Do You Add Health Checks to a Model API?"
+   ],
+   [
+    "h2",
+    "How Do You Scale a FastAPI Model Server?"
+   ],
+   [
+    "h2",
+    "What Should You Check Before Shipping to Production?"
+   ],
+   [
+    "h2",
+    "What Are the Most Common FastAPI and Docker Deployment Errors?"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: Why use FastAPI to serve machine learning models?"
+   ],
+   [
+    "h3",
+    "Q: Should I load the model inside the prediction endpoint?"
+   ],
+   [
+    "h3",
+    "Q: Should I use async def or def for model inference endpoints?"
+   ],
+   [
+    "h3",
+    "Q: How many Uvicorn workers should a Docker container run?"
+   ],
+   [
+    "h3",
+    "Q: Is it safe to load pickle or joblib model files?"
+   ],
+   [
+    "h3",
+    "Q: What is the difference between liveness and readiness checks?"
+   ]
+  ],
+  "words": 2531,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/deploy-machine-learning-model-fastapi-docker",
+   "/blog/generative-ai-use-cases-for-small-business",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-agentic-ai",
+   "/locations",
+   "/services",
+   "/services/ml-engineering",
+   "/services/model-optimization",
+   "/services/production-apis"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/how-can-ai-agents-increase-sales-for-your-business",
+  "status": 200,
+  "title": "How Can AI Agents Increase Sales for Your Business?",
+  "title_len": 51,
+  "desc": "How AI agents increase sales: 24/7 lead qualification, faster follow-ups, RAG-powered personalization and automated CRM workflows that lift revenue.",
+  "desc_len": 148,
+  "canonical": "https://www.sajjadahmad.site/blog/how-can-ai-agents-increase-sales-for-your-business",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/blog-banner.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "How Can AI Agents Increase Sales for Your Business?"
+  ],
+  "headings": [
+   [
+    "h1",
+    "How Can AI Agents Increase Sales for Your Business?"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Answer for AI & Business Leaders"
+   ],
+   [
+    "h2",
+    "1. What Is an AI Sales Agent?"
+   ],
+   [
+    "h2",
+    "2. Autonomous Lead Generation & Qualification"
+   ],
+   [
+    "h3",
+    "Interactive Profiling"
+   ],
+   [
+    "h3",
+    "Instant Escalation"
+   ],
+   [
+    "h2",
+    "3. Personalized Sales Pitching via Custom RAG"
+   ],
+   [
+    "h2",
+    "4. Multi-Channel Follow-Up & CRM Action"
+   ],
+   [
+    "h2",
+    "5. Measuring ROI & Business Impact"
+   ],
+   [
+    "h2",
+    "6. Building Your Custom AI Sales Solution"
+   ],
+   [
+    "h4",
+    "AI Agent Development"
+   ],
+   [
+    "h4",
+    "AI Automation"
+   ],
+   [
+    "h4",
+    "Custom RAG Pipelines"
+   ],
+   [
+    "h3",
+    "Discuss Your AI Development Project"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: How can AI agents increase sales for a business?"
+   ],
+   [
+    "h3",
+    "Q: How does an AI agent differ from traditional sales automation?"
+   ],
+   [
+    "h3",
+    "Q: Can AI sales agents integrate with existing CRMs?"
+   ]
+  ],
+  "words": 781,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fblog-banner.png&w=3840&q=75",
+    "alt": "How Can AI Agents Increase Sales for Your Business?"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/how-can-ai-agents-increase-sales-for-your-business",
+   "/blog/how-to-build-an-ai-agent",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-agentic-ai",
+   "/locations",
+   "/services",
+   "/services/ai-agent-development",
+   "/services/ai-automation",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/how-to-build-an-ai-agent",
+  "status": 200,
+  "title": "How to Build an AI Agent: A Step-by-Step 2026 Guide",
+  "title_len": 51,
+  "desc": "Learn how to build an AI agent in 2026: define the task, design tools, add memory and planning, set guardrails, run evals, and deploy it to production.",
+  "desc_len": 151,
+  "canonical": "https://www.sajjadahmad.site/blog/how-to-build-an-ai-agent",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "How to Build an AI Agent: A Step-by-Step 2026 Guide"
+  ],
+  "headings": [
+   [
+    "h1",
+    "How to Build an AI Agent: A Step-by-Step 2026 Guide"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "What Is an AI Agent?"
+   ],
+   [
+    "h2",
+    "Do You Need an Agent or a Workflow?"
+   ],
+   [
+    "h2",
+    "How Do You Build an AI Agent Step by Step?"
+   ],
+   [
+    "h2",
+    "How Do Tools and Function Calling Work?"
+   ],
+   [
+    "h2",
+    "How Should an Agent Handle Memory and Planning?"
+   ],
+   [
+    "h3",
+    "Short-term (thread) memory"
+   ],
+   [
+    "h3",
+    "Long-term memory"
+   ],
+   [
+    "h3",
+    "Knowledge retrieval (RAG)"
+   ],
+   [
+    "h3",
+    "Context management"
+   ],
+   [
+    "h2",
+    "What Guardrails Does an AI Agent Need?"
+   ],
+   [
+    "h2",
+    "How Do You Evaluate an AI Agent?"
+   ],
+   [
+    "h2",
+    "How Do You Deploy an AI Agent to Production?"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What do I need to build an AI agent?"
+   ],
+   [
+    "h3",
+    "Q: Can I build an AI agent without a framework?"
+   ],
+   [
+    "h3",
+    "Q: What is the difference between an AI agent and a chatbot?"
+   ],
+   [
+    "h3",
+    "Q: How long does it take to build an AI agent?"
+   ],
+   [
+    "h3",
+    "Q: Which programming language is best for building AI agents?"
+   ],
+   [
+    "h3",
+    "Q: How do I stop an AI agent from taking harmful actions?"
+   ]
+  ],
+  "words": 2416,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/best-ai-agent-frameworks",
+   "/blog/how-can-ai-agents-increase-sales-for-your-business",
+   "/blog/how-to-build-an-ai-agent",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-agentic-ai",
+   "/blog/what-is-model-context-protocol-mcp",
+   "/blog/what-is-rag-retrieval-augmented-generation",
+   "/locations",
+   "/services",
+   "/services/ai-agent-development",
+   "/services/mcp-development",
+   "/services/production-apis"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/how-to-hire-an-ai-engineer",
+  "status": 200,
+  "title": "How to Hire an AI Engineer: Skills, Tests and Red Flags",
+  "title_len": 55,
+  "desc": "How to hire an AI engineer: skills to look for, freelance vs full-time vs agency, interview and test project ideas, red flags, and hiring remote talent.",
+  "desc_len": 152,
+  "canonical": "https://www.sajjadahmad.site/blog/how-to-hire-an-ai-engineer",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "How to Hire an AI Engineer: Skills, Tests and Red Flags"
+  ],
+  "headings": [
+   [
+    "h1",
+    "How to Hire an AI Engineer: Skills, Tests and Red Flags"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "What Does an AI Engineer Actually Do?"
+   ],
+   [
+    "h2",
+    "What Skills Should You Look For?"
+   ],
+   [
+    "h2",
+    "Freelance, Full-Time or Agency: Which Should You Choose?"
+   ],
+   [
+    "h2",
+    "How Should You Interview an AI Engineer?"
+   ],
+   [
+    "h2",
+    "What Makes a Good Paid Test Project?"
+   ],
+   [
+    "h3",
+    "RAG over sample documents"
+   ],
+   [
+    "h3",
+    "Structured extraction"
+   ],
+   [
+    "h3",
+    "Single-tool agent"
+   ],
+   [
+    "h3",
+    "Deployment slice"
+   ],
+   [
+    "h2",
+    "What Red Flags Should You Watch For?"
+   ],
+   [
+    "h2",
+    "Should You Hire Remote AI Engineers from Pakistan or South Asia?"
+   ],
+   [
+    "h2",
+    "What Questions Should You Ask Before Hiring?"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What is the difference between an AI engineer and a data scientist?"
+   ],
+   [
+    "h3",
+    "Q: Should I hire a freelance AI engineer or a full-time one?"
+   ],
+   [
+    "h3",
+    "Q: How do I test an AI engineer's skills?"
+   ],
+   [
+    "h3",
+    "Q: Is it a good idea to hire AI engineers from Pakistan?"
+   ],
+   [
+    "h3",
+    "Q: What questions should I ask an AI engineer in an interview?"
+   ]
+  ],
+  "words": 2186,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/ai-development-cost",
+   "/blog/how-to-build-an-ai-agent",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-hire-an-ai-engineer",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-agentic-ai",
+   "/locations",
+   "/services",
+   "/services/ai-agent-development",
+   "/services/generative-ai",
+   "/services/ml-engineering",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/how-to-reduce-llm-api-costs",
+  "status": 200,
+  "title": "How to Reduce LLM API Costs: 8 Practical Techniques",
+  "title_len": 51,
+  "desc": "How to reduce LLM API costs with prompt caching, batch APIs, model routing, token trimming, semantic caching and tighter RAG context, per official docs.",
+  "desc_len": 152,
+  "canonical": "https://www.sajjadahmad.site/blog/how-to-reduce-llm-api-costs",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "How to Reduce LLM API Costs: 8 Practical Techniques"
+  ],
+  "headings": [
+   [
+    "h1",
+    "How to Reduce LLM API Costs: 8 Practical Techniques"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "Where Does LLM API Spend Actually Come From?"
+   ],
+   [
+    "h2",
+    "How Does Prompt Caching Reduce Costs?"
+   ],
+   [
+    "h2",
+    "When Should You Use a Batch API?"
+   ],
+   [
+    "h2",
+    "Can Smaller Models and Routing Lower Costs?"
+   ],
+   [
+    "h2",
+    "How Do You Trim Input and Output Tokens?"
+   ],
+   [
+    "h3",
+    "Input side"
+   ],
+   [
+    "h3",
+    "Output side"
+   ],
+   [
+    "h3",
+    "Tools"
+   ],
+   [
+    "h3",
+    "Agent loops"
+   ],
+   [
+    "h2",
+    "What Is Semantic Caching and When Does It Help?"
+   ],
+   [
+    "h2",
+    "How Much RAG Context Should You Send?"
+   ],
+   [
+    "h2",
+    "In What Order Should You Apply These Techniques?"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What is the fastest way to reduce LLM API costs?"
+   ],
+   [
+    "h3",
+    "Q: Does prompt caching change the model's answers?"
+   ],
+   [
+    "h3",
+    "Q: Is it safe to use a smaller model to save money?"
+   ],
+   [
+    "h3",
+    "Q: How much does the OpenAI or Anthropic Batch API save?"
+   ],
+   [
+    "h3",
+    "Q: Does sending more context to an LLM improve answers?"
+   ],
+   [
+    "h3",
+    "Q: What is the difference between prompt caching and semantic caching?"
+   ]
+  ],
+  "words": 2234,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/how-to-reduce-llm-api-costs",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/rag-vs-fine-tuning",
+   "/blog/what-is-rag-retrieval-augmented-generation",
+   "/locations",
+   "/services",
+   "/services/model-optimization",
+   "/services/production-apis",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/rag-vs-fine-tuning",
+  "status": 200,
+  "title": "RAG vs Fine-Tuning: Which Should You Use in 2026?",
+  "title_len": 49,
+  "desc": "RAG vs fine-tuning explained: when to use each, how cost and data freshness compare, when a hybrid wins, and a decision table to pick the right approach.",
+  "desc_len": 153,
+  "canonical": "https://www.sajjadahmad.site/blog/rag-vs-fine-tuning",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "RAG vs Fine-Tuning: Which Should You Use in 2026?"
+  ],
+  "headings": [
+   [
+    "h1",
+    "RAG vs Fine-Tuning: Which Should You Use in 2026?"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "What Is the Difference Between RAG and Fine-Tuning?"
+   ],
+   [
+    "h2",
+    "When Should You Use RAG?"
+   ],
+   [
+    "h2",
+    "When Should You Fine-Tune a Model?"
+   ],
+   [
+    "h2",
+    "How Do Costs Compare?"
+   ],
+   [
+    "h2",
+    "What About Data Freshness and Access Control?"
+   ],
+   [
+    "h2",
+    "Can You Combine RAG and Fine-Tuning?"
+   ],
+   [
+    "h2",
+    "What Mistakes Do Teams Make When Choosing?"
+   ],
+   [
+    "h2",
+    "How Do You Decide? A Step-by-Step Framework"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: Is RAG better than fine-tuning?"
+   ],
+   [
+    "h3",
+    "Q: Does fine-tuning reduce hallucinations?"
+   ],
+   [
+    "h3",
+    "Q: Is RAG cheaper than fine-tuning?"
+   ],
+   [
+    "h3",
+    "Q: Can I use RAG and fine-tuning together?"
+   ],
+   [
+    "h3",
+    "Q: How much data do I need to fine-tune an LLM?"
+   ],
+   [
+    "h3",
+    "Q: When should I use neither RAG nor fine-tuning?"
+   ]
+  ],
+  "words": 2243,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/generative-ai-use-cases-for-small-business",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/rag-vs-fine-tuning",
+   "/blog/what-is-rag-retrieval-augmented-generation",
+   "/locations",
+   "/services",
+   "/services/ml-engineering",
+   "/services/model-optimization",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/train-custom-yolo-object-detection",
+  "status": 200,
+  "title": "How to Train a Custom YOLO Model: YOLO26 Guide (2026)",
+  "title_len": 53,
+  "desc": "Learn how to train a custom YOLO model with Ultralytics YOLO26: label your dataset, write the YAML, train, read mAP, precision and recall, then export it.",
+  "desc_len": 154,
+  "canonical": "https://www.sajjadahmad.site/blog/train-custom-yolo-object-detection",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "How to Train a Custom YOLO Model: YOLO26 Guide (2026)"
+  ],
+  "headings": [
+   [
+    "h1",
+    "How to Train a Custom YOLO Model: YOLO26 Guide (2026)"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h2",
+    "Quick Answer: How Do You Train a Custom YOLO Model?"
+   ],
+   [
+    "h3",
+    "Direct Answer"
+   ],
+   [
+    "h2",
+    "Which YOLO Version Should You Use in 2026?"
+   ],
+   [
+    "h2",
+    "How Do You Prepare and Label a Custom YOLO Dataset?"
+   ],
+   [
+    "h2",
+    "How Do You Train a Custom YOLO Model Step by Step?"
+   ],
+   [
+    "h2",
+    "Which YOLO Training Settings Matter Most?"
+   ],
+   [
+    "h2",
+    "How Do You Read mAP, Precision and Recall for YOLO?"
+   ],
+   [
+    "h2",
+    "How Do You Export and Deploy a Trained YOLO Model?"
+   ],
+   [
+    "h2",
+    "How Do You Improve a Weak Custom YOLO Model?"
+   ],
+   [
+    "h3",
+    "Need help building this?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: How many images do I need to train a custom YOLO model?"
+   ],
+   [
+    "h3",
+    "Q: What is the latest Ultralytics YOLO version?"
+   ],
+   [
+    "h3",
+    "Q: What label format does YOLO use?"
+   ],
+   [
+    "h3",
+    "Q: Can I train YOLO without a GPU?"
+   ],
+   [
+    "h3",
+    "Q: What is a good mAP score for a custom YOLO model?"
+   ],
+   [
+    "h3",
+    "Q: Can I use Ultralytics YOLO in a commercial product?"
+   ]
+  ],
+  "words": 2373,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/deploy-machine-learning-model-fastapi-docker",
+   "/blog/generative-ai-use-cases-for-small-business",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/train-custom-yolo-object-detection",
+   "/blog/what-is-agentic-ai",
+   "/locations",
+   "/services",
+   "/services/computer-vision",
+   "/services/model-optimization"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/what-is-agentic-ai",
+  "status": 200,
+  "title": "What Is Agentic AI? A Complete Guide for Businesses",
+  "title_len": 51,
+  "desc": "An architectural guide exploring Agentic AI: autonomous goal-seeking systems, tool calling, multi-agent coordination, and real-world implementation patterns.",
+  "desc_len": 157,
+  "canonical": "https://www.sajjadahmad.site/blog/what-is-agentic-ai",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/agentic.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "What Is Agentic AI? A Complete Guide for Businesses"
+  ],
+  "headings": [
+   [
+    "h1",
+    "What Is Agentic AI? A Complete Guide for Businesses"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Concise Answer"
+   ],
+   [
+    "h2",
+    "What Is Agentic AI?"
+   ],
+   [
+    "h2",
+    "AI Agents vs Traditional AI"
+   ],
+   [
+    "h2",
+    "How Does Agentic AI Work?"
+   ],
+   [
+    "h2",
+    "Agentic AI Architecture"
+   ],
+   [
+    "h2",
+    "The Agentic AI Loop"
+   ],
+   [
+    "h2",
+    "What Are AI Agent Tools?"
+   ],
+   [
+    "h2",
+    "Agentic AI and MCP"
+   ],
+   [
+    "h2",
+    "Single-Agent vs Multi-Agent Systems"
+   ],
+   [
+    "h2",
+    "Agentic AI vs Traditional Automation"
+   ],
+   [
+    "h2",
+    "How Can Businesses Use Agentic AI?"
+   ],
+   [
+    "h2",
+    "How to Measure Agentic AI ROI"
+   ],
+   [
+    "h2",
+    "Agentic AI Security"
+   ],
+   [
+    "h2",
+    "Human-in-the-Loop AI Agents"
+   ],
+   [
+    "h2",
+    "How Engineers Can Build an AI Agent"
+   ],
+   [
+    "h2",
+    "What Is the Future of Agentic AI?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions"
+   ],
+   [
+    "h4",
+    "What is an AI agent?"
+   ],
+   [
+    "h4",
+    "Can AI agents increase business revenue?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What is agentic AI?"
+   ],
+   [
+    "h3",
+    "Q: What is an AI agent?"
+   ],
+   [
+    "h3",
+    "Q: How are AI agents different from chatbots?"
+   ],
+   [
+    "h3",
+    "Q: Can AI agents increase business revenue?"
+   ],
+   [
+    "h3",
+    "Q: What is multi-agent AI?"
+   ]
+  ],
+  "words": 1322,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fagentic.png&w=3840&q=75",
+    "alt": "What Is Agentic AI? A Complete Guide for Businesses"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/how-can-ai-agents-increase-sales-for-your-business",
+   "/blog/how-to-build-an-ai-agent",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-agentic-ai",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/blog/what-is-model-context-protocol-mcp",
+  "status": 200,
+  "title": "What Is Model Context Protocol (MCP)? A Complete Guide",
+  "title_len": 54,
+  "desc": "What Model Context Protocol (MCP) is, how its architecture works, and how MCP servers connect AI agents and LLMs to tools, data and APIs.",
+  "desc_len": 137,
+  "canonical": "https://www.sajjadahmad.site/blog/what-is-model-context-protocol-mcp",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/mcp.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "What Is Model Context Protocol (MCP)? A Complete Guide"
+  ],
+  "headings": [
+   [
+    "h1",
+    "What Is Model Context Protocol (MCP)? A Complete Guide"
+   ],
+   [
+    "h3",
+    "Table of Contents"
+   ],
+   [
+    "h3",
+    "Direct Concise Answer"
+   ],
+   [
+    "h2",
+    "What Is Model Context Protocol (MCP)?"
+   ],
+   [
+    "h3",
+    "AI Coding Agent Needs"
+   ],
+   [
+    "h3",
+    "AI Sales Agent Needs"
+   ],
+   [
+    "h2",
+    "Why Does MCP Matter?"
+   ],
+   [
+    "h2",
+    "MCP Architecture Explained"
+   ],
+   [
+    "h3",
+    "1. What Is an MCP Host?"
+   ],
+   [
+    "h3",
+    "2. What Is an MCP Client?"
+   ],
+   [
+    "h3",
+    "3. What Is an MCP Server?"
+   ],
+   [
+    "h2",
+    "The Three Core MCP Primitives"
+   ],
+   [
+    "h3",
+    "MCP Tools"
+   ],
+   [
+    "h3",
+    "MCP Resources"
+   ],
+   [
+    "h3",
+    "MCP Prompts"
+   ],
+   [
+    "h2",
+    "MCP and AI Agents"
+   ],
+   [
+    "h2",
+    "MCP vs APIs & Function Calling"
+   ],
+   [
+    "h2",
+    "MCP Transport and Communication"
+   ],
+   [
+    "h2",
+    "MCP Security: What Developers Need to Know"
+   ],
+   [
+    "h2",
+    "How to Build an MCP Server"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions"
+   ],
+   [
+    "h4",
+    "What is MCP in AI?"
+   ],
+   [
+    "h4",
+    "Can MCP be used with RAG?"
+   ],
+   [
+    "h2",
+    "Frequently Asked Questions (Agentic AI Sales)"
+   ],
+   [
+    "h3",
+    "Q: What is MCP in AI?"
+   ],
+   [
+    "h3",
+    "Q: What is an MCP server?"
+   ],
+   [
+    "h3",
+    "Q: What is an MCP client?"
+   ],
+   [
+    "h3",
+    "Q: Is MCP an API?"
+   ],
+   [
+    "h3",
+    "Q: Can MCP be used with RAG?"
+   ],
+   [
+    "h3",
+    "Q: Can MCP be used for AI agents?"
+   ]
+  ],
+  "words": 1342,
+  "imgs": [
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   },
+   {
+    "src": "/_next/image?url=%2Fmcp.png&w=3840&q=75",
+    "alt": "What Is Model Context Protocol (MCP)? A Complete Guide"
+   },
+   {
+    "src": "/_next/image?url=%2Fsajjad.png&w=96&q=75",
+    "alt": "Sajjad Ahmad"
+   }
+  ],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BlogPosting",
+   "FAQPage"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/blog/generative-ai-use-cases-for-small-business",
+   "/blog/how-to-evaluate-llm-applications",
+   "/blog/how-to-reduce-llm-hallucinations",
+   "/blog/what-is-model-context-protocol-mcp",
+   "/locations",
+   "/services",
+   "/services/ai-agent-development",
+   "/services/mcp-development",
+   "/services/rag-development"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/ai-automation",
+  "status": 200,
+  "title": "AI Automation Services | Sajjad Ahmad",
+  "title_len": 37,
+  "desc": "End-to-end intelligent workflow automation replacing manual labor with automated AI pipelines and CRM/ERP synchronization.",
+  "desc_len": 122,
+  "canonical": "https://www.sajjadahmad.site/services/ai-automation",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Streamline Operations with Intelligent AI Workflows"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Streamline Operations with Intelligent AI Workflows"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Deliverables, not just a demo."
+   ],
+   [
+    "h2",
+    "Questions clients ask first."
+   ],
+   [
+    "h3",
+    "Which business processes are best suited to AI automation?"
+   ],
+   [
+    "h3",
+    "What is the difference between AI automation and tools like Zapier?"
+   ],
+   [
+    "h3",
+    "Can AI automation integrate with our existing CRM and tools?"
+   ],
+   [
+    "h3",
+    "What happens when the AI gets something wrong in an automated workflow?"
+   ],
+   [
+    "h3",
+    "How long does it take to automate a workflow with AI?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 669,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "Service",
+   "FAQPage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/rag-development",
+  "status": 200,
+  "title": "Custom RAG Development Services | Sajjad Ahmad",
+  "title_len": 46,
+  "desc": "Enterprise Retrieval-Augmented Generation systems built with ChromaDB, LlamaIndex, and FastAPI to ground answers in your own documents.",
+  "desc_len": 135,
+  "canonical": "https://www.sajjadahmad.site/services/rag-development",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Retrieval-Augmented Generation Grounded in Your Own Data"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Retrieval-Augmented Generation Grounded in Your Own Data"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Deliverables, not just a demo."
+   ],
+   [
+    "h2",
+    "Questions clients ask first."
+   ],
+   [
+    "h3",
+    "What is RAG and why would my business need it?"
+   ],
+   [
+    "h3",
+    "How long does it take to build a RAG system?"
+   ],
+   [
+    "h3",
+    "Does RAG eliminate AI hallucinations?"
+   ],
+   [
+    "h3",
+    "Should I use RAG or fine-tuning?"
+   ],
+   [
+    "h3",
+    "Can a RAG system keep our company data private?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 686,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "Service",
+   "FAQPage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/ai-agent-development",
+  "status": 200,
+  "title": "AI Agent Development Services | Sajjad Ahmad",
+  "title_len": 44,
+  "desc": "Engineering autonomous AI agents with tool-calling capabilities, multi-agent coordination, decision logic, and CRM integration.",
+  "desc_len": 127,
+  "canonical": "https://www.sajjadahmad.site/services/ai-agent-development",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Autonomous AI Agents Designed for Tool Execution & Goal Solving"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Autonomous AI Agents Designed for Tool Execution & Goal Solving"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Deliverables, not just a demo."
+   ],
+   [
+    "h2",
+    "Questions clients ask first."
+   ],
+   [
+    "h3",
+    "What is the difference between an AI agent and a chatbot?"
+   ],
+   [
+    "h3",
+    "Can an AI agent integrate with our existing CRM?"
+   ],
+   [
+    "h3",
+    "How do you stop an AI agent from making mistakes or taking harmful actions?"
+   ],
+   [
+    "h3",
+    "How long does it take to build a custom AI agent?"
+   ],
+   [
+    "h3",
+    "Which LLM is best for building AI agents?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 712,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "Service",
+   "FAQPage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/locations/germany",
+  "status": 200,
+  "title": "Germany & Wider Europe AI Engineering | Sajjad Ahmad",
+  "title_len": 52,
+  "desc": "Remote AI development, custom RAG systems, and Agentic AI workflows for companies in Germany, the UK, Finland, Netherlands, and Europe.",
+  "desc_len": 135,
+  "canonical": "https://www.sajjadahmad.site/locations/germany",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Remote AI Engineering Services for European Businesses"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Remote AI Engineering Services for European Businesses"
+   ],
+   [
+    "h2",
+    "AI Engineering Capabilities for Germany & Wider Europe"
+   ],
+   [
+    "h2",
+    "Delivery & Remote Work Framework"
+   ],
+   [
+    "h3",
+    "Start an AI Project in Germany & Wider Europe"
+   ]
+  ],
+  "words": 156,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/locations/pakistan",
+  "status": 200,
+  "title": "Pakistan (Nationwide) AI Engineering | Sajjad Ahmad",
+  "title_len": 51,
+  "desc": "Production AI development, Agentic AI, custom RAG pipelines, and LLM applications for businesses and startups across Pakistan.",
+  "desc_len": 126,
+  "canonical": "https://www.sajjadahmad.site/locations/pakistan",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Nationwide AI Engineering & Generative AI Solutions in Pakistan"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Nationwide AI Engineering & Generative AI Solutions in Pakistan"
+   ],
+   [
+    "h2",
+    "AI Engineering Capabilities for Pakistan (Nationwide)"
+   ],
+   [
+    "h2",
+    "Delivery & Remote Work Framework"
+   ],
+   [
+    "h3",
+    "Start an AI Project in Pakistan (Nationwide)"
+   ]
+  ],
+  "words": 141,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ },
+ {
+  "path": "/services/mcp-development",
+  "status": 200,
+  "title": "Model Context Protocol (MCP) Server Development",
+  "title_len": 47,
+  "desc": "Standardized TypeScript and Python MCP server development connecting AI clients to local databases, APIs, and file systems.",
+  "desc_len": 123,
+  "canonical": "https://www.sajjadahmad.site/services/mcp-development",
+  "robots": "index, follow",
+  "og_image": "https://www.sajjadahmad.site/og.png",
+  "og_title": true,
+  "twitter": "summary_large_image",
+  "h1": [
+   "Standardized MCP Server & Tool Integration"
+  ],
+  "headings": [
+   [
+    "h1",
+    "Standardized MCP Server & Tool Integration"
+   ],
+   [
+    "h2",
+    "The process, step by step."
+   ],
+   [
+    "h2",
+    "Sound familiar?"
+   ],
+   [
+    "h2",
+    "Deliverables, not just a demo."
+   ],
+   [
+    "h2",
+    "Questions clients ask first."
+   ],
+   [
+    "h3",
+    "What is an MCP server?"
+   ],
+   [
+    "h3",
+    "Should I build my MCP server in TypeScript or Python?"
+   ],
+   [
+    "h3",
+    "Can an MCP server run remotely or only on my computer?"
+   ],
+   [
+    "h3",
+    "Is it safe to connect an AI assistant to our database through MCP?"
+   ],
+   [
+    "h3",
+    "What is the difference between MCP and a normal API integration?"
+   ],
+   [
+    "h2",
+    "Let's talk aboutyour project."
+   ]
+  ],
+  "words": 650,
+  "imgs": [],
+  "imgs_no_alt": [],
+  "schema": [
+   "Person",
+   "WebSite",
+   "Service",
+   "FAQPage",
+   "BreadcrumbList"
+  ],
+  "invalid_ld": [],
+  "internal_links": [
+   "/",
+   "/about",
+   "/blog",
+   "/locations",
+   "/services"
+  ],
+  "lang": "en"
+ }
+]

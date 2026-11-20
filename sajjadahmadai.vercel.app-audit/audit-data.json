@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "health_score": 68,
+    "business_type": "Personal-brand AI engineering freelancer (remote-first service provider with geo pages)",
+    "top_findings": [
+      "/cv canonicalises to the homepage",
+      "18 of 25 pages have no Open Graph image",
+      "Thin templated service (160-211 words) and location (143-160 words) pages",
+      "Blog covers are 1.5-2 MB PNGs in raw <img>; 40px avatar loads a 685 KB image",
+      "Homepage H1 text renders as 'Build AI thatworks in the real world.'"
+    ],
+    "quick_wins": [
+      "Add canonical /cv to the CV page",
+      "Add images to every page-level openGraph",
+      "Fix the H1 spacing on the homepage",
+      "Serve blog images through next/image",
+      "Fix the conflicting addressRegion in the About page Person schema"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO", "score": 78,
+      "what_works": ["robots.txt allows all with sitemap", "All 25 pages in sitemap and 200", "HTTPS 308 + HSTS preload", "Real 404s", "24/25 canonicals correct"],
+      "findings": [
+        {"title": "/cv canonical points to homepage", "severity": "High", "description": "app/cv/page.tsx has no canonical and inherits '/' from the root layout.", "recommendation": "Add alternates.canonical '/cv'."},
+        {"title": "Missing security headers", "severity": "Medium", "description": "Live responses lack CSP, X-Content-Type-Options, Referrer-Policy and X-Frame-Options; HSTS is present.", "recommendation": "Add headers() in next.config.ts."},
+        {"title": "Sitemap lastmod is build time", "severity": "Low", "description": "21 URLs get the deploy timestamp as lastmod.", "recommendation": "Use real content dates or omit lastmod."}
+      ]
+    },
+    {
+      "name": "Content Quality", "score": 62,
+      "what_works": ["Two in-depth articles (1,295 and 1,315 words) with direct answers, TOC and FAQ", "Author bio present", "Real project history"],
+      "findings": [
+        {"title": "Thin service pages", "severity": "High", "description": "10 service pages at 160-211 words.", "recommendation": "Expand to 600-1,000 words with examples, stack, timeline, FAQ."},
+        {"title": "Templated location pages", "severity": "High", "description": "5 near-identical pages at 143-160 words (doorway pattern).", "recommendation": "Merge or add genuinely unique content."},
+        {"title": "Unverified CV claims", "severity": "Medium", "description": "'100,000+ enterprise documents', '40%' without evidence.", "recommendation": "Back with a case study or soften."}
+      ]
+    },
+    {
+      "name": "On-Page SEO", "score": 65,
+      "what_works": ["One H1 per page", "Unique titles and descriptions", "100% alt coverage"],
+      "findings": [
+        {"title": "Missing og:image on 18 pages", "severity": "High", "description": "Page-level openGraph without images overrides the layout image.", "recommendation": "Add images to each openGraph."},
+        {"title": "Long titles", "severity": "Medium", "description": "15 titles over 60 chars; blog titles 81-100.", "recommendation": "Shorten."},
+        {"title": "H1 missing space", "severity": "Medium", "description": "Homepage H1 text 'Build AI thatworks in the real world.'", "recommendation": "Add a space before <br />."},
+        {"title": "Weak internal linking", "severity": "Medium", "description": "Blog posts 2 inbound links, some service and location pages 1.", "recommendation": "Add latest-articles strip, related links, footer links."},
+        {"title": "Long meta descriptions", "severity": "Low", "description": "7 descriptions over 160 chars.", "recommendation": "Trim to 140-155."}
+      ]
+    },
+    {
+      "name": "Schema / Structured Data", "score": 70,
+      "what_works": ["Person, WebSite, BreadcrumbList, Service, BlogPosting, FAQPage present", "All JSON-LD parses"],
+      "findings": [
+        {"title": "ProfilePage on every page", "severity": "Medium", "description": "Injected by the root layout, including blog posts and services.", "recommendation": "Limit to home and About."},
+        {"title": "Conflicting Person addressRegion", "severity": "Medium", "description": "About says Khyber Pakhtunkhwa; layout says Islamabad Capital Territory, same @id.", "recommendation": "Use Islamabad Capital Territory."}
+      ]
+    },
+    {
+      "name": "Performance (CWV)", "score": 65,
+      "what_works": ["Hero image uses next/image with priority", "next/font for fonts"],
+      "findings": [
+        {"title": "Heavy blog images", "severity": "High", "description": "1.5-2.0 MB PNG covers in raw <img>; 685 KB avatar shown at 40px. Estimated, no field data.", "recommendation": "Use next/image or WebP/AVIF."},
+        {"title": "Home JS weight", "severity": "Low", "description": "About 596 KB uncompressed JS chunks.", "recommendation": "Review once CrUX data is available."}
+      ]
+    },
+    {
+      "name": "AI Search Readiness", "score": 70,
+      "what_works": ["AI crawlers allowed", "Direct-answer boxes and FAQs on articles", "Person entity with sameAs"],
+      "findings": [
+        {"title": "No llms.txt", "severity": "Low", "description": "404 locally and live.", "recommendation": "Optional: add /llms.txt."},
+        {"title": "Few sameAs profiles", "severity": "Medium", "description": "Only GitHub and LinkedIn.", "recommendation": "Add other real profiles."}
+      ]
+    },
+    {
+      "name": "Images", "score": 60,
+      "what_works": ["100% alt coverage"],
+      "findings": [
+        {"title": "OG image wrong size", "severity": "Medium", "description": "Declared 1200x630, actual 1000x1000.", "recommendation": "Create a real 1200x630 share image."},
+        {"title": "Unused images in public/", "severity": "Low", "description": "Old project screenshots no longer referenced.", "recommendation": "Delete."}
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {"name": "Phase 1: Critical Fixes", "timeframe": "Week 1", "items": ["Canonical /cv", "OG images on all pages", "next/image for blog images", "H1 spacing", "Person addressRegion"]},
+      {"name": "Phase 2: High-Impact Improvements", "timeframe": "Weeks 2-3", "items": ["Shorten titles", "Scope ProfilePage schema", "Internal linking", "Security headers", "1200x630 OG image"]},
+      {"name": "Phase 3: Content & Authority", "timeframe": "Month 2", "items": ["Expand service pages", "Resolve location pages", "Project case studies", "Back CV claims"]},
+      {"name": "Phase 4: Monitoring & Iteration", "timeframe": "Ongoing", "items": ["Connect Search Console + CrUX", "Re-audit after deploy"]}
+    ]
+  },
+  "artifacts": {"findings_dir": "findings/", "screenshots_dir": "screenshots/"}
+}

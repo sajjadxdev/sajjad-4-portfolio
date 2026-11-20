@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 
 export async function POST() {
-  const host = 'sajjadahmadai.vercel.app';
+  const host = 'www.sajjadahmad.site';
   const key = '8c238e7bb3b94808b74bd61633f5ec31';
 
   const urlList = [

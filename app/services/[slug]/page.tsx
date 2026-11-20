@@ -1,20 +1,11 @@
+import Footer from "@/app/components/Footer";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Header from "@/app/components/Header";
-import ShadowCard from "@/app/components/ShadowCard";
-import InnerShadowCard from "@/app/components/InnerShadowEffect";
-import {
-  ArrowLeft,
-  ArrowRight,
-  Bot,
-  CheckCircle2,
-  Cpu,
-  Database,
-  Layers,
-  Sparkles,
-  Wrench,
-} from "lucide-react";
+import { SERVICE_EXTRAS } from "../data/service-extras";
+import { BLOG_POSTS } from "@/app/blog/data/posts";
+import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -53,9 +44,9 @@ const SERVICE_DETAILS: Record<
   },
   "rag-development": {
     title: "Custom RAG Development Services",
-    description: "Enterprise Retrieval-Augmented Generation systems built with ChromaDB, LlamaIndex, and FastAPI for zero-hallucination factual search.",
-    heroHeadline: "Zero-Hallucination Retrieval-Augmented Generation Systems",
-    overview: "We build enterprise RAG pipelines that index your documents, knowledge bases, and codebase into high-density vector databases with strict distance thresholds to ensure 100% factual accuracy.",
+    description: "Enterprise Retrieval-Augmented Generation systems built with ChromaDB, LlamaIndex, and FastAPI to ground answers in your own documents.",
+    heroHeadline: "Retrieval-Augmented Generation Grounded in Your Own Data",
+    overview: "We build enterprise RAG pipelines that index your documents, knowledge bases, and codebase into high-density vector databases with relevance thresholds and source citations, so answers stay grounded in your content and the system says “I don’t know” instead of guessing.",
     architecture: [
       "Document Parsing & Chunking Optimization",
       "Dense Embedding Indexing (ChromaDB / Pinecone)",
@@ -127,6 +118,82 @@ const SERVICE_DETAILS: Record<
     ],
     keywords: ["AI Automation Services", "Business AI Workflows", "Sales Automation"],
   },
+  "production-apis": {
+    title: "Production AI API Development",
+    description: "Scalable FastAPI backends that turn trained models into reliable, documented APIs, containerized with Docker and ready for AWS.",
+    heroHeadline: "Turn Your Models into Reliable, Scalable APIs",
+    overview: "A model in a notebook doesn't help your product. I wrap models in async FastAPI services with validation, authentication, logging and Docker images, so your web or mobile app can call AI the same way it calls any other API, and keep working under real traffic.",
+    architecture: [
+      "Async FastAPI Endpoints with Pydantic Request Validation",
+      "Model Loading, Batching & Response Caching",
+      "Docker Containers & Nginx Reverse Proxy",
+      "AWS Deployment, Health Checks & Structured Logging",
+    ],
+    useCases: [
+      "Your model works locally but nobody can use it in the product",
+      "AI features are slow or time out under load",
+      "Mobile / web apps need one clean API for several models",
+      "Deployments are manual and break between environments",
+    ],
+    keywords: ["FastAPI Development", "ML Model Deployment", "AI Backend API", "Dockerized AI"],
+  },
+  "ml-engineering": {
+    title: "Machine Learning Engineering Services",
+    description: "End-to-end ML engineering: data preparation, model training, evaluation and deployment with Python, PyTorch, TensorFlow and Scikit-learn.",
+    heroHeadline: "From Raw Data to a Model You Can Trust",
+    overview: "I take your data from messy spreadsheets or logs to a trained, evaluated model with honest metrics, then hand it over in a form your team can retrain and deploy. Every step is reproducible, so results don't depend on one person's laptop.",
+    architecture: [
+      "Data Cleaning, Feature Engineering & Train/Test Splits",
+      "Model Selection & Training (Scikit-learn, PyTorch, TensorFlow)",
+      "Cross-Validation, Hyperparameter Tuning & Error Analysis",
+      "Packaged Inference Pipeline & Retraining Guide",
+    ],
+    useCases: [
+      "You have data but no model that predicts reliably",
+      "Model accuracy looks good in testing but fails in production",
+      "Forecasting, classification or scoring done by hand today",
+      "No one can reproduce how the current model was trained",
+    ],
+    keywords: ["Machine Learning Engineering", "ML Model Development", "PyTorch Developer", "Data Science Services"],
+  },
+  "ai-product-delivery": {
+    title: "AI Product Delivery",
+    description: "Clear scope, milestones and rapid iteration to take an AI idea from concept to a deployed, measurable product.",
+    heroHeadline: "From AI Idea to Shipped Product, Without the Guesswork",
+    overview: "Most AI projects stall between the demo and the launch. I start by scoping what success means in numbers, then deliver in short milestones you can see and test, so you always know what is done, what is next, and whether the AI is actually paying off.",
+    architecture: [
+      "Discovery Call & Feasibility Check",
+      "Scoped Milestones with Clear Deliverables",
+      "Iterative Builds You Can Test Every Step",
+      "Launch, Handover Docs & Post-Launch Support",
+    ],
+    useCases: [
+      "You have an AI idea but don't know if it's feasible",
+      "A previous AI project produced a demo that never shipped",
+      "You need an estimate and roadmap before committing budget",
+      "Non-technical founders who need one accountable engineer",
+    ],
+    keywords: ["AI Product Development", "AI MVP Development", "AI Consulting", "AI Project Delivery"],
+  },
+  "model-optimization": {
+    title: "AI Model Optimization & Fine-Tuning",
+    description: "Fine-tuning with LoRA/QLoRA, prompt engineering, evaluation workflows and inference improvements for accurate, efficient AI.",
+    heroHeadline: "Make Your AI More Accurate, Faster and Cheaper",
+    overview: "When an off-the-shelf model is too generic, too slow or too expensive, I tune it to your domain. That means fine-tuning with LoRA/QLoRA, tightening prompts, and measuring every change against an evaluation set, so improvements are proven, not guessed. In past work this cut inference latency by about 30%.",
+    architecture: [
+      "Baseline Evaluation Set & Metrics",
+      "Prompt Engineering & Output Structuring",
+      "LoRA / QLoRA Fine-Tuning on Your Data",
+      "Inference Speed-ups: Quantization, Batching & Caching",
+    ],
+    useCases: [
+      "Answers are generic or miss your domain's terminology",
+      "LLM costs are growing faster than usage",
+      "Responses are too slow for a real-time product",
+      "No reliable way to tell if a prompt or model change helped",
+    ],
+    keywords: ["LLM Fine-Tuning", "LoRA QLoRA", "Model Optimization", "Prompt Engineering"],
+  },
   "computer-vision": {
     title: "Computer Vision & Multimodal AI Services",
     description: "Visual AI systems for object detection, OCR document analysis, image classification, and Vision-Language Model integration.",
@@ -160,17 +227,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: "Service Not Found | Sajjad Ahmad" };
   }
 
+  const full = `${service.title} | Sajjad Ahmad`;
+  const title = full.length <= 60 ? full : service.title;
   return {
-    title: `${service.title} | Sajjad Ahmad — AI Engineer`,
+    title,
     description: service.description,
     keywords: service.keywords,
     alternates: {
-      canonical: `https://sajjadahmadai.vercel.app/services/${slug}`,
+      canonical: `https://www.sajjadahmad.site/services/${slug}`,
     },
     openGraph: {
-      title: `${service.title} | Sajjad Ahmad`,
+
+      images: [{ url: "/og.png", width: 1200, height: 630, alt: "Sajjad Ahmad, AI Engineer" }],
+      title,
       description: service.description,
-      url: `https://sajjadahmadai.vercel.app/services/${slug}`,
+      url: `https://www.sajjadahmad.site/services/${slug}`,
       siteName: "Sajjad Ahmad Portfolio",
       type: "website",
     },
@@ -185,6 +256,23 @@ export default async function ServiceDetailPage({ params }: Props) {
     notFound();
   }
 
+  const extra = SERVICE_EXTRAS[slug];
+  const RELATED_READING: Record<string, string[]> = {
+    "ai-agent-development": ["how-to-build-an-ai-agent", "best-ai-agent-frameworks", "what-is-agentic-ai"],
+    "rag-development": ["what-is-rag-retrieval-augmented-generation", "best-vector-databases-for-rag", "rag-vs-fine-tuning"],
+    "generative-ai": ["generative-ai-use-cases-for-small-business", "ai-chatbot-for-customer-support", "how-to-reduce-llm-hallucinations"],
+    "mcp-development": ["what-is-model-context-protocol-mcp", "how-to-build-an-ai-agent"],
+    "ai-automation": ["how-can-ai-agents-increase-sales-for-your-business", "ai-chatbot-for-customer-support", "how-ai-voice-agents-work"],
+    "computer-vision": ["train-custom-yolo-object-detection", "deploy-machine-learning-model-fastapi-docker"],
+    "production-apis": ["deploy-machine-learning-model-fastapi-docker", "how-to-reduce-llm-api-costs"],
+    "ml-engineering": ["train-custom-yolo-object-detection", "how-to-evaluate-llm-applications", "deploy-machine-learning-model-fastapi-docker"],
+    "ai-product-delivery": ["ai-development-cost", "how-to-hire-an-ai-engineer", "andrew-ng-biggest-opportunities-in-ai"],
+    "model-optimization": ["rag-vs-fine-tuning", "how-to-reduce-llm-api-costs", "how-to-evaluate-llm-applications"],
+  };
+  const reading = (RELATED_READING[slug] ?? [])
+    .map((s) => BLOG_POSTS.find((p) => p.slug === s))
+    .filter((p): p is (typeof BLOG_POSTS)[number] => Boolean(p));
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
@@ -195,11 +283,21 @@ export default async function ServiceDetailPage({ params }: Props) {
         provider: {
           "@type": "Person",
           name: "Sajjad Ahmad",
-          url: "https://sajjadahmadai.vercel.app",
+          url: "https://www.sajjadahmad.site",
         },
         serviceType: service.title,
         areaServed: ["Worldwide", "Pakistan", "United Arab Emirates", "Germany", "United States"],
       },
+      ...(extra
+        ? [{
+            "@type": "FAQPage",
+            mainEntity: extra.faqs.map((f) => ({
+              "@type": "Question",
+              name: f.question,
+              acceptedAnswer: { "@type": "Answer", text: f.answer },
+            })),
+          }]
+        : []),
       {
         "@type": "BreadcrumbList",
         itemListElement: [
@@ -207,19 +305,19 @@ export default async function ServiceDetailPage({ params }: Props) {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://sajjadahmadai.vercel.app",
+            item: "https://www.sajjadahmad.site",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "Services",
-            item: "https://sajjadahmadai.vercel.app/services",
+            item: "https://www.sajjadahmad.site/services",
           },
           {
             "@type": "ListItem",
             position: 3,
             name: service.title,
-            item: `https://sajjadahmadai.vercel.app/services/${slug}`,
+            item: `https://www.sajjadahmad.site/services/${slug}`,
           },
         ],
       },
@@ -227,76 +325,159 @@ export default async function ServiceDetailPage({ params }: Props) {
   };
 
   return (
-    <main className="relative min-h-screen bg-background text-foreground pb-24">
+    <main className="site-shell min-h-screen bg-background text-foreground">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <Header />
 
-      {/* Top Breadcrumb */}
-      <div className="pt-28 pb-8 px-6 max-w-4xl mx-auto">
+      {/* Intro */}
+      <section className="px-[var(--gutter)] pt-16 sm:pt-24 pb-16">
         <Link
-          href="/services"
-          className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors mb-6 font-medium"
+          href="/#services"
+          className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.12em] text-muted-foreground hover:text-primary transition-colors"
         >
-          <ArrowLeft size={16} /> Back to All Services
+          <ArrowLeft size={14} /> All services
         </Link>
-
-        <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-foreground leading-tight mb-6">
-          {service.title}
+        <p className="eyebrow mt-10 mb-6">{service.title}</p>
+        <h1 className="max-w-4xl text-[40px] sm:text-6xl lg:text-7xl font-bold tracking-[-0.06em] leading-[0.95]">
+          {service.heroHeadline}
         </h1>
-
-        <p className="text-lg text-muted-foreground leading-relaxed">
+        <p className="mt-8 max-w-2xl text-lg leading-relaxed text-muted-foreground">
           {service.overview}
         </p>
-      </div>
+        <div className="hero-actions">
+          <Link className="button button-red" href="/#contact">
+            Discuss your project <ArrowUpRight size={16} />
+          </Link>
+        </div>
+      </section>
 
-      {/* Details Body */}
-      <div className="px-6 max-w-4xl mx-auto space-y-12">
-        {/* Architecture Specs */}
-        <ShadowCard className="p-8 rounded-3xl border border-border space-y-6">
-          <h2 className="text-xl sm:text-2xl font-bold text-foreground tracking-tight">
-            Key Architectural Components
-          </h2>
+      {/* How it works */}
+      <section className="px-[var(--gutter)] py-16 sm:py-24 bg-secondary">
+        <p className="eyebrow mb-5">How it works</p>
+        <h2 className="text-4xl sm:text-5xl font-bold tracking-[-0.06em] leading-[0.95] mb-12">
+          The process, <em className="not-italic text-primary">step by step.</em>
+        </h2>
+        <ol className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4 list-none p-0 m-0">
+          {service.architecture.map((step, i) => (
+            <li key={step} className="border-t-2 border-foreground pt-5">
+              <span className="text-xs font-bold tracking-[0.18em] text-primary">0{i + 1}</span>
+              <p className="mt-4 text-lg font-semibold tracking-[-0.03em] leading-snug">{step}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
 
-          <div className="grid sm:grid-cols-2 gap-4">
-            {service.architecture.map((item, i) => (
-              <InnerShadowCard key={i} className="p-4 rounded-xl space-y-1">
-                <p className="font-bold text-foreground text-sm m-0 flex items-center gap-2">
-                  <CheckCircle2 size={16} className="text-primary" /> {item}
-                </p>
-              </InnerShadowCard>
-            ))}
-          </div>
-        </ShadowCard>
+      {/* Problems it solves */}
+      <section className="px-[var(--gutter)] py-16 sm:py-24">
+        <p className="eyebrow mb-5">Problems I solve</p>
+        <h2 className="text-4xl sm:text-5xl font-bold tracking-[-0.06em] leading-[0.95] mb-12">
+          Sound <em className="not-italic text-primary">familiar?</em>
+        </h2>
+        <ul className="list-none p-0 m-0 border-t border-border">
+          {service.useCases.map((useCase) => (
+            <li key={useCase} className="flex items-start gap-5 border-b border-border py-6">
+              <ArrowRight size={20} className="mt-1 shrink-0 text-primary" aria-hidden="true" />
+              <p className="m-0 text-xl sm:text-2xl font-medium tracking-[-0.03em] leading-snug">{useCase}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
 
-        {/* Real World Use Cases */}
-        <section className="space-y-6">
-          <h2 className="text-2xl font-bold text-foreground tracking-tight">
-            Production Use Cases
-          </h2>
-
-          <div className="grid sm:grid-cols-2 gap-4">
-            {service.useCases.map((useCase, i) => (
-              <div key={i} className="p-5 rounded-2xl border border-border bg-card">
-                <p className="font-semibold text-foreground text-sm m-0">✓ {useCase}</p>
+      {extra && (
+        <>
+          {/* What you get */}
+          <section className="px-[var(--gutter)] py-16 sm:py-24 bg-secondary">
+            <div className="grid gap-12 lg:grid-cols-2">
+              <div>
+                <p className="eyebrow mb-5">What you get</p>
+                <h2 className="text-4xl sm:text-5xl font-bold tracking-[-0.06em] leading-[0.95] mb-10">
+                  Deliverables, <em className="not-italic text-primary">not just a demo.</em>
+                </h2>
+                <ul className="list-none p-0 m-0 border-t border-border">
+                  {extra.deliverables.map((d) => (
+                    <li key={d} className="flex gap-4 border-b border-border py-4 text-base font-medium">
+                      <ArrowRight size={18} className="mt-0.5 shrink-0 text-primary" aria-hidden="true" />
+                      {d}
+                    </li>
+                  ))}
+                </ul>
               </div>
+              <div>
+                <p className="eyebrow mb-5">Tech stack</p>
+                <ul className="flex flex-wrap gap-2 list-none p-0 m-0 mb-10">
+                  {extra.techStack.map((t) => (
+                    <li key={t} className="rounded-full border border-border bg-background/60 px-4 py-2 text-sm font-semibold">{t}</li>
+                  ))}
+                </ul>
+                {extra.relatedProject && (
+                  <div className="theme-dark-cta rounded-3xl p-7">
+                    <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#e0574d] mb-3">Related project</p>
+                    <p className="text-2xl font-bold tracking-[-0.03em] mb-3">{extra.relatedProject.name}</p>
+                    <p className="text-muted-foreground m-0 leading-relaxed">{extra.relatedProject.summary}</p>
+                  </div>
+                )}
+              </div>
+            </div>
+          </section>
+
+          {/* FAQ */}
+          <section className="px-[var(--gutter)] py-16 sm:py-24" aria-labelledby="service-faq">
+            <p className="eyebrow mb-5">FAQ</p>
+            <h2 id="service-faq" className="text-4xl sm:text-5xl font-bold tracking-[-0.06em] leading-[0.95] mb-12">
+              Questions clients <em className="not-italic text-primary">ask first.</em>
+            </h2>
+            <div className="border-t border-border max-w-4xl">
+              {extra.faqs.map((f) => (
+                <details key={f.question} className="group border-b border-border py-6">
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-6 text-xl font-semibold tracking-[-0.02em]">
+                    <h3 className="m-0 text-xl font-semibold">{f.question}</h3>
+                    <span className="text-primary text-2xl leading-none transition-transform group-open:rotate-45" aria-hidden="true">+</span>
+                  </summary>
+                  <p className="mt-4 mb-0 max-w-3xl text-base leading-relaxed text-muted-foreground">{f.answer}</p>
+                </details>
+              ))}
+            </div>
+          </section>
+        </>
+      )}
+
+      {reading.length > 0 && (
+        <section className="px-[var(--gutter)] pb-16 sm:pb-24" aria-labelledby="related-reading">
+          <p className="eyebrow mb-5">Related reading</p>
+          <h2 id="related-reading" className="text-3xl sm:text-4xl font-bold tracking-[-0.05em] leading-[0.95] mb-8">
+            Learn more <em className="not-italic text-primary">before we talk.</em>
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-3">
+            {reading.map((r) => (
+              <Link key={r.slug} href={`/blog/${r.slug}`} className="theme-card block p-6">
+                <span className="text-xs font-semibold text-muted-foreground">{r.readTime}</span>
+                <p className="mt-3 mb-0 text-lg font-bold leading-snug tracking-[-0.02em]">{r.title}</p>
+              </Link>
             ))}
           </div>
         </section>
+      )}
 
-        {/* Conversion CTA */}
-        <div className="p-8 rounded-3xl bg-gradient-to-br from-primary/10 via-card to-background border border-primary/20 text-center space-y-4">
-          <h3 className="text-2xl font-bold text-foreground">Discuss Your {service.title} Project</h3>
-          <p className="text-muted-foreground max-w-xl mx-auto text-sm">
-            Sajjad Ahmad provides custom AI engineering from concept to production deployment.
-          </p>
-          <a href="/#contact" className="inline-flex items-center gap-2 px-8 py-3 rounded-full bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity shadow-md">
-            Request an AI Consultation <ArrowRight size={16} />
-          </a>
+      {/* CTA */}
+      <section className="contact-section">
+        <div>
+          <p className="mb-5 text-xs font-semibold uppercase tracking-[0.24em] text-[#c75850]">Ready to start?</p>
+          <h2>Let&apos;s talk about<br /><em>your project.</em></h2>
         </div>
-      </div>
+        <div className="contact-copy">
+          <p>
+            Tell me what you&apos;re trying to solve. You&apos;ll get a clear technical
+            direction, realistic milestones, and a practical next step.
+          </p>
+          <Link className="button button-red" href="/#contact">
+            Start a conversation <ArrowUpRight size={16} />
+          </Link>
+        </div>
+      </section>
+      <Footer />
     </main>
   );
 }
